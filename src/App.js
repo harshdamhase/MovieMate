@@ -1,21 +1,20 @@
-
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarComp from '../src/Components/NavbarComp';
-
+import React from 'react'
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Hompage from "./Hompage";
 
 
-function App () {
+
+function App() {
   return (
-    <div className='App' >
-      <NavbarComp/>
-
-    </div>
-  
-    
-  );
-  
+    <>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Hompage/>}/>
+    </Routes>
+    </BrowserRouter>
+    </>
+  )
 }
 
-export default App;
+export default App
 
