@@ -1,0 +1,6 @@
+.NavTitle{
+    color:white;
+}
+.NavTitle:hover{
+    color: rgb(255, 174, 0) ;
+}
