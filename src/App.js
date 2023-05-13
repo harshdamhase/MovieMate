@@ -5,6 +5,12 @@ import English from './Languages/EnglishMovie/English';
 import Hindi from './Languages/HindiMovie/Hindi';
 import Marathi from './Languages/MarathiMovie/Marathi';
 import Tamil from './Languages/TamilMovie/Tamil';
+import NetflixMovie1 from './Ott/Netflix/NetflixMovie1';
+import NetflixMovie2 from './Ott/Netflix/NetflixMovie2';
+import HotstartMovie1 from './Ott/Hotstar/HotstartMovie1';
+import HotstarMovie2 from './Ott/Hotstar/HotstarMovie2';
+import AmazonMovie1 from './Ott/Amazon/AmazonMovie1';
+import AmazonMovie2 from './Ott/Amazon/AmazonMovie2';
 
 
 
