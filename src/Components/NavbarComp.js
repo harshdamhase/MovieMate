@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom';
 import "./Navbar.css"
 
@@ -16,8 +15,8 @@ export default class NavbarComp extends Component {
     
     
     <div>
-     <Navbar bg="dark" expand="lg" >
-      <Container fluid>
+     <Navbar className="NavColor" expand="lg" >
+      <Container fluid >
         <Navbar.Brand href="#" className='NavTitle'><img src=""></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
