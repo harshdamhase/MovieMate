@@ -5,39 +5,32 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import {BrowserRouter ,Routes,Route } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import "./Navbar.css"
+
 
 
 export default class NavbarComp extends Component {
     render(){
   return (
-    <Router>
+    
+    
     <div>
-     <Navbar bg="dark" expand="lg">
+     <Navbar bg="dark" expand="lg" >
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#" className='NavTitle'><img src=""></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className=" white me-auto my-2 my-lg-0"
+            className="  me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
-            <Nav.Link as={Link} to={"/home"}>Hindi Movies</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            <Nav.Link as={Link} to={"/"} className='NavTitle'>Home</Nav.Link>
+            <Nav.Link as={Link} to={"/Hindi"} className='NavTitle'>Hindi Movies</Nav.Link>
+            <Nav.Link as={Link} to={"/English"} className='NavTitle'>English Movies</Nav.Link>
+            <Nav.Link as={Link} to={"/Marathi"} className='NavTitle'>Marathi Movies</Nav.Link>
+            <Nav.Link as={Link} to={"/Tamil"} className='NavTitle'>Tamil Movies</Nav.Link>     
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -46,13 +39,13 @@ export default class NavbarComp extends Component {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success" className='NavTitle'>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
     </div>
-    </Router>
+    
     
      )
    }
