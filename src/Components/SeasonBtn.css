@@ -1,0 +1,10 @@
+.SeasonNum{
+    display: inline;
+    background-color: #282A3A;
+    color: azure;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid whitesmoke;
+}
