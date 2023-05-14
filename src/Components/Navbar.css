@@ -1,12 +1,18 @@
 .NavColor{
     background-color: #282A3A;
 }
+
 .serch-box {
    margin-right:280px ;
     height: 35px;
     width:240px;
     background-color: goldenrod;
 }
+
+.logoimg{
+    width: 150px;
+}
+
 .serch-btn{
     background-color: goldenrod;
     width:  120px
@@ -41,3 +47,8 @@
 border-radius: 15px 15px 15px 15px;
 color: goldenrod;
 }
+
+
+
+
+

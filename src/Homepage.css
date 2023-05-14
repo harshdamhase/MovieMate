@@ -1,3 +1,59 @@
-body{
-    background-color: black;
+
+
+.video-container{
+    
+    width: auto;
+    display:flex;
 }
+
+
+.video-height{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     height:500px;
+    float: left;
+}
+
+.info{
+  
+    float:right;
+}
+
+
+.Desc{
+    color: rgb(239, 176, 19);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.movie-info{
+    color: black;
+    font-size: medium;
+  
+}
+
+
+.title-style{
+    font-size: 19px;
+    font-weight: 500;
+    
+    padding: 9px;
+}
+
+.inside{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.geners-style{
+    border-radius: 20px 20px 20px 20px ;
+    background-color: black;
+    padding: 4px;
+    margin: 2px;
+    color: white;
+
+
+}
+
+

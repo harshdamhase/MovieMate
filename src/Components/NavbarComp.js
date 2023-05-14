@@ -1,5 +1,4 @@
 import React,{ Component } from 'react';
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -7,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import {Link} from 'react-router-dom';
 import "./Navbar.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from '../video/logo.jpg'
 
 
 export default class NavbarComp extends Component {
@@ -17,7 +17,7 @@ export default class NavbarComp extends Component {
     <div>
      <Navbar className="NavColor" expand="lg" >
       <Container fluid >
-        <Navbar.Brand href="#" className='NavTitle'><img src=""></img></Navbar.Brand>
+        <Navbar.Brand href="#" className='NavTitle'><img src={logo} className="logoimg ms-2" /></Navbar.Brand>
         <Navbar.Toggle  aria-controls="navbarScroll white " />
         <Navbar.Collapse className='collapse' id="navbarScroll">
           <Nav
