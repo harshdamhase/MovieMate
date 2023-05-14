@@ -1,0 +1,16 @@
+.NavColor{
+    background-image: linear-gradient(to right, #ef7715 , #e93958);
+    /* background-color: black; */
+}
+
+
+.NavTitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 9px;
+    color: white;
+    
+}
+.NavTitle:hover{
+border-radius: 15px 15px 15px 15px;
+}
