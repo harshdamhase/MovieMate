@@ -5,6 +5,7 @@ import "./Netflix.css"
 import NavbarComp from '../../Components/NavbarComp'
 import MovieReviewCard from '../../Components/MovieReviewCard';
 import SeasonBtn from '../../Components/SeasonBtn';
+import StarCast from '../../Components/StarCast';
 
 
 function NetflixMovie1() {
@@ -51,6 +52,12 @@ function NetflixMovie1() {
         <span className='ms-1'>
           <SeasonBtn SeasonNum="Thriller"/>
         </span>
+      </div>
+      <div className='row'>
+        <font className="CastName ms-5 mt-5">
+          Star Cast:
+        </font>
+          <StarCast/>
       </div>
     </>
   )
