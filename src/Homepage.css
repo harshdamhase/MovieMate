@@ -56,4 +56,27 @@
 
 }
 
+.textalign{
+    text-align: justify;
+}
+
+.also-like{
+    color: rgb(223, 163, 12);
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 90px ;
+
+}
+
+.img-box{
+    margin-left: 100px;
+    
+}
+
+.poster-img{
+    height: 380px;
+    border-radius:10px 10px 10px 10px;
+    
+}
+
 

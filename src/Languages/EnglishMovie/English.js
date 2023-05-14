@@ -1,14 +1,17 @@
-
 import React from 'react'
-import App from '../../App';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavbarComp from '../../Components/NavbarComp';
 import './English.css'
 
 function English() {
   return (
     <div>
-       <h1>Search "English Movie"</h1>
-        </div>
+      <NavbarComp />
+      <div className='card'>
+        
+      </div>
+    </div>
   )
 }
 
-export default English;
+export default English
