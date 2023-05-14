@@ -1,0 +1,18 @@
+.Poster{
+    height: 300px;
+    width: 250px;
+    float: left;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+.Headline{
+    text-align: center;
+}
+
+.PosterTitle{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: red;
+}
