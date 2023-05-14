@@ -38,15 +38,18 @@ function NetflixMovie1() {
           </font>
         </div>
       </div>
-      <div className='Genre col-lg-4 col-md-4 col-sm-4 col-xs-4 mt-5 ms-5'>
-        <span className='GenerName ms-3'>
+      <div className='Genre col-lg-6 col-md-4 col-sm-4 col-xs-4 mt-5 ms-5'>
+        <span className='ms-1'>
           <SeasonBtn SeasonNum="Action"/>
         </span>
-        <span className='GenerName ms-3'>
+        <span className='ms-1'>
           <SeasonBtn SeasonNum="Drama"/>
         </span>
-        <span className='GenerName ms-3'>
+        <span className='ms-1'>
           <SeasonBtn SeasonNum="Mystery"/>
+        </span>
+        <span className='ms-1'>
+          <SeasonBtn SeasonNum="Thriller"/>
         </span>
       </div>
     </>
