@@ -1,3 +1,14 @@
+
+
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+   <English/>
+  </div>
+  );
+
 import React from 'react'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Hompage from "./Hompage";
@@ -34,6 +45,7 @@ function App() {
     </BrowserRouter>
     </>
   )
+
 }
 
 export default App
