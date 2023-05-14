@@ -23,8 +23,8 @@ function NetflixMovie1() {
         <MovieReviewCard ImgUrl="https://c4.wallpaperflare.com/wallpaper/529/888/855/squid-game-tv-hd-wallpaper-preview.jpg" />
       </div>
       <div className='row mt-5'>
-        <div className='row PostDesc ms-5  col-lg-10 col-md-10 col-sm-10 col-xs-10'>
-          <img src='https://www.pinkvilla.com/images/2022-09/squid_game_poster_main.jpg?width=752&t=pvorg' className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
+        <div className='row PostDesc p-3'>
+          <img src='https://www.pinkvilla.com/images/2022-09/squid_game_poster_main.jpg?width=752&t=pvorg' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
           <font className='DescTitle col-lg-8 col-md-8 col-sm-8 col-xs-8 ms-3' >
             <h1 className='ms-2 PosterName'>
             Squid Games
@@ -33,7 +33,7 @@ function NetflixMovie1() {
             <span className='ms-5'>
               <SeasonBtn SeasonNum="Season 1"/>
             </span>
-            <h5 className='Desc mt-5 ms-5'>
+            <h5 className='Desc mt-3 ms-5'>
             Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.
             </h5>
           </font>
@@ -57,7 +57,13 @@ function NetflixMovie1() {
         <font className="CastName ms-5 mt-5">
           Star Cast:
         </font>
-          <StarCast/>
+      </div>
+      <div className='StarCastDiv'>
+        <StarCast imgURl="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSpYPqokHLCQA3cQCvv1szjHw_uaHk5h0gPKaeio-kpsw7aitTQdQEEell9OIyiUlUrXfo4FGywM7Prz7g" StarName="
+        Lee Jung-jae" StarMovieName="Seong Gi-hun" Episode="10 Episodes"  />
+
+        <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BOTAzYjFiN2EtOTc5YS00NzY4LTg5MWItMTU1YmFkZDdjZGMyXkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_.jpg" StarName="
+        Park Hae-soo" StarMovieName="Cho Sang-woo" Episode="09 Episodes"  />
       </div>
     </>
   )

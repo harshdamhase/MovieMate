@@ -2,7 +2,7 @@
     height: 350px;
     width: 275px;
     float: left;
-    border: 5px solid red;
+    border: 5px solid black;
     border-radius: 15px;
 }
 
@@ -35,6 +35,7 @@
 
 .Desc{
     font-size: 20px;
+    color: black;
 }
 
 .Genre{
@@ -47,4 +48,8 @@
     color: goldenrod;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.StarCastDiv{
+    display: flex;
 }
