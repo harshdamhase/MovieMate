@@ -1,16 +1,43 @@
 .NavColor{
-    background-image: linear-gradient(to right, #ef7715 , #e93958);
-    /* background-color: black; */
+    background-color: #282A3A;
 }
-
-
-.NavTitle{
+.serch-box {
+   margin-right:280px ;
+    height: 35px;
+    width:240px;
+    background-color: goldenrod;
+}
+.serch-btn{
+    background-color: goldenrod;
+    width:  120px
+}
+.Navbar{
+    height: 200px;
+    width: 60px;
+}
+.serch-div{
+  
+    height: 50px;
+  
+}
+.icon-img{
+    height: 30px;
+}
+.text{
     font-size: 18px;
     font-weight: 600;
-    margin: 9px;
+
+}
+.collapse{
+    color: white;
+}
+
+.NavTitle{
+   
     color: white;
     
 }
 .NavTitle:hover{
 border-radius: 15px 15px 15px 15px;
+color: goldenrod;
 }
