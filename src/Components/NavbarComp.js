@@ -23,8 +23,7 @@ export default class NavbarComp extends Component {
           <Nav
             className="  me-auto my-2 my-lg-0 "
             style={{ maxHeight: '500px' }}
-           
-          >
+             >
             <Nav.Link as={Link} to={"/"} className='NavTitle'>
               <text className='p-3 NavTitle'>Home</text>
             </Nav.Link>

@@ -3,13 +3,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavbarComp from '../../Components/NavbarComp';
 import './English.css'
 
-function English() {
+function English(props) {
   return (
     <div>
       <NavbarComp />
       <div className='card'>
-        
-      </div>
+    </div>
     </div>
   )
 }
