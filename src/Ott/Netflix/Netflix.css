@@ -53,8 +53,20 @@
 
 .StarCastDiv{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .HRow{
     border: 2px solid #282A3A;
+}
+
+.PhotosGal{
+    display: flex;
+}
+
+.ReactionCardDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
