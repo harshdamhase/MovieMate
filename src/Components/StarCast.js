@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function StarCast({imgURl,StarName,StarMovieName,Episode}) {
   return (
     <>
-    <div class="card mb-3 ">
+    <div class="cards mb-1 col-lg-3 ms-5" >
         <div class="row g-0">
             <div class="col-md-4">
             <img src={imgURl} class="img-fluid imgRound rounded-start" alt="..."/>
@@ -24,4 +24,8 @@ function StarCast({imgURl,StarName,StarMovieName,Episode}) {
   )
 }
 
+
 export default StarCast
+
+
+
