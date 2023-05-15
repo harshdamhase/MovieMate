@@ -22,6 +22,7 @@
 }
 
 
+
 .Desc{
     color: rgb(239, 176, 19);
     font-size: 35px;
@@ -86,7 +87,6 @@
 
 .poster-img{
     height: 380px;
-    
     border-radius:10px 10px 10px 10px;
     
 }
@@ -94,7 +94,6 @@
 .poster-img1{
     height: 380px;
      margin-left: 1px;
-
     border-radius:10px 10px 10px 10px;
     
 }
@@ -116,7 +115,6 @@
 
 
 }
-
 
 
 
