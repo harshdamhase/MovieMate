@@ -1,0 +1,24 @@
+.video-container{
+    margin-top: 20px;
+    width: auto;
+    display:flex;
+}
+
+.video-height{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     height:500px;
+    float: left;
+}
+
+.info{
+    background-color: azure;
+    color:white;
+    float:right;
+}
+
+.Upcoming{
+    color: white;
+    
+}
