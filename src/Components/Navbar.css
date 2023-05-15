@@ -53,6 +53,23 @@ color: goldenrod;
     width:auto;
 }
 
+/* .Rate{
+
+} */
+
+.Starimg{
+    height: 15px;
+}
+
+.cards{
+    height: auto;
+    width: max-content;
+    background-color: aliceblue;
+}
+
+.card-img-top{
+    height: 300px;
+}
 
 
 

@@ -80,3 +80,11 @@
 }
 
 
+.trailer-name{
+    display: flex;
+    justify-content: start;
+}
+
+
+
+
