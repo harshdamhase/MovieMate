@@ -1,4 +1,4 @@
-.card{
+.cards{
     height: auto;
     border: 3px solid goldenrod;
     background-color: #282A3A;
@@ -7,5 +7,9 @@
 }
 
 .imgRound{
-    border-radius: 50%;
+    border-radius:75%;
+}
+
+.Photos{
+
 }
