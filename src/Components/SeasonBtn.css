@@ -1,5 +1,6 @@
 .SeasonNum{
     display: inline;
+    width: fit-content;
     background-color: #282A3A;
     color: azure;
     padding: 10px;

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Netflix.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom';
 import "./Netflix.css"
 import NavbarComp from '../../Components/NavbarComp'
 import MovieReviewCard from '../../Components/MovieReviewCard';
@@ -23,7 +24,8 @@ function NetflixMovie1() {
           <MovieReviewCard ImgUrl="https://c4.wallpaperflare.com/wallpaper/529/888/855/squid-game-tv-hd-wallpaper-preview.jpg" />
         </div>
       </div>
-      <div className='row mt-5'>
+
+      <div className='row mt-2'>
         <div className='row PostDesc p-3'>
           <img src='https://www.pinkvilla.com/images/2022-09/squid_game_poster_main.jpg?width=752&t=pvorg' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
           <font className='DescTitle col-lg-8 col-md-8 col-sm-8 col-xs-8 ms-3' >
@@ -35,44 +37,57 @@ function NetflixMovie1() {
               <SeasonBtn SeasonNum="Season 1"/>
             </span>
             <h5 className='Desc mt-3 ms-5'>
+              <font className='ReleaseDateFont'>Release Date: 17 September 2021</font>
+              <br/><br/>
             Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.
             </h5>
+            <div className='Genre col-lg-8 col-md-9 col-sm-9 col-xs-9 mt-5 '>
+              <span className='ms-1 mb-3'>
+                <SeasonBtn SeasonNum="Action"/>
+              </span>
+              <span className='ms-1'>
+                <SeasonBtn SeasonNum="Drama"/>
+              </span>
+              <span className='ms-1'>
+                <SeasonBtn SeasonNum="Mystery"/>
+              </span>
+              <span className='ms-1'>
+                <SeasonBtn SeasonNum="Thriller"/>
+              </span>
+            </div>
           </font>
         </div>
       </div>
-      <div className='Genre col-lg-6 col-md-9 col-sm-9 col-xs-9 mt-5 ms-5'>
-        <span className='ms-1'>
-          <SeasonBtn SeasonNum="Action"/>
-        </span>
-        <span className='ms-1'>
-          <SeasonBtn SeasonNum="Drama"/>
-        </span>
-        <span className='ms-1'>
-          <SeasonBtn SeasonNum="Mystery"/>
-        </span>
-        <span className='ms-1'>
-          <SeasonBtn SeasonNum="Thriller"/>
-        </span>
+
+      <div className='WatchTrailerDiv col-lg-8'>
+        <Link to="https://youtu.be/oqxAJKy0ii4" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️</Link>
+        <Link to="/BookTicket" className='WatchTrailer mt-3 ms-5'>Book Your Ticket 🎟️</Link>
+        <Link to="/" className='WatchTrailer mt-3 ms-5'>Add To Watchlist 📃</Link>
+        {/* // <WatchTrailer WatchTrailerBtn="Season 1"/> */}
       </div>
+      
+
+      <hr className='HRow'/>
+      
       <div className='row ms-5'>
-        <font className="CastName ms-5 mt-5">
+        <font className="CastName ms-5 mt-2">
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-        <StarCast imgURl="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSpYPqokHLCQA3cQCvv1szjHw_uaHk5h0gPKaeio-kpsw7aitTQdQEEell9OIyiUlUrXfo4FGywM7Prz7g" StarName="
-        Lee Jung-jae" StarMovieName="Seong Gi-hun" Episode="10 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSpYPqokHLCQA3cQCvv1szjHw_uaHk5h0gPKaeio-kpsw7aitTQdQEEell9OIyiUlUrXfo4FGywM7Prz7g" StarName="
+          Lee Jung-jae" StarMovieName="Seong Gi-hun" Episode="10 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-        <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BOTAzYjFiN2EtOTc5YS00NzY4LTg5MWItMTU1YmFkZDdjZGMyXkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_.jpg" StarName="Park Hae-soo" StarMovieName="Cho Sang-woo" Episode="09 Episodes" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BOTAzYjFiN2EtOTc5YS00NzY4LTg5MWItMTU1YmFkZDdjZGMyXkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_.jpg" StarName="Park Hae-soo" StarMovieName="Cho Sang-woo" Episode="09 Episodes" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-        <StarCast imgURl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkItyoINoD_sqUVtkCMaOSPfFpBLA_pfwO1vq81DeEIhR_nC4b7--MQXcha9StDAnXvig&usqp=CAU" StarName="Hoyeon" StarMovieName="Kang Sae-byeok" Episode="8 Episodes" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkItyoINoD_sqUVtkCMaOSPfFpBLA_pfwO1vq81DeEIhR_nC4b7--MQXcha9StDAnXvig&usqp=CAU" StarName="Hoyeon" StarMovieName="Kang Sae-byeok" Episode="8 Episodes" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-        <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/f/f8/O_Yeong-su_%28%EC%98%A4%EC%98%81%EC%88%98%29%2C_interview%2C_screenshot_1.png" StarName="Oh Yeong-su" StarMovieName="Oh Il-nam" Episode="08 Episodes" className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/f/f8/O_Yeong-su_%28%EC%98%A4%EC%98%81%EC%88%98%29%2C_interview%2C_screenshot_1.png" StarName="Oh Yeong-su" StarMovieName="Oh Il-nam" Episode="08 Episodes" className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
 
-        <StarCast imgURl="https://i.pinimg.com/originals/86/e0/83/86e08356cd8036731b644815f6f927ea.jpg" StarName="
-        Wi Ha-joon" StarMovieName="Hwang Jun-ho" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://i.pinimg.com/originals/86/e0/83/86e08356cd8036731b644815f6f927ea.jpg" StarName="
+          Wi Ha-joon" StarMovieName="Hwang Jun-ho" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-        <StarCast imgURl="https://asianwiki.com/images/d/d3/Heo_Sung-Tae-1977-p1.jpg" StarName="Heo Sung-tae" StarMovieName="Jang Deok-su" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
-      </div>
+          <StarCast imgURl="https://asianwiki.com/images/d/d3/Heo_Sung-Tae-1977-p1.jpg" StarName="Heo Sung-tae" StarMovieName="Jang Deok-su" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+        </div>
       </div>
 
       <hr className='HRow'/>
@@ -90,6 +105,8 @@ function NetflixMovie1() {
 
         <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Jack_o_hasanov_imdb"  ReviewDate="30 April 2022" ReviewKeyword="Overrated, But Good" ReviewContent="This series is so overrated. But let's be fair, it's a very good series. I've watched a few movies about it. The script was good. Acting was sometimes exaggerated, maybe it's a cultural thing. I did not like the final part. Overall very well done. In the final episode, my expectation was different. But the final scene was disappointing. Season 2 will come." />
       </div>
+
+      <hr className='HRow'/>
 
 
 
