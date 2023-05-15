@@ -1,0 +1,11 @@
+.card{
+    height: auto;
+    border: 3px solid goldenrod;
+    background-color: #282A3A;
+    filter: drop-shadow(none);
+    color: white;
+}
+
+.imgRound{
+    border-radius: 50%;
+}

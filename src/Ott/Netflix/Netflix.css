@@ -1,0 +1,55 @@
+.Poster{
+    height: 350px;
+    width: 275px;
+    float: left;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.Headline{
+    text-align: center;
+}
+
+.PosterTitle{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: red;
+}
+
+.PostDesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DescTitle{
+    float: right;
+    color: aliceblue;
+}
+
+.PosterName{
+    text-align: center;
+    color: goldenrod;
+}
+
+.Desc{
+    font-size: 20px;
+    color: black;
+}
+
+.Genre{
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+}
+
+.CastName{
+    color: goldenrod;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.StarCastDiv{
+    display: flex;
+}
