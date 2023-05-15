@@ -53,9 +53,7 @@ color: goldenrod;
     width:auto;
 }
 
-/* .Rate{
 
-} */
 
 .Starimg{
     height: 15px;
@@ -64,11 +62,36 @@ color: goldenrod;
 .cards{
     height: auto;
     width: max-content;
-    background-color: aliceblue;
+    margin-left: 20px;
+     border-radius: 10px 10px 10px 10px  solid 1px black;
+     border: 1px solid;
+  
 }
 
 .card-img-top{
     height: 300px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-text{
+    text-align: center;
+    color: black;
+}
+
+.btn-primary{
+    margin-left: 37px;
+    color: white;
+    background-color: black;
+    border: solid black;
+
+}
+.btn-primary:hover{
+    background-color: goldenrod;
+    border: solid goldenrod;
+}
+
+.card-title{
+    color: black;
 }
 
 

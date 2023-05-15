@@ -4,6 +4,7 @@
     
     width: auto;
     display:flex;
+    background-color: black;
 }
 
 
@@ -37,21 +38,22 @@
 .title-style{
     font-size: 19px;
     font-weight: 500;
-    
+    color: white;
     padding: 9px;
 }
 
 .inside{
     font-weight: 700;
     font-size: 16px;
+    color: white;
 }
 
 .geners-style{
     border-radius: 20px 20px 20px 20px ;
-    background-color: black;
+    background-color: white;
     padding: 4px;
     margin: 2px;
-    color: white;
+    color: black;
 
 
 }
@@ -64,17 +66,35 @@
     color: rgb(223, 163, 12);
     font-size: 35px;
     font-weight: 600;
-    margin-left: 90px ;
+   
+
+}
+
+.also-likee{
+    color: rgb(223, 163, 12);
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 45px ;
 
 }
 
 .img-box{
-    margin-left: 100px;
+    margin-left: 10px;
+    margin-right: 100px;
     
 }
 
 .poster-img{
     height: 380px;
+    
+    border-radius:10px 10px 10px 10px;
+    
+}
+
+.poster-img1{
+    height: 380px;
+     margin-left: 1px;
+
     border-radius:10px 10px 10px 10px;
     
 }
@@ -84,6 +104,11 @@
     display: flex;
     justify-content: start;
 }
+
+.card-title{
+    text-align: center;
+}
+
 
 
 
