@@ -15,44 +15,45 @@ function Footer() {
 
           <ul class="list-unstyled mb-4">
             <li>
-            <Link to="" className='text-white textNames'>Netflix</Link>
+            <Link to="/NetflixMovie1" className='text-white textNames'>Netflix</Link>
             </li>
             <li>
-            <Link to="" className='text-white textNames'>Amazon Prime</Link>
+            <Link to="/AmazonMovie1" className='text-white textNames'>Amazon Prime</Link>
             </li>
             <li>
-            <Link to="" className='text-white textNames'>Disney & Hotstar</Link>
+            <Link to="/HotstarMovie1" className='text-white textNames'>Disney & Hotstar</Link>
             </li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <h5 class="text-uppercase Headline1 mb-4">Assistance</h5>
+          <h5 class="text-uppercase Headline1 mb-4">Languages</h5>
 
           <ul class="list-unstyled">
             <li>
-            <Link to="" className='text-white'>Contact us</Link>
+            <Link to="/Hindi" className='text-white textNames'>Hindi</Link>
             </li>
             <li>
-            <Link to="" className='text-white'>Size Guide</Link>
+            <Link to="/Marathi" className='text-white textNames'>Marathi</Link>
             </li>
             <li>
-            <Link to="" className='text-white'>Shipping Information</Link>
+            <Link to="/English" className='text-white textNames'>English</Link>
             </li>
             <li>
-            <Link to="" className='text-white'>Returns & Exchanges</Link>
-            </li>
-            <li>
-            <Link to="" className='text-white'>Payment</Link>
+            <Link to="/Tamil" className='text-white textNames'>Tamil</Link>
             </li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <h5 class="text-uppercase Headline1 mb-4">Careers</h5>
+          <h5 class="text-uppercase Headline1 mb-4">Other</h5>
 
           <ul class="list-unstyled">
-            <li>
-              <Link to="" className='text-white'>Jobs</Link>
+          <li>
+              <Link to="/" className='text-white textNames'>Back To Home</Link>
             </li>
+            <li>
+              <Link to="" className='text-white textNames'>About Us</Link>
+            </li>
+            
           </ul>
         </div>
         <div class="col-lg-3 Headline1 col-md-6 mb-4 mb-lg-0">
