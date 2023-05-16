@@ -1,0 +1,28 @@
+.ReactionCard{
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #282A3A;
+}
+
+.card-header{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-Date{
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.card-title{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}

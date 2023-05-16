@@ -7,16 +7,13 @@ import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
 
-
-
-
 function Hompage() {
   return (
     <>
     <NavbarComp/>
       <div className="row video-container mt-4 " >
         <video className="col-lg-7 col-sm-10 col-md-10 ms-5 mb-2 video-height" controls autoplay muted>
-            <source src={vid1} type="video/mp4" />
+          <source src={vid1} type="video/mp4" />
         </video>
 
           <div className=' col-lg-4 col-sm-8 col-md-8 ms-5 info '>
@@ -195,6 +192,4 @@ function Hompage() {
   
   )
 }
-
-
 export default Hompage
