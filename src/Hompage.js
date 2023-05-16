@@ -6,6 +6,7 @@ import vid1 from '../src/video/vid1.mp4';
 import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
+import Carousel from 'react-bootstrap/Carousel'
 
 function Hompage() {
   return (
@@ -174,6 +175,46 @@ function Hompage() {
       </div>
    </div>
 
+
+   <div className='CarouselDiv'>
+      <Carousel className='col-lg-10 '>
+      <Carousel.Item>
+        <img  style={{height:'350px' , width:'500px' }}
+          className="d-block w-100 carousel-container"
+          src="https://www.whats-on-netflix.com/wp-content/uploads/2022/07/netflix-category-codes-2023.png "
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Latest Thriller Movies</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img style={{height:'350px'}}
+          className="d-block w-100 carousel-container"
+          src="
+          https://www.nylonthailand.com/wp-content/uploads/2021/06/For-Web-Nylon__3-1210x423.jpg
+         "
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h3>Latest Horror Movies </h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img style={{height:'350px'}}
+          className="d-block w-100 carousel-container"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSujdDzW5Dr14PEKIckrHgp1AbsafU1P-bvaX38u9lZUl9BCvQA6K6toX3Cx7jnLoQofDs&usqp=CAU"
+           alt="Third slide"
+        />
+
+
+
+        <Carousel.Caption>
+          <h3>Latest Comedy Movies</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+    </div>
 
          
 
