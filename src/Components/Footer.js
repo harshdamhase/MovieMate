@@ -2,7 +2,15 @@ import React from 'react'
 import "./SeasonBtn.css"
 import { Link } from 'react-router-dom'
 
+
 function Footer() {
+
+  function Subscribe(){
+    return(
+      alert("Thank You For Subscribing MovieMate")
+    )
+  }
+
   return (
     <>
       
@@ -64,14 +72,14 @@ function Footer() {
             <label class="form-label" for="form5Example2">Email address</label>
           </div>
 
-          <button type="submit" class="btn Headline1 btn-outline-danger btn-block">Subscribe</button>
+          <button type="submit" class="btn Headline1 btn-outline-danger btn-block" onClick={Subscribe}>Subscribe</button>
         </div>
       </div>
 
     </div>
     <div class="text-center Headline1 p-3 border-top border-white">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MovieMate.netlify.com</a>
     </div>
   </footer>
   
@@ -81,3 +89,5 @@ function Footer() {
 }
 
 export default Footer
+
+
