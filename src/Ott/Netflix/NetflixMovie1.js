@@ -59,10 +59,16 @@ function NetflixMovie1() {
         </div>
       </div>
 
-      <div className='WatchTrailerDiv col-lg-8'>
+      <div className='row WatchTrailerDiv'>
+        <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
         <Link to="https://youtu.be/oqxAJKy0ii4" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️</Link>
+        </div>
+        <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
         <Link to="/BookTicket" className='WatchTrailer mt-3 ms-5'>Book Your Ticket 🎟️</Link>
+        </div>
+        <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
         <Link to="/" className='WatchTrailer mt-3 ms-5'>Add To Watchlist 📃</Link>
+        </div>
         {/* // <WatchTrailer WatchTrailerBtn="Season 1"/> */}
       </div>
       
@@ -75,7 +81,7 @@ function NetflixMovie1() {
         </font>
         <div className='row StarCastDiv'>
           <StarCast imgURl="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSpYPqokHLCQA3cQCvv1szjHw_uaHk5h0gPKaeio-kpsw7aitTQdQEEell9OIyiUlUrXfo4FGywM7Prz7g" StarName="
-          Lee Jung-jae" StarMovieName="Seong Gi-hun" Episode="10 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          Lee Jung-jae" StarMovieName="Seong Gi-hun" Episode="10 Episodes" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
           <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BOTAzYjFiN2EtOTc5YS00NzY4LTg5MWItMTU1YmFkZDdjZGMyXkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_.jpg" StarName="Park Hae-soo" StarMovieName="Cho Sang-woo" Episode="09 Episodes" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
@@ -93,17 +99,33 @@ function NetflixMovie1() {
       <hr className='HRow'/>
 
       <div className='row ReactionCardDiv ms-5'>
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Champaklal" ReviewDate="20 September 2021" ReviewKeyword="Starts off strong then gets pretty weak at the end." ReviewContent="The first couple of episodes a very well done and pack a punch, but by the end it just seems to run out of steam. The marbles episode was the last real swerve, after that it becomes paint by numbers to the point" />
+      <font className="CastName ms-5 mt-2">
+          Reviews:
+        </font>
+        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+          <ReactionCard RevieName="Champaklal" ReviewDate="20 September 2021" ReviewKeyword="Starts off strong then gets pretty weak at the end." ReviewContent="The first couple of episodes a very well done and pack a punch, but by the end it just seems to run out of steam. The marbles episode was the last real swerve, after that it becomes paint by numbers to the point" />
+        </div>
 
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Surfisfun"  ReviewDate="2 November 2021" ReviewKeyword="first half decent, then it feel overstay.the games lost it appeals by 5th one" ReviewContent="Decent set deco .Battle royal flavors.A bit long in runtime, especially after first half.Very bloody and gory at times.Addictive if thats your cup of tv tea." />
+        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+        <ReactionCard RevieName="Surfisfun"  ReviewDate="2 November 2021" ReviewKeyword="first half decent, then it feel overstay.the games lost it appeals by 5th one" ReviewContent="Decent set deco .Battle royal flavors.A bit long in runtime, especially after first half.Very bloody and gory at times.Addictive if thats your cup of tv tea." />
+        </div>
 
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Daniel-65836"  ReviewDate="30 September 2021" ReviewKeyword="Strong start, poor finish" ReviewContent="Very compelling opening episodes, but when the actual plot unravels it makes you go, Oh, that's just it? That's kinda lame. Great acting still, amazing sets, overrides the glaring flaws of the series, an enjoyable watch overall." />
 
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Jiballini64"  ReviewDate="10 October 2021" ReviewKeyword="I don't get all the rave reviews" ReviewContent="I've watched the whole lot and it's just plain silly. The cast bring over-acting to a new level, all the characters are spectacularly annoying (I wanted them all to die by Episode 2) and I don't know why I watched it all. I'm sure there were far better things I could have been doing with my life. Like cleaning my bathroom or cutting my toe nails. It's really woeful." />
+        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+        <ReactionCard RevieName="Daniel-65836"  ReviewDate="30 September 2021" ReviewKeyword="Strong start, poor finish" ReviewContent="Very compelling opening episodes, but when the actual plot unravels it makes you go, Oh, that's just it? That's kinda lame. Great acting still, amazing sets, overrides the glaring flaws of the series, an enjoyable watch overall." />
+        </div>
 
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Matthewjleming"  ReviewDate="12 February 2022" ReviewKeyword="Yes, the VIPs sucked, but that didn't ruin the series" ReviewContent="Seriously. All things considered, they're a pretty small and self-contained part. The main characters were brilliant in their roles. I guess good actors figured that having parts where they're wearing masks the whole time wouldn't get them much exposure. The pacing and character development were superb." />
+        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+        <ReactionCard  RevieName="Jiballini64"  ReviewDate="10 October 2021" ReviewKeyword="I don't get all the rave reviews" ReviewContent="I've watched the whole lot and it's just plain silly. The cast bring over-acting to a new level, all the characters are spectacularly annoying (I wanted them all to die by Episode 2) and I don't know why I watched it all. I'm sure there were far better things I could have been doing with my life. Like cleaning my bathroom or cutting my toe nails. It's really woeful." />
+        </div>
 
+        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+        <ReactionCard  RevieName="Matthewjleming"  ReviewDate="12 February 2022" ReviewKeyword="Yes, the VIPs sucked, but that didn't ruin the series" ReviewContent="Seriously. All things considered, they're a pretty small and self-contained part. The main characters were brilliant in their roles. I guess good actors figured that having parts where they're wearing masks the whole time wouldn't get them much exposure. The pacing and character development were superb." />
+        </div>
+
+        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
         <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Jack_o_hasanov_imdb"  ReviewDate="30 April 2022" ReviewKeyword="Overrated, But Good" ReviewContent="This series is so overrated. But let's be fair, it's a very good series. I've watched a few movies about it. The script was good. Acting was sometimes exaggerated, maybe it's a cultural thing. I did not like the final part. Overall very well done. In the final episode, my expectation was different. But the final scene was disappointing. Season 2 will come." />
+        </div>
       </div>
 
       <hr className='HRow'/>
