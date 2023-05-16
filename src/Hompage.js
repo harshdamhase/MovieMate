@@ -88,7 +88,7 @@ function Hompage() {
 
           <img className='poster-img  m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny43LzEwICA4OUsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00347237-bgdrxtrhxz-portrait.jpg'/>
 
-          <img className='poster-img m-2' src=''/>
+          
 
           <img className='poster-img m-2 ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC41LzEwICAxMjFLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00025234-nlvefwacwu-portrait.jpg'/>
 
@@ -117,11 +117,69 @@ function Hompage() {
 
           <img className='poster-img m-2 ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny40LzEwICAxLjFLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00352714-lzrvetqava-portrait.jpg'/>
 
-          <img className='poster-img m-2 ' src=''/>
+        
 
         </div>
       </div>
     </div>
+
+    <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
+        <div className='also-likee mb-3  '>
+          Recommended Marathi Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
+        </div>
+       <div className='poster-container '>
+      <div className='img-box'>
+          <img className='poster-img m-2  ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC8xMCAgMS4zSyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357451-jgmzaupytp-portrait.jpg'/>
+
+          <img className='poster-img  m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4zLzEwICA1LjJLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00339859-uqynzgmzes-portrait.jpg'/>
+
+          <img className='poster-img  m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC4yLzEwICAxLjNLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00327818-vzqxqbhjwf-portrait.jpg'/>
+
+          <img className='poster-img m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-MTgsIE1heSAyMDIz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00341806-qkhkpavfjf-portrait.jpg'/>
+
+          <img className='poster-img m-2 ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny44LzEwICA4MjUgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00354758-fvglzdurbt-portrait.jpg'/>
+
+        
+
+        </div>
+      </div>
+   </div>
+
+
+   <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
+        <div className='also-likee mb-3  '>
+          Recommended Tamil Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
+        </div>
+       <div className='poster-container '>
+      <div className='img-box'>
+          <img className='poster-img m-2  ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny4xLzEwICAxMC4zSyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00355873-ykrbqmsrdb-portrait.jpg'/>
+
+          <img className='poster-img  m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC40LzEwICA3My4ySyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00348725-qjtqfsmnqa-portrait.jpg'/>
+
+          <img className='poster-img  m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS40LzEwICAyLjdLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00358164-sspcbkdhdj-portrait.jpg'/>
+
+          <img className='poster-img m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni44LzEwICBsaW1pdGVkIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00311948-cbhbcyscuc-portrait.jpg'/>
+
+          <img className='poster-img m-2 ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC42LzEwICAxOC4zSyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00354148-pzgjgeztnl-portrait.jpg'/>
+
+        
+
+        </div>
+      </div>
+   </div>
+
+   <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
+        <div className='also-likee mb-3  '>
+          Here Are The OTT Orignals
+        </div>
+       <div className='poster-container '>
+      
+      </div>
+   </div>
+
+
+         
+
 
 
          
