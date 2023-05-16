@@ -112,5 +112,24 @@
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    text-decoration: underline;
+}
+
+.StarCastText{
     text-decoration: none;
+    color: aliceblue;
+}
+
+.BacktoTop{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    text-decoration: none;
+    /* position: fixed; */
+}
+
+.ReleaseDateinfo{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
 }

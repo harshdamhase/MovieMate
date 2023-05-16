@@ -14,7 +14,7 @@ import Keybtn from '../../Components/Keybtn';
 function NetflixMovie1() {
   return (
     <>
-      <div>
+      <div id='NavBarDiv'>
         <NavbarComp/>
         <div className='Headline'>
           <font className='PosterTitle' >
@@ -81,19 +81,17 @@ function NetflixMovie1() {
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-          <StarCast imgURl="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSpYPqokHLCQA3cQCvv1szjHw_uaHk5h0gPKaeio-kpsw7aitTQdQEEell9OIyiUlUrXfo4FGywM7Prz7g" StarName="
-          Lee Jung-jae" StarMovieName="Seong Gi-hun" Episode="10 Episodes" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSpYPqokHLCQA3cQCvv1szjHw_uaHk5h0gPKaeio-kpsw7aitTQdQEEell9OIyiUlUrXfo4FGywM7Prz7g" StarName={<a href='https://en.wikipedia.org/wiki/Lee_Jung-jae' className='StarCastText'>Lee Jung-jae</a>} StarMovieName="Seong Gi-hun" Episode="10 Episodes" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BOTAzYjFiN2EtOTc5YS00NzY4LTg5MWItMTU1YmFkZDdjZGMyXkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_.jpg" StarName="Park Hae-soo" StarMovieName="Cho Sang-woo" Episode="09 Episodes" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BOTAzYjFiN2EtOTc5YS00NzY4LTg5MWItMTU1YmFkZDdjZGMyXkEyXkFqcGdeQXVyMTExNzQzMDE0._V1_.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Park_Hae-soo' className='StarCastText' >Park Hae-soo</a>} StarMovieName="Cho Sang-woo" Episode="09 Episodes" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkItyoINoD_sqUVtkCMaOSPfFpBLA_pfwO1vq81DeEIhR_nC4b7--MQXcha9StDAnXvig&usqp=CAU" StarName="Hoyeon" StarMovieName="Kang Sae-byeok" Episode="8 Episodes" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkItyoINoD_sqUVtkCMaOSPfFpBLA_pfwO1vq81DeEIhR_nC4b7--MQXcha9StDAnXvig&usqp=CAU" StarName={<a href='https://en.wikipedia.org/wiki/HoYeon_Jung' className='StarCastText'>Hoyeon</a>} StarMovieName="Kang Sae-byeok" Episode="8 Episodes" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/f/f8/O_Yeong-su_%28%EC%98%A4%EC%98%81%EC%88%98%29%2C_interview%2C_screenshot_1.png" StarName="Oh Yeong-su" StarMovieName="Oh Il-nam" Episode="08 Episodes" className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/f/f8/O_Yeong-su_%28%EC%98%A4%EC%98%81%EC%88%98%29%2C_interview%2C_screenshot_1.png" StarName={<a href='https://en.wikipedia.org/wiki/O_Yeong-su_(actor)' className='StarCastText' >Oh Yeong-su</a>} StarMovieName="Oh Il-nam" Episode="08 Episodes" className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://i.pinimg.com/originals/86/e0/83/86e08356cd8036731b644815f6f927ea.jpg" StarName="
-          Wi Ha-joon" StarMovieName="Hwang Jun-ho" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://i.pinimg.com/originals/86/e0/83/86e08356cd8036731b644815f6f927ea.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Wi_Ha-joon' className='StarCastText'>Wi Ha-joon</a>} StarMovieName="Hwang Jun-ho" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://asianwiki.com/images/d/d3/Heo_Sung-Tae-1977-p1.jpg" StarName="Heo Sung-tae" StarMovieName="Jang Deok-su" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://asianwiki.com/images/d/d3/Heo_Sung-Tae-1977-p1.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Heo_Sung-tae' className='StarCastText'>Heo Sung-tae</a>} StarMovieName="Jang Deok-su" Episode="07 Episodes" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
         </div>
       </div>
 
@@ -150,6 +148,25 @@ function NetflixMovie1() {
           <Link to="https://www.imdb.com/title/tt10919420/plotsummary/" className='PlotSummary'>Plot Summary</Link>
         </div>
       </div>
+
+      <hr className='HRow'/>
+
+      <div>
+      <div className="CastName ms-5 ps-5">
+          Details:
+        </div>
+        
+      </div>
+      
+
+      <div className=" fixed-bottom" >
+        <a href='#NavBarDiv' className='BacktoTop' >
+        <Keybtn Keywords="Back To Top" />
+        </a>
+      </div>
+
+
+      
 
 
 
