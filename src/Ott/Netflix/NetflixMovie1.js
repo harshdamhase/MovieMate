@@ -8,6 +8,7 @@ import MovieReviewCard from '../../Components/MovieReviewCard';
 import SeasonBtn from '../../Components/SeasonBtn';
 import StarCast from '../../Components/StarCast';
 import ReactionCard from '../../Components/ReactionCard';
+import Keybtn from '../../Components/Keybtn';
 
 
 function NetflixMovie1() {
@@ -99,7 +100,7 @@ function NetflixMovie1() {
       <hr className='HRow'/>
 
       <div className='row ReactionCardDiv ms-5'>
-      <font className="CastName ms-5 mt-2">
+      <font className="CastName ms-5 mt-2 ps-5">
           Reviews:
         </font>
         <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
@@ -129,6 +130,26 @@ function NetflixMovie1() {
       </div>
 
       <hr className='HRow'/>
+
+      <div className=''>
+        <div className="CastName ms-5 ps-5">
+          StoryLine:
+        </div>
+        <div className=' ms-5 ps-5 col-lg-10 col-md-8 col-sm-8 col-xs-8 Storyline'>
+        A story of people who fail at life for various reasons, but suddenly receive a mysterious invitation to participate in a survival game to win more than 38 million US dollars. The game takes place at an isolated island and the participants are locked up until there is a final winner. The story will incorporate popular children's games from the 1970s and 1980s of Korea, such as squid game, literal translation of its Korean name, which is a type of tag where offense and defense use a squid-shaped board drawn in the dirt.
+        </div>
+        <div className='row ms-5 ps-5 mt-3'>
+        <Keybtn Keywords="Blood"/>
+        <Keybtn Keywords="Game of Death"/>
+        <Keybtn Keywords="Survival"/>
+        <Keybtn Keywords="Death"/>
+        <Keybtn Keywords="Game"/>
+        <Keybtn Keywords="Cruelty"/>
+        </div>
+        <div className='ms-5 ps-5 mt-3 '>
+          <Link to="https://www.imdb.com/title/tt10919420/plotsummary/" className='PlotSummary'>Plot Summary</Link>
+        </div>
+      </div>
 
 
 
