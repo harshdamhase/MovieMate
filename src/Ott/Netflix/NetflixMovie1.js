@@ -154,7 +154,7 @@ function NetflixMovie1() {
       <hr className='HRow'/>
 
       <div>
-      <div className="CastName ms-5 ps-5">
+        <div className="CastName ms-5 ps-5">
           Details:
         </div>
         <DetailsNetflix DetailsInfo="Release Date:" Details="September 17, 2021 (United States)"/>
@@ -175,11 +175,6 @@ function NetflixMovie1() {
         <Keybtn Keywords="Back To Top" />
         </a>
       </div>
-
-
-      
-
-
 
     </>
   )
