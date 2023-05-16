@@ -10,7 +10,7 @@ import StarCast from '../../Components/StarCast';
 import ReactionCard from '../../Components/ReactionCard';
 import Keybtn from '../../Components/Keybtn';
 import DetailsNetflix from '../../Components/DetailsNetflix';
-import HorCard from '../../Components/HorCard';
+import Footer from '../../Components/Footer';
 
 
 function NetflixMovie1() {
@@ -163,6 +163,10 @@ function NetflixMovie1() {
         <DetailsNetflix DetailsInfo="Also known as:" Details="El juego del calamar"/>
         <DetailsNetflix DetailsInfo="Filming locations:" Details="Seoul, South Korea(contestants' hometown - many scenes)"/>
         <DetailsNetflix DetailsInfo="Production company:" Details="Siren Pictures"/>
+      </div>
+
+      <div>
+        <Footer/>
       </div>
       
 
