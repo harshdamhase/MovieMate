@@ -9,6 +9,8 @@ import SeasonBtn from '../../Components/SeasonBtn';
 import StarCast from '../../Components/StarCast';
 import ReactionCard from '../../Components/ReactionCard';
 import Keybtn from '../../Components/Keybtn';
+import DetailsNetflix from '../../Components/DetailsNetflix';
+import HorCard from '../../Components/HorCard';
 
 
 function NetflixMovie1() {
@@ -155,7 +157,12 @@ function NetflixMovie1() {
       <div className="CastName ms-5 ps-5">
           Details:
         </div>
-        
+        <DetailsNetflix DetailsInfo="Release Date:" Details="September 17, 2021 (United States)"/>
+        <DetailsNetflix DetailsInfo="Country of Origin:" Details="South Korea"/>
+        <DetailsNetflix DetailsInfo="Languages:" Details="Korean English Urdu"/>
+        <DetailsNetflix DetailsInfo="Also known as:" Details="El juego del calamar"/>
+        <DetailsNetflix DetailsInfo="Filming locations:" Details="Seoul, South Korea(contestants' hometown - many scenes)"/>
+        <DetailsNetflix DetailsInfo="Production company:" Details="Siren Pictures"/>
       </div>
       
 
