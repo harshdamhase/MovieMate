@@ -1,4 +1,4 @@
-.cards{
+.Starcast{
     height: auto;
     border: 3px solid goldenrod;
     background-color: #282A3A;
@@ -11,5 +11,5 @@
 }
 
 .Photos{
-
+    display: flex;
 }
