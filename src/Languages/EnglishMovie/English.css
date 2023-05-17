@@ -9,14 +9,11 @@
     border-radius: 10px 10px 10px 10px;
     
 }
-
-.Comedy {
-    border: 3px solid black;
-    width: 250px;
-    border-radius: 15px;
-    background-color: F9FBE7;
-    margin: auto;
-    display: block;
-    margin-top: 15px;
-    padding: 10px;
+.my-3{
+color: goldenrod;
+margin-left: 90px;
+margin-bottom: 10px;
+}
+.row{
+ margin-bottom: 10px;
 }
