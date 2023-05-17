@@ -20,7 +20,7 @@ function NetflixMovie2() {
         <NavbarComp/>
         <div className='Headline'>
           <font className='PosterTitle' >
-              Wednesday
+          Netflix | Wednesday  
           </font>
         </div>
         <div>
