@@ -17,10 +17,10 @@ function Tamil() {
       <div className='TamilCarousel'>
       <TamilCarousel img1={img1} img2={img2} img3={img3}/>
       </div>
-      <hr/>
+      <hr className='HRow'/>
       <div>
-        <p className=''>
-          Popular Tollywood Movies:
+        <p className='CastName ms-5'>
+          Popular Tamil Movies:
         </p>
       </div>
 

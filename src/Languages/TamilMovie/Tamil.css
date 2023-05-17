@@ -3,3 +3,15 @@
     align-items: center;
     justify-content: center 
 }
+
+.HRow{
+    border: 2px solid #282A3A;
+}
+
+.CastName{
+    text-decoration: underline double;
+    color: goldenrod;
+    font-weight:400;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
