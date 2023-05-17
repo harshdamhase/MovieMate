@@ -107,19 +107,29 @@
 .card-title{
     text-align: center;
 }
+
 .see-More{
     text-decoration: none;
     color: goldenrod;
     font-size: 1.2rem;
      margin-left: 650px;
-
-
 }
 
 .CarouselDiv{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.MagicDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-box{
+   margin: 13px; 
+   margin: 130px;
 }
 
 

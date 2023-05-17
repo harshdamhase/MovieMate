@@ -3,6 +3,12 @@ import './Homepage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from '../src/Components/NavbarComp';
 import vid1 from '../src/video/vid1.mp4';
+import vid2 from '../src/video/vid2.mp4';
+import vid3 from '../src/video/vid3.mp4';
+import vid4 from '../src/video/vid4.mp4';
+import vid5 from '../src/video/vid5.mp4';
+import vid6 from '../src/video/vid6.mp4';
+import vid7 from '../src/video/vid7.mp4';
 import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
@@ -13,7 +19,7 @@ function Hompage() {
     <>
     <NavbarComp/>
       <div className="row video-container " >
-        <video className="col-lg-7 col-sm-10 col-md-10 ms-5 mb-2 video-height" controls autoplay muted>
+        <video className="col-lg-7 col-sm-10 col-md-10 ms-5 mb-2 video-height"autoPlay loop controls muted>
           <source src={vid1} type="video/mp4" />
         </video>
 
@@ -216,23 +222,30 @@ function Hompage() {
     </Carousel>
     </div>
 
-      <div className='row  col-lg-4 mt-3' >  
-          <div >
-                <ReviewCard video="video/mp4"
-                Title="The Sound Of Magic"
-                Overview=""
-                />
-          </div>
+      <div className='row mt-5 MagicDiv' >  
+          <ReviewCard video={vid2}
+          Title="The Sound Of Magic"
+          Overview="" className="" />
+
+          <ReviewCard video={vid3}
+          Title="Wensday"
+          Overview="" className="" />
+
+          <ReviewCard video={vid4}
+          Title="Squid Game"
+          Overview="" className="" />
           
+          <ReviewCard video={vid5}
+          Title=""
+          Overview="" className="" />
 
-          <div>
-                <ReviewCard video="video/mp4"
-                Title="The Sound Of Magic"
-                Overview=""
-                />
-          </div>
-            
+         <ReviewCard video={vid6}
+          Title="The Sound Of Magic"
+          Overview="" className="" />
 
+        <ReviewCard video={vid7}
+          Title="The Sound Of Magic"
+          Overview="" className="" />
 
       </div>
 
