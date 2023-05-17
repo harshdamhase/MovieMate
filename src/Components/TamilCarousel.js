@@ -9,13 +9,13 @@ function TamilCarousel({img1, img2, img3}) {
         <div id="carouselExampleAutoplaying" class="carousel slide w-75 TamilCarouselDiv mt-2" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src={img1} class="d-block w-100 Carouselimg" alt="..."/>
+                <img src={img1} class="d-block w-100 Carouselimg img-fluid" alt="..."/>
                 </div>
                 <div class="carousel-item ">
-                <img src={img2}class="d-block w-100 Carouselimg" alt="..."/>
+                <img src={img2}class="d-block w-100 Carouselimg img-fluid" alt="..."/>
                 </div>
                 <div class="carousel-item ">
-                <img src={img3}class="d-block w-100 Carouselimg" alt="..."/>
+                <img src={img3}class="d-block w-100 Carouselimg img-fluid" alt="..."/>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
