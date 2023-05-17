@@ -2,11 +2,13 @@ import React from 'react'
 import NavbarComp from '../../Components/NavbarComp'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tamilcards from '../../Components/Tamilcards';
-import img1 from '../TamilMovie/Images/Hit Tamil.jpg'
-import img2 from "../TamilMovie/Images/lidsa.jpg"
-import img3 from "../TamilMovie/Images/patro.webp"
-import TamilCarousel from '../../Components/TamilCarousel'
-import "./Tamil.css"
+import img1 from '../TamilMovie/Images/Hit Tamil.jpg';
+import img2 from "../TamilMovie/Images/lidsa.jpg";
+import img3 from "../TamilMovie/Images/patro.webp";
+import TamilCarousel from '../../Components/TamilCarousel';
+import "./Tamil.css";
+import TamilTrailer from '../../Components/TamilTrailer';
+
 
 
 
@@ -39,6 +41,23 @@ function Tamil() {
           <Tamilcards img="https://m.media-amazon.com/images/M/MV5BZTkzMjJiMTMtNDU4Yy00YmRiLWE1OTEtNjQ0NDljMjMxNzhiXkEyXkFqcGdeQXVyMTI1NDAzMzM0._V1_FMjpg_UX1000_.jpg" Title="Pathu Thala" />
           <Tamilcards img="https://m.media-amazon.com/images/M/MV5BNjE0OWNlYjEtNTNlNi00MDBkLTg3MDEtYjYxMWE4MWMyYTRmXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg" Title="Dada" />
           <Tamilcards img="https://m.media-amazon.com/images/M/MV5BODQ0ZGRmYzYtYmViOC00Y2Y0LThiYWEtMTg0YjI0ZmM1MjUyXkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg" Title="Farhana" />
+        </div>
+      </div>
+      <hr className='HRow'/>
+
+      <div id='Thriller'>
+        <p className='CastName ms-5'>
+          Thriller Movies:
+        </p>
+        <div className='row'>
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
         </div>
       </div>
 
