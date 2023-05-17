@@ -13,3 +13,7 @@
 .Photos{
     display: flex;
 }
+
+.StarCastimg{
+    height:min-content;
+}
