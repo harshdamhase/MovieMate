@@ -6,12 +6,13 @@ import vid1 from '../src/video/vid1.mp4';
 import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
+import Carousel from 'react-bootstrap/Carousel'
 
 function Hompage() {
   return (
     <>
     <NavbarComp/>
-      <div className="row video-container mt-4 " >
+      <div className="row video-container " >
         <video className="col-lg-7 col-sm-10 col-md-10 ms-5 mb-2 video-height" controls autoplay muted>
           <source src={vid1} type="video/mp4" />
         </video>
@@ -77,9 +78,9 @@ function Hompage() {
       <div className='also-likee mb-3 '>
         Recommended Hindi Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
       </div>
-      <div className='poster-container'>
+      <div className='row poster-container'>
         <div className='img-box'>
-          <img className='poster-img m-2  ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS8xMCAgMTQ5LjdLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00343918-bcrtrqpgtc-portrait.jpg'/>
+          <img className='poster-img m-2 ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS8xMCAgMTQ5LjdLIHZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00343918-bcrtrqpgtc-portrait.jpg'/>
 
           <img className='poster-img  m-2' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni40LzEwICA3Ny45SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00339118-gvcavdpszx-portrait.jpg'/>
 
@@ -98,11 +99,11 @@ function Hompage() {
 
 
 
-    <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
+    <div className='row mt-5 ms-5 ps-5 col-lg-12 '>
       <div className='also-likee mb-3  '>
         Recommended English Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
       </div>
-      <div className='poster-container '>
+      <div className='row poster-container '>
         <div className='img-box'>
           <img className='poster-img m-2  ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4zLzEwICAzNS45SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00310794-nmwukaluxy-portrait.jpg'/>
 
@@ -124,7 +125,7 @@ function Hompage() {
         <div className='also-likee mb-3  '>
           Recommended Marathi Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
         </div>
-       <div className='poster-container '>
+       <div className='row poster-container '>
       <div className='img-box'>
           <img className='poster-img m-2  ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC8xMCAgMS4zSyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357451-jgmzaupytp-portrait.jpg'/>
 
@@ -147,7 +148,7 @@ function Hompage() {
         <div className='also-likee mb-3  '>
           Recommended Tamil Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
         </div>
-       <div className='poster-container '>
+       <div className='row poster-container '>
       <div className='img-box'>
           <img className='poster-img m-2  ' src='https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny4xLzEwICAxMC4zSyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00355873-ykrbqmsrdb-portrait.jpg'/>
 
@@ -175,9 +176,69 @@ function Hompage() {
    </div>
 
 
-         
+   <div className='CarouselDiv'>
+      <Carousel className='col-lg-10 '>
+      <Carousel.Item>
+        <img  style={{height:'350px' , width:'500px' }}
+          className="d-block w-100 carousel-container"
+          src="https://www.whats-on-netflix.com/wp-content/uploads/2022/07/netflix-category-codes-2023.png "
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Latest Thriller Movies</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img style={{height:'350px'}}
+          className="d-block w-100 carousel-container"
+          src="
+          https://www.nylonthailand.com/wp-content/uploads/2021/06/For-Web-Nylon__3-1210x423.jpg
+         "
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h3>Latest Horror Movies </h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img style={{height:'350px'}}
+          className="d-block w-100 carousel-container"
+          src="https://satkurier.pl/uploads/95315.jpg"
+           alt="Third slide"
+        />
 
 
+
+        <Carousel.Caption>
+          <h3>Latest Comedy Movies</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+    </div>
+
+      <div className='row  col-lg-4 mt-3' >  
+          <div >
+                <ReviewCard video="video/mp4"
+                Title="The Sound Of Magic"
+                Overview=""
+                />
+          </div>
+          
+
+          <div>
+                <ReviewCard video="video/mp4"
+                Title="The Sound Of Magic"
+                Overview=""
+                />
+          </div>
+            
+
+
+      </div>
+
+     
+     
+     
 
          
          

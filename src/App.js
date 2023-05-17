@@ -25,8 +25,8 @@ function App() {
       <Route path="/Marathi" element={<Marathi/>}/>
       <Route path="/Hindi" element={<Hindi/>}/>
       <Route path="/Tamil" element={<Tamil/>}/>
-      <Route path="/NetflixMovie1" element={<NetflixMovie1/>}/>
-      <Route path="/NetflixMovie2" element={<NetflixMovie2/>}/>
+      <Route path="/Squid_Game" element={<NetflixMovie1/>}/>
+      <Route path="/Wednesday" element={<NetflixMovie2/>}/>
       <Route path="/HotstarMovie1" element={<HotstartMovie1/>}/>
       <Route path="/HotstarMovie2" element={<HotstarMovie2/>}/>
       <Route path="/AmazonMovie1" element={<AmazonMovie1/>}/>
