@@ -13,3 +13,12 @@
 .Photos{
     display: flex;
 }
+
+.TamilCarouselDiv{
+    height: auto;
+    border: 5px solid #282A3A;
+}
+
+.Carouselimg{
+    height: 500px;
+}
