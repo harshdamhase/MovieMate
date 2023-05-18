@@ -153,6 +153,7 @@ color: goldenrod;
     width: max-content;
     height:300;
     width: 300px;
+    margin-right: 220px;
     
 }
 .trailer-btn{
@@ -166,4 +167,18 @@ color: goldenrod;
 
 .ReviewTitle{
     color: #282A3A;
+}
+.netflix-name{
+      font-size: 20px;
+}
+
+.netflix-name,.btn-primary:hover{
+
+color:white;
+
+}
+
+.card-video:hover{
+    background-color: black;
+    color: white;
 }
