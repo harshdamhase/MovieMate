@@ -9,9 +9,8 @@ import Carousel from 'react-bootstrap/Carousel'
 import EnglishMovieCard from '../../Components/EnglishMovieCard';
 import Footer from '../../Components/Footer';
 import { NavLink } from 'react-bootstrap';
-import { useState } from 'react';
 
-function English(props) {
+function English(){
   return (
     <div>
       <NavbarComp />
@@ -209,7 +208,7 @@ function English(props) {
         </div>
 
       </section>
-
+   <Footer/>
     </div>
   )
 }
