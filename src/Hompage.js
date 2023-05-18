@@ -9,6 +9,12 @@ import vid4 from '../src/video/vid4.mp4';
 import vid5 from '../src/video/vid5.mp4';
 import vid6 from '../src/video/vid6.mp4';
 import vid7 from '../src/video/vid7.mp4';
+
+import vid8 from '../src/video/vid8.mp4';
+import vid9 from '../src/video/vid9.mp4';
+import vid10 from '../src/video/vid10.mp4';
+import vid11 from '../src/video/vid11.mp4';
+import vid12 from '../src/video/vid12.mp4';
 import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
@@ -215,35 +221,73 @@ function Hompage() {
     </Carousel>
     </div>
 
+    <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
+        <div className='also-likee'>
+         <img className='netflix-logo center'  src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png'/> 
+        </div>
+    </div>
       <div className='row mt-5 MagicDiv' >  
           <ReviewCard video={vid2}
           Title="The Sound Of Magic"
-          Overview="" className="" />
+          link=""/>
 
           <ReviewCard video={vid3}
           Title="Wensday"
-          Overview="" className="" />
+          link="/Wednesday" />
 
           <ReviewCard video={vid4}
           Title="Squid Game"
-          Overview="" className="" />
+          link="/Squid_Game"/>
           
           <ReviewCard video={vid5}
-          Title=""
-          Overview="" className="" />
+          Title="The Sandman"
+          link="" />
 
          <ReviewCard video={vid6}
-          Title="The Sound Of Magic"
-          Overview="" className="" />
+          Title="Lock&key"
+          link="" />
 
         <ReviewCard video={vid7}
-          Title="The Sound Of Magic"
-          Overview="" className="" />
+          Title="Fate:The wing Saga"
+          link="" />
 
       </div>
 
-     
-     
+
+      <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
+        <div className='also-likee center '>
+         <img className='hotstar-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Disney%2B_Hotstar_logo.svg/2560px-Disney%2B_Hotstar_logo.svg.png'/>
+        </div>
+    </div>
+
+    <div className='row mt-5 MagicDiv' >  
+          <ReviewCard video={vid8}
+          Title="Beauty and the Beast "
+          link=""/>
+
+          <ReviewCard video={vid9}
+          Title=" The Nutcracker and the Four Realms "
+          link="" />
+
+          <ReviewCard video={vid10}
+          Title="Haunted Mansion"
+          link=""/>
+          
+          <ReviewCard video={vid11}
+          Title= "Disenchanted "
+          link= "" />
+
+         <ReviewCard video={vid12}
+          Title="Upside Down"
+          link="" />
+
+        <ReviewCard video={vid7}
+          Title="Fate:The wing Saga"
+          link="" />
+
+      </div>
+
+        
      
 
          
