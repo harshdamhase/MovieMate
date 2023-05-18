@@ -49,17 +49,20 @@ function Tamil() {
         <p className='CastName ms-5'>
           Thriller Movies:
         </p>
-        <div className='row'>
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
-        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" />
+        <div className='row TamilcardsDiv'>
+        <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT27-2Cx2HY-7sneYNNzWf9ej3wL3Q2zWmpiLcu9bXd2A4djqZB" ThrillerTitle="Vikram Vedha" ThrillerDesc="Nno-nonsense police officer Vikram and his partner Simon are on the hunt to capture a smuggler and murderer called Vedha."/>
+        <TamilTrailer Thrillerimg="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSu0G-X_dMNKDp89q0Outh9g0i2S1_d8x1VgHnqxG6IxiBTVlmI" ThrillerTitle="Vishwaroopam" ThrillerDesc="Nirupama (Pooja Kumar) marries a dance instructor (Kamal Hassan) and she wants to end the marriage after three years to pursue her higher education." />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdh8K7C1o0av-JkACdDMDyPAMk5EcOCFVJIBl9gIbjcrWcuy9C" ThrillerTitle="Aaranya Kaandam" ThrillerDesc="Singam Perumal is old and useless for his wife, but he still is a mighty criminal. When he tries to beat his arch enemy Gajendran with a perfect plan, a series of incidents expose a dog-eat-dog world." />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk3ltBykgvlKZcHapUHI7zsqJgJytFX__Fh6zq1VkF7s1GO18Q" ThrillerTitle="Pizza" ThrillerDesc="A man fears the supernatural when he returns from a pizza delivery covered in blood; he recounts what happened at the house." />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeXiagBjEdidtap9KpxBpRo0Qe2UcvmHllC54OR6MM2XMQbLAh" ThrillerTitle="Visaranai" ThrillerDesc="A group of immigrants are tortured to plead guilty for a crime they didn't commit. When a policeman from their hometown helps to set them free, they agree to do him a favour in return, unaware of the trouble they are getting themselves into." />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRaA7W_dCpCeQa4ENgWkO0TocdjBs6FKF99F3BIdilSJOhIk3n0" ThrillerTitle="Sigappu Rojakkal" ThrillerDesc="Dileep is a successful businessman with a dark side. He prey on nubile girls, assaults and kills them. These proceedings are video-recorded and watched by his adoptive father and mentor. He meets Sarada, and is attracted to her." />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzsPD1v5uZIrKWdnuwzVTVTBYQpPQmL77CzTBJhteR6N4bhnYl" ThrillerTitle="Thadam" ThrillerDesc="The murder of a young child creates some confusion among the police when they discover that the suspect has a twin." />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbXvbQXrdMX6jC5fY2NEwuf8NOUtNJUfQm889ZURCPxZlSrBjq" ThrillerTitle="Maanagaram" ThrillerDesc="A man who comes to Chennai for an interview is beaten brutally; a gang of small-time criminals kidnaps the son of a local gangster from his school for a ransom." />
+        <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaLG7uY4WzDDeHvtyxJ2nNnO9VWzH6FJWb1BR_y_H8mo2fjYBC" ThrillerTitle="U Turn" ThrillerDesc="Rachana, a newspaper intern, and a police inspector investigate the death of motorists who died in an accident." />
         </div>
       </div>
+
+      <hr className='HRow'/>
 
 
     </>

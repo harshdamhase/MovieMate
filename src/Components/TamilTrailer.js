@@ -1,5 +1,5 @@
 import React from 'react'
-import "./SeasonBtn.css"
+import "./StarCast.css"
 
 function TamilTrailer({Thrillerimg,ThrillerTitle,ThrillerDesc }) {
   return (
