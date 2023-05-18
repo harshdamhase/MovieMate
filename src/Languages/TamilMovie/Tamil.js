@@ -79,6 +79,25 @@ function Tamil() {
         </div>
       </div>
 
+      <hr className='HRow'/>
+
+      <div id='Horror'>
+        <p className='CastName ms-5'>
+          Horror Movies:
+        </p>
+        <div className='row TamilcardsDiv'>
+          <TamilTrailer Thrillerimg="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTTnj5bm4gi953JAO6SioUTJY7uarWp03nkBFZ30-QASRskzwus" ThrillerTitle="Demonte Colony" ThrillerDesc="Four friends have no idea what awaits them when they enter a derelict house, which turns their lives upside down." />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgw3Ab3qpRXnGMdxutoGPX5vA9B32aUuxxQL84BpOB4fINwvxm" ThrillerTitle="Petromax" ThrillerDesc="Meera and her foster family of three live in a bungalow and start to doubt that it's haunted. Four strangers strike a deal with the owner, Shankar, to stay there for four nights to unravel the mystery." />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6SaKrQzeojdLoon4EXN-HcsF5cMBJfWCb1yNEfsXnDjtHKj5" ThrillerTitle="Eeram" ThrillerDesc="A man investigates the suicide of a woman as he's not convinced that she killed herself. The main suspects are her husband and neighbours. As the death toll rises, the man deals with his own secret past." />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1rkn8g5v5-3SAegn4mIk2shAFiaOKJBqjXyswhhQeL-TFGRhG" ThrillerTitle="Yaamirukka Bayamey" ThrillerDesc="A couple of con artists decide to move into an eerie-looking, run-down mansion and run it as a hotel. However, when their customers start dying mysteriously, they begin to think something supernatural is to blame." />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-zGut_okwPHJ0Lv0GE2xuLUHdHY746TAzyUNtPr4mIeeNWqqe" ThrillerTitle="13B: Fear Has a New Address" ThrillerDesc="When Manohar (Neetu Chandra) moves into 13B, he notices a bunch of quirks in his building, like the lift operating for others but not him. The strangest thing of all is a TV show, Yavarum Nalam, that reflects what is happening in Manohar's own life -- like his wife (R. Madhavan) miscarrying." />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQNuxFZj4SWpInReEfJiOwb30C-UzRRHj_-T0pwBZXcx5UvmSNa" ThrillerTitle="Maya" ThrillerDesc="Maya is one of the most well-written horror dramas. Its storyline revolves around how a single mother struggles to make a living and eventually encounters " />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTlFKRHUJGxY2dTyYEA3NOqbKWx4sDDc18RCQSTTJqQDf70H8Rf" ThrillerTitle="Airaa" ThrillerDesc="A woman is on holiday at her grandma's village bungalow when she strikes upon the genius idea of shooting and uploading real-ghost videos; while shooting, she chances upon real ghost experiences." />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTaRAa4TSzIClwWAaQS54FBOs5r3n9nZNnv777GUeOrxqwmLbfY" ThrillerTitle="Aval" ThrillerDesc="A neurosurgeon (played by Siddharth) and his wife (played by Andrea Jeremiah), a newly-wed couple move into a new neighbourhood and soon realise that the house next door, inhabiting a little girl and her mother, is haunted." />
+          <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs4CqKzOUHjhp0S1yuM90s1FgEAUub1IdLzc7xneF1miJVdA7o" ThrillerTitle="Kanchana" ThrillerDesc="Raghava is a typical jobless youth who spends his days playing cricket with friends. Raghava and his friends switch to an abandoned ground that is supposedly haunted to play cricket." />
+        </div>
+      </div>
+
 
 
 

@@ -19,6 +19,7 @@
     border: 5px solid #282A3A;
 }
 
+
 .Carouselimg{
     height: max-content;
 }
@@ -26,7 +27,13 @@
 .Tamilcardpic{
     border: 2px #282A3A solid;
     border-radius: 15px;
+
 }
+
+.Tamilcardpic:hover{
+    background-color: #ffe082bd;
+}
+
 
 .Titlehead{
     font-weight: 600;

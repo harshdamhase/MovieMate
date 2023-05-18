@@ -14,7 +14,9 @@ function TamilCarousel({img1, img2, img3}) {
                 </a>
                 </div>
                 <div class="carousel-item ">
+                <a href='#Horror' >
                 <img src={img2}class="d-block w-100 Carouselimg img-fluid" alt="..."/>
+                </a>
                 </div>
                 <div class="carousel-item ">
                 <a href='#Comedy' >
