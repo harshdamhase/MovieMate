@@ -102,30 +102,18 @@ function HotstartMovie1() {
       <font className="CastName ms-5 mt-2 ps-5">
           Reviews:
         </font>
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-          <ReactionCard RevieName="crybabydollhouse" ReviewDate="25 September 2019" ReviewKeyword="Not everyone will like it, but I did" ReviewContent="A good movie in my opinion. I know not everyone will like it, and I know a lot of people hate it (is it just because it's live action?), but it has a beautiful atmosphere, the costumes are amazing, and I feel happy whenever I watch it. Not my favourite Disney movie, but it's not the worst." />
-        </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+        <ReactionCard RevieName="crybabydollhouse" ReviewDate="25 September 2019" ReviewKeyword="Not everyone will like it, but I did" ReviewContent="A good movie in my opinion. I know not everyone will like it, and I know a lot of people hate it (is it just because it's live action?), but it has a beautiful atmosphere, the costumes are amazing, and I feel happy whenever I watch it. Not my favourite Disney movie, but it's not the worst." />
+
         <ReactionCard RevieName="mindyfrostbite"  ReviewDate="1 June 2019" ReviewKeyword="Delightfully weird and wonderful" ReviewContent="It is NOT the story of the girl in the original Nutcracker story; rather, it is the story of one of her daughters. If people go into this movie expecting the original Nutcracker, they will likely end up disappointed; head into it with an open mind and the knowledge that this is a different story altogether, and you might just enjoy it as much as I did!" />
-        </div>
-
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+        
         <ReactionCard RevieName="VintageSoul56"  ReviewDate="17 November 2018" ReviewKeyword="Stunningly Spectacular" ReviewContent="I saw this today. I understood the story just fine. Apparently, it was a mix of the ballet and a short story. I loved every minute of it. I was transformed to a fantasy world that I would like to see! The sets, costumes, hair, dancing, CGI was absolutely brilliant. I recommend this to anyone, especially the little ones. They will be mesmerized. Thrilling comes to mind." />
-        </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
         <ReactionCard  RevieName="homercol"  ReviewDate="2 June 2019" ReviewKeyword="I finally managed to watch it and love it" ReviewContent="I have a hard time understanding people's hate of this movie. They did a fantastic job of blending the music, ballet and storyline together.... and for those calling this slow and boring, go see the actual ballet. I have... I truly appreciate the music and they way this was done.." />
-        </div>
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+    
         <ReactionCard  RevieName="consumer-netherlands"  ReviewDate="3 November 2018" ReviewKeyword="one of the most boring movie from Disney Studios" ReviewContent="One of the most boring movie from Disney Studios. Give impression of a low budget, cheap movie made in hurry I was watching the movie with my children, but they told me they were very disappointed. The film is very boring. A complete weekend evening wasted. boring story, predictable, not funny," />
-        </div>
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+      
         <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="calisparkz2"  ReviewDate="4 November 2018" ReviewKeyword="Worst Disney movie of all time" ReviewContent="Do not believe all these paid for reviews that are glowing, giving 9 and 10 stars, this movie was terrible, storyline all over the place, mediocre acting all around special effects like a high school play! We couldn't wait to get out of there! Do yourself a favor and watch the trailer, all the best bits (and that's a stretch) were all there!" />
-        </div>
       </div>
 
       <hr className='HRow'/>

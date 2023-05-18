@@ -100,43 +100,21 @@ function NetflixMovie2() {
       <hr className='HRow'/>
 
       <div className='row ReactionCardDiv ms-5'>
-      <font className="CastName ms-5 mt-2 ps-5">
+        <font className="CastName ms-5 mt-2 ps-5">
           Reviews:
         </font>
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-          <ReactionCard RevieName="KOOLAIDBRO" ReviewDate="24 November 2022" ReviewKeyword="Was not expecting this at all" ReviewContent="So I thought this was going to be God awful like most Netflix adaptations, but I found myself laughing and appreciating the camerawork, the clothes, the colors, the acting etc. The way everything is colorful and vibrant while Wednesday is just colorless and unemotional makes Wednesday stick out so much from being so out of place. You almost can feel how much she dislikes almost everything. She's smart, witty, and honestly kind of scary. Catherine Zeta Jones made me a believer in her from her performance. From start to finish this was a easy and fun watch. It almost flew by too fast and now I want more." />
-        </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
+        <ReactionCard RevieName="KOOLAIDBRO" ReviewDate="24 November 2022" ReviewKeyword="Was not expecting this at all" ReviewContent="So I thought this was going to be God awful like most Netflix adaptations, but I found myself laughing and appreciating the camerawork, the clothes, the colors, the acting etc. The way everything is colorful and vibrant while Wednesday is just colorless and unemotional makes Wednesday stick out so much from being so out of place. You almost can feel how much she dislikes almost everything. She's smart, witty, and honestly kind of scary. Catherine Zeta Jones made me a believer in her from her performance. From start to finish this was a easy and fun watch. It almost flew by too fast and now I want more." />
+
         <ReactionCard RevieName="trimblecali"  ReviewDate="3 December 2022" ReviewKeyword="I feel like I'm the minority here" ReviewContent="Don't get me wrong, Jenna Ortega's performance was absolutely fantastic. She captures Wednesday's essence perfectly. Pretty much everything else about the show falls flat for me. The plot really doesn't work for me. It reminds me of the Chilling Adventures of Sabrina and Riverdale. It doesn't feel creative or inventive at all and just doesn't work for me. The whole school for outsiders thing plus murder mystery just wasn't a hit in my opinion. I also wasn't impressed with the casting of Morticia and Gomez and their relationship with Wednesday. Overall, it feels very YA so maybe it's just meant for a younger crowd." />
-        </div>
 
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
         <ReactionCard RevieName="zaywhat"  ReviewDate="27 November 2022" ReviewKeyword="Jenna Ortega Kills It As Wednesday" ReviewContent="Loved the show. Didn't care much for Uncle Fester as he seemed like an unnecessary distraction. There were a few moments where her attitude felt tedious but overall, a perfect rendition of the wit, ability and fearlessness of the Wednesday Addams character. Jenna Ortega did a masterful job as the stoic young woman where slight nuances of facial expression were subtle but expressive moments of character development. I enjoyed all the performances and the story line was engaging enough. I remember watching the original Addams Family TV show and this in depth story on Wednesday was a worthy rendition of those characters and a lot of fun to watch." />
-        </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard  RevieName="marzy-83675"  ReviewDate="23 November 2022" ReviewKeyword="Unexpected" ReviewContent="I don't usually make reviews, part of the reason is that i'm bad at it.
+        <ReactionCard  RevieName="marzy-83675"  ReviewDate="23 November 2022" ReviewKeyword="Unexpected" ReviewContent="I don't usually make reviews, part of the reason is that i'm bad at it. But the last time i was so hooked on a Netflix series was Arcane and i felt like it was due, taking all 8 episodes in one go. No doubt that Jenna Ortega carries the show, but the show is supposed to be about Wednesday, so that is not necessarily a bad thing. This show won't be for everyone, especially fans of the original Addams Family universe, but for anyone who is just expecting an entertaining show, with a sprinkle of mystery and melancholic feel over it, then you'll enjoy it.Looking forward to a possible season 2." />
 
-        But the last time i was so hooked on a Netflix series was Arcane and i felt like it was due, taking all 8 episodes in one go.
-
-        No doubt that Jenna Ortega carries the show, but the show is supposed to be about Wednesday, so that is not necessarily a bad thing.
-
-        This show won't be for everyone, especially fans of the original Addams Family universe, but for anyone who is just expecting an entertaining show, with a sprinkle of mystery and melancholic feel over it, then you'll enjoy it.
-
-        Looking forward to a possible season 2." />
-        </div>
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
         <ReactionCard  RevieName="UniqueParticle"  ReviewDate="27 November 2022" ReviewKeyword="Jenna Ortega is exceptional so is the directing" ReviewContent="Perfectly morbid, superb acting throughout and smooth! I enjoy anything with Jenna Ortega is quite talented and she's great as Wednesday based on Adam's Family. Tim Burton is masterful at weird/intriguing characters that are excellent to watch. The bulk of the time I use other services, this is a perfect reason to use Netflix. I love that this is focused on young folks, anything bizarre and beautiful 4K quality colors. Quite surprise form Tim Burton a lot of his projects didn't have much horror, mostly Sci-Fi, adventure, and drama. Wednesday is a pleasant surprise after all the promotions I've seen I highly recommend it!" />
-        </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Idle_Hands08"  ReviewDate="23 November 2022" ReviewKeyword="Soooo Good...!" ReviewContent="Directed by Tim Burton... Music by Danny Elfan... The look of the frame, the acting and story all remind me of the two now classic 90s Adam's Family Feature Films... Wednesday was my favourite character in the films, especially the second one when she and Pugsley got sent to Summer Camp...
-
-        Christina Ricci in those films as Wednesday was floorless, and it was great to see her appear in this too. Ortega's turn as the main character was excellent she is quickly becoming a great actress. I think you need to give the series time to develop and remember that it's target audience is quite wide, I don't think it's meant to be too dark. Just like the 90s films it plays on the dark and morbid humour, but with the teen angst mixed in." />
-        </div>
+        <ReactionCard RevieName="Idle_Hands08"  ReviewDate="23 November 2022" ReviewKeyword="Soooo Good...!" ReviewContent="Directed by Tim Burton... Music by Danny Elfan... The look of the frame, the acting and story all remind me of the two now classic 90s Adam's Family Feature Films... Wednesday was my favourite character in the films, especially the second one when she and Pugsley got sent to Summer Camp... Christina Ricci in those films as Wednesday was floorless, and it was great to see her appear in this too. Ortega's turn as the main character was excellent she is quickly becoming a great actress. I think you need to give the series time to develop and remember that it's target audience is quite wide, I don't think it's meant to be too dark. Just like the 90s films it plays on the dark and morbid humour, but with the teen angst mixed in." />
       </div>
 
       <hr className='HRow'/>
