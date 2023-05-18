@@ -146,7 +146,7 @@ function HotstartMovie1() {
         <Keybtn Keywords="Snow"/>
         </div>
         <div className='ms-5 ps-5 mt-3 '>
-          <Link to="https://www.imdb.com/title/tt10919420/plotsummary/" className='PlotSummary'>Plot Summary</Link>
+          <Link to="https://www.imdb.com/title/tt5523010/plotsummary/" className='PlotSummary'>Plot Summary</Link>
         </div>
       </div>
 

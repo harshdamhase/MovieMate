@@ -69,8 +69,6 @@
 
 .ReactionCardDiv{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .WatchTrailerDiv{
@@ -118,6 +116,11 @@
 .StarCastText{
     text-decoration: none;
     color: aliceblue;
+}
+
+.NewsText{
+    text-decoration: none;
+    color: black;
 }
 
 .BacktoTop{

@@ -12,50 +12,50 @@ import DetailsNetflix from '../../Components/DetailsNetflix';
 import Footer from '../../Components/Footer';
 
 
-function HotstartMovie() {
+function HotstartMovie2() {
   return (
     <>
       <div id='NavBarDiv'>
         <NavbarComp/>
         <div className='Headline'>
           <font className='HotPosterTitle' >
-              Hotstar | The Nutcracker and the Four Realms
+              Hotstar | Haunted Mansion
           </font>
         </div>
         <div>
-          <MovieReviewCard ImgUrl="https://www.indiewire.com/wp-content/uploads/2018/10/1533732394498.jpeg?w=1920&h=1080&crop=1" />
+          <MovieReviewCard ImgUrl="https://bloody-disgusting.com/wp-content/uploads/2023/04/mansion-44.png" />
         </div>
       </div>
 
       <div className='row mt-2'>
         <div className='row PostDesc p-3'>
-          <img src='https://m.media-amazon.com/images/M/MV5BOTg1NDI1MjEyMl5BMl5BanBnXkFtZTgwOTA5MTgwNjM@._V1_.jpg' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
+          <img src='https://i.imgur.com/IYXFMHY.webp' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
           <font className='DescTitle col-lg-8 col-md-8 col-sm-8 col-xs-8 ms-3' >
             <h1 className='ms-2 PosterName'>
-            The Nutcracker and the Four Realms
+            Haunted Mansion
             </h1>
             <br/><br/>
             <span className='ms-5'>
               <SeasonBtn SeasonNum="Only 1 Part Available"/>
             </span>
             <h5 className='Desc mt-3 ms-5'>
-              <font className='ReleaseDateFont'>Release Date: 2 November 2018</font>
+              <font className='ReleaseDateFont'>Release Date: July 28, 2023</font>
               <br/><br/>
-              A young girl is transported into a magical world of gingerbread soldiers and an army of mice.
+              A single mom named Gabbie hires a tour guide, a psychic, a priest, and a historian to help exorcise their newly bought mansion; after discovering it is inhabited by ghosts.
             </h5>
             <div className='Genre col-lg-8 col-md-9 col-sm-9 col-xs-9 mt-5 '>
               <span className='ms-1 mb-3'>
-                <SeasonBtn SeasonNum="Adventure"/>
+                <SeasonBtn SeasonNum="Comedy"/>
               </span>
               <span className='ms-1'>
                 <SeasonBtn SeasonNum="Family"/>
               </span>
               <span className='ms-1'>
-                <SeasonBtn SeasonNum="Fantasy"/>
+                <SeasonBtn SeasonNum="Drama"/>
               </span>
-              {/* <span className='ms-1'>
-                <SeasonBtn SeasonNum="Thriller"/>
-              </span> */}
+              <span className='ms-1'>
+                <SeasonBtn SeasonNum="Horror"/>
+              </span>
             </div>
           </font>
         </div>
@@ -63,7 +63,7 @@ function HotstartMovie() {
 
       <div className='row WatchTrailerDiv'>
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
-        <Link to="https://youtu.be/BXfxLIuNJvw" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️</Link>
+        <Link to="https://youtu.be/AjLKTz81bj8" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️</Link>
         </div>
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
         <Link to="/BookTicket" className='WatchTrailer mt-3 ms-5'>Book Your Ticket 🎟️</Link>
@@ -82,17 +82,19 @@ function HotstartMovie() {
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Mackenzie_Foy_Cannes_2015.jpg/330px-Mackenzie_Foy_Cannes_2015.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Mackenzie_Foy' className='StarCastText'>Mackenzie Foy</a>} StarMovieName="Clara" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rosario_Dawson_SXSW_2022.jpg/330px-Rosario_Dawson_SXSW_2022.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Rosario_Dawson'className='StarCastText'>Rosario Dawson</a>} StarMovieName="Gabbie"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9"/>
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KeiraKnightleyByAndreaRaffin2011_%28cropped%29.jpg/330px-KeiraKnightleyByAndreaRaffin2011_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Keira_Knightley' className='StarCastText' >Keira Knightley</a>} StarMovieName="Sugar Plum" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Jamie_Lee_Curtis_%2841851191720%29_%28cropped%29.jpg/330px-Jamie_Lee_Curtis_%2841851191720%29_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Jamie_Lee_Curtis' className='StarCastText' >Jamie Lee Curtis</a> } StarMovieName="Madame Leota"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9"/>
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Morgan_Freeman_Deauville_2018.jpg/330px-Morgan_Freeman_Deauville_2018.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Morgan_Freeman' className='StarCastText'>Morgan Freeman</a>} StarMovieName="Drosselmeyer" className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Owen_Wilson_Cannes_2011.jpg/330px-Owen_Wilson_Cannes_2011.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Owen_Wilson' className='StarCastText' >Owen Wilson</a> } StarMovieName="Kent"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9"/>
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Helen_Mirren-2208_%28cropped%29.jpg/330px-Helen_Mirren-2208_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Helen_Mirren' className='StarCastText' >Helen Mirren</a>} StarMovieName="Mother Ginger" className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Keith_Stanfield_by_Gage_Skidmore.jpg/330px-Keith_Stanfield_by_Gage_Skidmore.jpg" StarName={<a href='https://en.wikipedia.org/wiki/LaKeith_Stanfield' className='StarCastText' >LaKeith Stanfield</a> } StarMovieName="Ben Matthias"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9"/>
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Ellie_bamber_2022_1.jpg/330px-Ellie_bamber_2022_1.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Ellie_Bamber' className='StarCastText'>Ellie Bamber</a>} StarMovieName="Louise" className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS24c7yT6zD8_B0ksbm-XHvTf4wF9rU0P2jN7Sn8iF-EM8S_qpT" StarName={<a href='https://www.imdb.com/name/nm2901078/' className='StarCastText' >Bryan McClure</a> } StarMovieName="The Headless Knight"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9"/>
 
-          <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BMTU5MjMxNjgzM15BMl5BanBnXkFtZTgwNjM5OTEzNjM@._V1_.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Misty_Copeland' className='StarCastText'>Misty Copeland</a>} StarMovieName="Ballerina Princess"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BNWVjYmMzY2YtZTNiYy00OGY4LWIxMDktYTY4MWFhMjg1ZDA3XkEyXkFqcGdeQXVyNjA5ODUzOTc@._V1_.jpg" StarName={<a href='https://www.imdb.com/name/nm7396726/' className='StarCastText' >Kamran Shaikh</a> } StarMovieName="Suited Man"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9"/>
+
+
         </div>
       </div>
 
@@ -100,32 +102,13 @@ function HotstartMovie() {
 
       <div className='row ReactionCardDiv ms-5'>
       <font className="CastName ms-5 mt-2 ps-5">
-          Reviews:
+          News:
         </font>
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-          <ReactionCard RevieName="crybabydollhouse" ReviewDate="25 September 2019" ReviewKeyword="Not everyone will like it, but I did" ReviewContent="A good movie in my opinion. I know not everyone will like it, and I know a lot of people hate it (is it just because it's live action?), but it has a beautiful atmosphere, the costumes are amazing, and I feel happy whenever I watch it. Not my favourite Disney movie, but it's not the worst." />
-        </div>
+          <ReactionCard  ReviewKeyword={<a className='NewsText' href='https://screenrant.com/haunted-mansion-movie-owen-wilson-ghosts-the-haunting/' >"Haunted Mansion Can Give Owen Wilson Revenge On Ghosts 24 Years Later"</a>} ReviewContent="24 years after The Haunting, Owen Wilson can defeat ghosts in Haunted Mansion. Eddie Murphy starred in 2003's The Haunted Mansion, based on the ride at the Disney parks. According to the trailer, the reboot follows a similar concept of a guest arriving at the mansion and being greeted by its many ghostly inhabitants. However, most characters are different from the first film other than Madame Leota, who Jennifer Tilly portrayed in the 2003 film, and Jamie Lee Curtis portrays in the reboot." />
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard RevieName="mindyfrostbite"  ReviewDate="1 June 2019" ReviewKeyword="Delightfully weird and wonderful" ReviewContent="It is NOT the story of the girl in the original Nutcracker story; rather, it is the story of one of her daughters. If people go into this movie expecting the original Nutcracker, they will likely end up disappointed; head into it with an open mind and the knowledge that this is a different story altogether, and you might just enjoy it as much as I did!" />
-        </div>
+        <ReactionCard  ReviewKeyword={<a className='NewsText' href='https://www.joblo.com/haunted-mansion-director-has-beef-with-the-2003-version/' >"Haunted Mansion director has “beef” with the 2003 version"</a>} ReviewContent="Speaking with Entertainment Weekly, Justin Simien said he has just as many issues with the 2003's The Haunted Mansion as most others. “I had a little bit of beef with the first film, because the first thing you've got to give the kids is the candy of the mansion that they know and love,” adding he “looked at [the film] a lot, mostly to see how easy it would be to go awry in certain spots.” But Simien did backtrack a bit, saying, “Not to dunk on the movie…It's a movie of its time, and it's also a movie that, frankly, a lot of..." />
 
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard RevieName="VintageSoul56"  ReviewDate="17 November 2018" ReviewKeyword="Stunningly Spectacular" ReviewContent="I saw this today. I understood the story just fine. Apparently, it was a mix of the ballet and a short story. I loved every minute of it. I was transformed to a fantasy world that I would like to see! The sets, costumes, hair, dancing, CGI was absolutely brilliant. I recommend this to anyone, especially the little ones. They will be mesmerized. Thrilling comes to mind." />
-        </div>
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard  RevieName="homercol"  ReviewDate="2 June 2019" ReviewKeyword="I finally managed to watch it and love it" ReviewContent="I have a hard time understanding people's hate of this movie. They did a fantastic job of blending the music, ballet and storyline together.... and for those calling this slow and boring, go see the actual ballet. I have... I truly appreciate the music and they way this was done.." />
-        </div>
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard  RevieName="consumer-netherlands"  ReviewDate="3 November 2018" ReviewKeyword="one of the most boring movie from Disney Studios" ReviewContent="One of the most boring movie from Disney Studios. Give impression of a low budget, cheap movie made in hurry I was watching the movie with my children, but they told me they were very disappointed. The film is very boring. A complete weekend evening wasted. boring story, predictable, not funny," />
-        </div>
-
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="calisparkz2"  ReviewDate="4 November 2018" ReviewKeyword="Worst Disney movie of all time" ReviewContent="Do not believe all these paid for reviews that are glowing, giving 9 and 10 stars, this movie was terrible, storyline all over the place, mediocre acting all around special effects like a high school play! We couldn't wait to get out of there! Do yourself a favor and watch the trailer, all the best bits (and that's a stretch) were all there!" />
-        </div>
+        <ReactionCard  ReviewKeyword={<a className='NewsText' href='https://www.cbr.com/haunted-mansion-reboot-avoid-eddie-murphy-movie-mistakes/' >"Haunted Mansion Reboot Looked to Eddie Murphy's Version to Avoid Its Mistakes"</a> }ReviewContent="Haunted Mansion director Justin Simien prepared for the reboot by avoiding the mistakes of the Eddie Murphy version from 2003. In an interview with Entertainment Weekly, Simien explained how he wanted to differentiate his take on the classic Disney ride by rewatching the notorious flop that starred Murphy and was directed by The Lion King's Rob Minkoff. Though the filmmaker saw positives in the original film, Simien had issues similar to the ones that critics raised in 2003." />
       </div>
 
       <hr className='HRow'/>
@@ -135,18 +118,18 @@ function HotstartMovie() {
           StoryLine:
         </div>
         <div className=' ms-5 ps-5 col-lg-10 col-md-8 col-sm-8 col-xs-8 Storyline'>
-        All Clara (Mackenzie Foy) wants is a one-of-a-kind key that will unlock a box that holds a priceless gift from her late mother. A golden thread presented to her at godfather Drosselmeyer's (Morgan Freeman's) annual holiday party, leads her to the coveted key which promptly disappears into a strange and mysterious parallel world. It's there that Clara encounters a soldier named Phillip (Jayden Fowora-Knight), a gang of mice, and the regents who preside over three Realms: Land of Snowflakes, Land of Flowers, and Land of Sweets. Clara and Phillip must brave the ominous Fourth Realm, home to the tyrant Mother Ginger (Dame Helen Mirren), to retrieve Clara's key and hopefully return harmony to the unstable world.
+        A single mom named Gabbie hires a tour guide, a psychic, a priest, and a historian to help exorcise their newly bought mansion; after discovering it is inhabited by ghosts.
         </div>
         <div className='row ms-5 ps-5 mt-3'>
-        <Keybtn Keywords="Female Villain"/>
-        <Keybtn Keywords="Female Protagonist"/>
-        <Keybtn Keywords="Fairy Tale"/>
-        <Keybtn Keywords="Fairy"/>
-        <Keybtn Keywords="Magical Object"/>
-        <Keybtn Keywords="Snow"/>
+        <Keybtn Keywords="Based on Theme Park Attraction"/>
+        <Keybtn Keywords="Curse"/>
+        <Keybtn Keywords="Children"/>
+        <Keybtn Keywords="Reboot"/>
+        <Keybtn Keywords="Mansion"/>
+        <Keybtn Keywords="Disney"/>
         </div>
         <div className='ms-5 ps-5 mt-3 '>
-          <Link to="https://www.imdb.com/title/tt10919420/plotsummary/" className='PlotSummary'>Plot Summary</Link>
+          <Link to="https://www.imdb.com/title/tt1695843/plotsummary/" className='PlotSummary'>Plot Summary</Link>
         </div>
       </div>
 
@@ -156,12 +139,12 @@ function HotstartMovie() {
         <div className="CastName ms-5 ps-5">
           Details:
         </div>
-        <DetailsNetflix DetailsInfo="Release Date:" Details="November 2, 2018 (United States)"/>
-        <DetailsNetflix DetailsInfo="Country of Origin:" Details="Canada, United States"/>
-        <DetailsNetflix DetailsInfo="Languages:" Details="English, French"/>
-        <DetailsNetflix DetailsInfo="Also known as:" Details="Kẹp Hạt Dẻ và Bốn Vương Quốc"/>
-        <DetailsNetflix DetailsInfo="Filming locations:" Details="South Kensington, London, England, UK(Exterior shot)"/>
-        <DetailsNetflix DetailsInfo="Production company:" Details="Walt Disney Pictures, Canadian Film or Video Production Services Tax Credit (PSTC), Entertainment One"/>
+        <DetailsNetflix DetailsInfo="Release Date:" Details="NJuly 28, 2023 (United States)"/>
+        <DetailsNetflix DetailsInfo="Country of Origin:" Details="United States"/>
+        <DetailsNetflix DetailsInfo="Languages:" Details="English, French, Spanish"/>
+        <DetailsNetflix DetailsInfo="Also known as:" Details="Dinh Thự Ma Ám"/>
+        <DetailsNetflix DetailsInfo="Filming locations:" Details="New Orleans, Louisiana, USA"/>
+        <DetailsNetflix DetailsInfo="Production company:" Details="Walt Disney Productions, Rideback, Walt Disney Pictures"/>
       </div>
 
       <div>
