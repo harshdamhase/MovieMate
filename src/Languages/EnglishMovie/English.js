@@ -110,18 +110,34 @@ function English(props) {
             <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="Apostle" timeDuration="1 hrs 40min" filmType="Horror"/>
             </div>
     
-            <div class="col-md-3">
-            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="The silence" timeDuration="1 hrs 30min" filmType="Horror"/>
+ <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Smile_%282022_film%29.jpg/220px-Smile_%282022_film%29.jpg" filmName="smile" timeDuration="1 hrs 30min" filmType="Horror"/>
             </div>
     
             <div class="col-md-3">
-            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="CARGo" timeDuration="1 hrs 30min" filmType="Horror"/>
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/X_%282022_film%29.jpeg/220px-X_%282022_film%29.jpeg" filmName="X 2022" timeDuration="1 hrs 30min" filmType="Horror"/>
             </div>
     
             <div class="col-md-3">
-            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="The silence" timeDuration="1 hrs 30min" filmType="Horror"/>
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/3/34/TheNunPoster.jpg" filmName="The nun" timeDuration="1 hrs 24min" filmType="Horror"/>
             </div>
-    
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/American_Psycho.png/220px-American_Psycho.png" filmName="American Psycho" timeDuration="1 hrs 37min" filmType="Horror"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/9/95/Train_to_Busan.jpg" filmName="Train to busan" timeDuration="1 hrs 55min" filmType="Horror"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/a/a3/Get_Out_poster.png" filmName="get out" timeDuration="1 hrs 43min" filmType="Horror"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Peninsula_poster.jpg/220px-Peninsula_poster.jpg" filmName="Peninsula" timeDuration="1 hrs 24min" filmType="Horror"/>
+            </div>
+
             </div>
 
             </section>
