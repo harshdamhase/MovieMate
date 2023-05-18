@@ -11,8 +11,8 @@ function TamilTrailer({Thrillerimg,ThrillerTitle,ThrillerDesc }) {
     <p class="card-text">{ThrillerDesc}</p>
     <button class="btn btn-primary">Know More</button>
   </div>
-</div>
-    </>
+</div>  
+    </> 
   )
 }
 

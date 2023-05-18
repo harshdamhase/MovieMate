@@ -1,24 +1,6 @@
-.img-box {
-    margin-left: 20px;
-   
-}
 
-.img {
-    padding-top: 40px;
-    padding-left: 20px;
-    height: 420px;
-    border-radius: 20px 20px 20px 20px;
-    
-    
-}
-.my-3{
-color: goldenrod;
-margin-left: 90px;
-margin-bottom: 10px;
-
-}
-.row{
- margin-bottom: 40px;
- 
-
+.cardsDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
