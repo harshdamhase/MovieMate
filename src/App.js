@@ -12,6 +12,7 @@ import HotstartMovie1 from './Ott/Hotstar/HotstartMovie1';
 import HotstarMovie2 from './Ott/Hotstar/HotstarMovie2';
 import AmazonMovie1 from './Ott/Amazon/AmazonMovie1';
 import AmazonMovie2 from './Ott/Amazon/AmazonMovie2';
+import Ticket from './Other/TicketBooking/Ticket';
 
 
 
@@ -31,6 +32,7 @@ function App() {
       <Route path="/HotstarMovie2" element={<HotstarMovie2/>}/>
       <Route path="/AmazonMovie1" element={<AmazonMovie1/>}/>
       <Route path="/AmazonMovie2" element={<AmazonMovie2/>}/>
+      <Route path="/Ticket" element ={<Ticket/>}/>
     </Routes>
     </BrowserRouter>
     </>
