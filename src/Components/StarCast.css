@@ -35,3 +35,19 @@
     font-style: bold;
     text-align: center;
 }
+
+.Thrillerimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ThrillerDesc{
+    text-align: justify;
+}
+
+.ThrillerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

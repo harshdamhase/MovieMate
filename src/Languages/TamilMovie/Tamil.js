@@ -11,8 +11,6 @@ import TamilTrailer from '../../Components/TamilTrailer';
 
 
 
-
-
 function Tamil() {
   return (
     <>
@@ -63,6 +61,25 @@ function Tamil() {
       </div>
 
       <hr className='HRow'/>
+
+      <div id='Comedy'>
+        <p className='CastName ms-5'>
+          Comedy Movies:
+        </p>
+        <div className='row TamilcardsDiv'>
+          <TamilTrailer Thrillerimg="https://assets.gadgets360cdn.com/pricee/assets/product/202305/Good-Night_1683788530.jpg" ThrillerTitle="Good Night" ThrillerDesc="Good Night is an example of how feel-good films can be made with simpler-yet-effective conflict. It's definitely worth watching." />
+          <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMWM5M2Q0MzktMjBiZC00MmMxLWE5NjktNzRlZGE4ZDk5OGJjXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_FMjpg_UX1000_.jpg" ThrillerTitle="Deiva Machan" ThrillerDesc="A youngster from a small town believes that his only responsibility in life is to find a suitable groom for his sister. However, when things fall into place." />
+          <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMGMwM2ZjNDEtNDE3Mi00ODg5LTk3ZjMtMTlmYzA3NjAwZTY4XkEyXkFqcGdeQXVyMTY0MDk0NjE3._V1_FMjpg_UX1000_.jpg" ThrillerTitle="Soppana Sundari" ThrillerDesc="A young woman from a lower-middle class family wins a car in a lucky draw unaware of the trouble it's going to bring her." />
+          <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMzY0ZThiNTctZmE4My00Y2EwLTg2YWUtMzNiY2U3Y2NjY2E0XkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg" ThrillerTitle="Ripupbury" ThrillerDesc="Three young men set out to capture a ghost believed to be a casteist. Will they succeed in trapping it or fall victim to its wrath like so many others in the village?" />
+          <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMmVjNzRhMTctYmU4Ni00ZGMxLTkzNTQtNDg3MjRiMTI1NjEyXkEyXkFqcGdeQXVyNTMzMTE2NTg@._V1_.jpg" ThrillerTitle="Kudimahaan" ThrillerDesc="A man, whose job is to help banks with the ATM replenishment process, gets entangled in an issue due to a rare health syndrome. Can he resolve this and win his job back?" />
+          <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BYTU4MjlmYTUtMmFjNy00NzNiLTg4NmYtN2VlMWQ0YTBiZGRmXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_.jpg" ThrillerTitle="Ghosty" ThrillerDesc="Ghosty is another Tamil film that fails to do justice to the horror-comedy genre, and it's high time the industry realises the need for fresh talent to revive the genre." />
+          <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMDQ2MzBkNjItOWRhYy00YTc1LWEzMmUtNjliMmY3MzczZTM0XkEyXkFqcGdeQXVyMTU3Nzk4NjM3._V1_FMjpg_UX1000_.jpg" ThrillerTitle="Kodai" ThrillerDesc="A boy in a village in southern Tamil Nadu hopes to get a cricket bat by collecting trump cards. How does this obsession impact his life and that of those around him?" />
+          <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMDMzZjIyZGQtMzZlYi00OWRlLWI5M2ItY2U1ZDczM2YwYThiXkEyXkFqcGdeQXVyMTIyNzY0NTMx._V1_.jpg" ThrillerTitle="Coffee With Kadhal" ThrillerDesc="Coffee With Kadhal is a Tamil movie released on 4 Nov, 2022. The movie is directed by Sundar C and featured Jiiva, Jai, Srikanth and Yogi Babu as lead characters." />
+          <TamilTrailer Thrillerimg="https://i.ytimg.com/vi/2i6oL2Xx32Y/movieposter_en.jpg" ThrillerTitle="Aattral" ThrillerDesc="Aattral is a Tamil movie released on 14 Oct, 2022. The movie is directed by K.L Kannan and featured Shrita Rao, Vidharth, Charlie and Vicky as lead characters. Other popular actor who was roped in for Aattral is Vidyu Raman." />
+        </div>
+      </div>
+
+
 
 
     </>
