@@ -1,0 +1,11 @@
+.card-img-effect
+{
+    overflow: hidden;
+}
+.card-img-effect img
+{
+    transition: all 1.3s ease;
+}
+.card-img-effect:hover img{
+    transform: scale(1.2);
+}
