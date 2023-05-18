@@ -15,6 +15,14 @@ import vid9 from '../src/video/vid9.mp4';
 import vid10 from '../src/video/vid10.mp4';
 import vid11 from '../src/video/vid11.mp4';
 import vid12 from '../src/video/vid12.mp4';
+
+import vid13 from '../src/video/vid13.mp4';
+import vid14 from '../src/video/vid14.mp4';
+import vid15 from '../src/video/vid15.mp4';
+import vid16 from '../src/video/vid16.mp4';
+import vid17 from '../src/video/vid17.mp4';
+import vid18 from '../src/video/vid18.mp4';
+import vid19 from '../src/video/vid19.mp4';
 import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
@@ -281,8 +289,43 @@ function Hompage() {
           Title="Upside Down"
           link="" />
 
-        <ReviewCard video={vid7}
-          Title="Fate:The wing Saga"
+        <ReviewCard video={vid13}
+          Title="Godmothered"
+          link="" />
+
+      </div>
+
+        
+      <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
+        <div className='also-likee'>
+         <img className='netflix-logo center'  src='https://assets.stickpng.com/images/62b1e88e56b6848f8bec903b.png'/> 
+        </div>
+    </div>
+
+                
+      <div className='row mt-5 MagicDiv' >  
+          <ReviewCard video={vid14}
+          Title="The Family Man "
+          link=""/>
+
+          <ReviewCard video={vid15}
+          Title=" Sonic The Hedgehog (2020)"
+          link="" />
+
+          <ReviewCard video={vid16}
+          Title="Just Add Magic_ Mystery City"
+          link=""/>
+          
+          <ReviewCard video={vid17}
+          Title= "Shaakuntalam  "
+          link= "" />
+
+         <ReviewCard video={vid18}
+          Title="Cinderella"
+          link="" />
+
+        <ReviewCard video={vid19}
+          Title="Clifford the Big Red Dog"
           link="" />
 
       </div>
