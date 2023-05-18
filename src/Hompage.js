@@ -26,7 +26,8 @@ import vid19 from '../src/video/vid19.mp4';
 import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import Subscribe from '../src/Components/Footer';
 
 function Hompage() {
   return (
@@ -78,22 +79,22 @@ function Hompage() {
         <font className="also-like">
          More LIke This
         </font>
-        <TrailerCard ImgUrl="https://www.amadorvalleytoday.org/wp-content/uploads/2023/04/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_FMjpg_UX1000_-609x900.jpg" Rating="7.8/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Mario Brows" link="https://youtu.be/TnGl01FkMMo" WatchTriler="Watch Traile" className="TrailerCard" />
+        <TrailerCard ImgUrl="https://www.amadorvalleytoday.org/wp-content/uploads/2023/04/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_FMjpg_UX1000_-609x900.jpg" Rating="7.8/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Mario Brows" link="https://youtu.be/TnGl01FkMMo" WatchTriler="Watch Trailer" className="TrailerCard" />
 
         <TrailerCard ImgUrl="https://m.media-amazon.com/images/M/MV5BMGIxMmJjZDctOGQwOC00OTNkLWJiNmItN2M3M2M2NmExYWQ1XkEyXkFqcGdeQXVyNjkwOTg4MTA@._V1_.jpg" Rating="7.8/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Fulrani" link="https://youtu.be/p-au4yC6OhY" WatchTriler="Watch Trailer" className="TrailerCard" />
 
         <TrailerCard ImgUrl="https://assetscdn1.paytm.com/images/cinema/adipurush2-min-c8528ea0-e671-11ed-82e8-cf24b6293ec4.jpg" Rating="6.0/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Adipurush" link="https://youtu.be/scNmYjoR-qM" WatchTriler="Watch Trailrt" className="TrailerCard" />
 
-        <TrailerCard ImgUrl="https://static.toiimg.com/thumb/msid-96573171,width-219,height-317,imgsize-19520/96573171.jpg" Rating="8.8/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Ps-2" link="" WatchTriler="Watch Traile" className="TrailerCard" />
+        <TrailerCard ImgUrl="https://static.toiimg.com/thumb/msid-96573171,width-219,height-317,imgsize-19520/96573171.jpg" Rating="8.8/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Ps-2" link="" WatchTriler="Watch Trailer" className="TrailerCard" />
 
-        <TrailerCard ImgUrl="https://lumiere-a.akamaihd.net/v1/images/p_thelittlemermaid_2023_final_796_94759fcc.jpeg?region=0%2C0%2C540%2C810" Rating="7.1/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Little Mermaid" link="https://youtu.be/kpGo2_d3oYE" WatchTriler="Watch Traile" className="TrailerCard" />
+        <TrailerCard ImgUrl="https://lumiere-a.akamaihd.net/v1/images/p_thelittlemermaid_2023_final_796_94759fcc.jpeg?region=0%2C0%2C540%2C810" Rating="7.1/10" Starimg="https://cdn-icons-png.flaticon.com/128/9796/9796698.png" title="Little Mermaid" link="https://youtu.be/kpGo2_d3oYE" WatchTriler="Watch Trailer" className="TrailerCard" />
 
         
     </div>
 
       <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
       <div className='also-likee mb-3 '>
-        Recommended Hindi Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
+        Recommended Hindi Movies  <span ><Link className='see-More' to = "/Hindi"> See All › </Link></span>
       </div>
       <div className='row poster-container'>
         <div className='img-box'>
@@ -138,7 +139,7 @@ function Hompage() {
 
     <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
         <div className='also-likee mb-3  '>
-          Recommended Marathi Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
+          Recommended Marathi Movies  <span ><Link className='see-More' to = "/Marathi"> See All › </Link></span>
         </div>
        <div className='row poster-container '>
       <div className='img-box'>
@@ -161,7 +162,7 @@ function Hompage() {
 
    <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
         <div className='also-likee mb-3  '>
-          Recommended Tamil Movies  <span ><Link className='see-More' to = "/English"> See All › </Link></span>
+          Recommended Tamil Movies  <span ><Link className='see-More' to = "/Tamil"> See All › </Link></span>
         </div>
        <div className='row poster-container '>
       <div className='img-box'>
@@ -275,11 +276,11 @@ function Hompage() {
 
           <ReviewCard video={vid9}
           Title=" The Nutcracker and the Four Realms "
-          link="" />
+          link="/HotstarMovie2" />
 
           <ReviewCard video={vid10}
           Title="Haunted Mansion"
-          link=""/>
+          link="/HotstarMovie2"/>
           
           <ReviewCard video={vid11}
           Title= "Disenchanted "
@@ -297,7 +298,7 @@ function Hompage() {
 
         
       <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
-        <div className='also-likee'>
+        <div className='NetLogoDiv'>
          <img className='netflix-logo center'  src='https://assets.stickpng.com/images/62b1e88e56b6848f8bec903b.png'/> 
         </div>
     </div>
@@ -306,11 +307,11 @@ function Hompage() {
       <div className='row mt-5 MagicDiv' >  
           <ReviewCard video={vid14}
           Title="The Family Man "
-          link=""/>
+          link="AmazonMovie1"/>
 
           <ReviewCard video={vid15}
           Title=" Sonic The Hedgehog (2020)"
-          link="" />
+          link="AmazonMovie2"/>
 
           <ReviewCard video={vid16}
           Title="Just Add Magic_ Mystery City"
@@ -330,7 +331,7 @@ function Hompage() {
 
       </div>
 
-        
+        <Subscribe/>
      
 
          
