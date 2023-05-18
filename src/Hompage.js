@@ -222,7 +222,7 @@ function Hompage() {
     </div>
 
     <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
-        <div className='also-likee'>
+        <div className='NetLogoDiv'>
          <img className='netflix-logo center'  src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png'/> 
         </div>
     </div>
@@ -255,7 +255,7 @@ function Hompage() {
 
 
       <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
-        <div className='also-likee center '>
+        <div className='NetLogoDiv '>
          <img className='hotstar-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Disney%2B_Hotstar_logo.svg/2560px-Disney%2B_Hotstar_logo.svg.png'/>
         </div>
     </div>
