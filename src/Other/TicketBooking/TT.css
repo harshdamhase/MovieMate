@@ -1,0 +1,14 @@
+.container-form{
+    height:600px;
+    width: 700px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+}
+.input-box{
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
