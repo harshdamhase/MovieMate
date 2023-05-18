@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import NavbarComp from '../../Components/NavbarComp';
 import './English.css'
 import img1 from '../../images/poster-1.jpg'
@@ -7,7 +7,9 @@ import img2 from '../../images/poster-2.jpg'
 import img3 from '../../images/poster-3.png'
 import Carousel from 'react-bootstrap/Carousel'
 import EnglishMovieCard from '../../Components/EnglishMovieCard';
-
+import Footer from '../../Components/Footer';
+import { NavLink } from 'react-bootstrap';
+import { useState } from 'react';
 
 function English(props) {
   return (
@@ -39,8 +41,7 @@ function English(props) {
           <Carousel.Item>
             <img style={{ height: '350px' }}
               className="d-block w-100 carousel-container"
-              src={img3}
-              alt="Third slide"
+              src={img3} alt="Third slide"
             />
             <Carousel.Caption>
               <h3>Latest Thriller Movies</h3>
@@ -55,11 +56,11 @@ function English(props) {
         
  
         <div class="col-md-3" >
-            <EnglishMovieCard imgUrl="https://www.themanual.com/wp-content/uploads/sites/9/2021/12/4ldpbxicygkkr8fghgjklphrfuc.jpg?p=1" filmName="Dumb-Dumber" timeDuration="1hrs 35mins" filmType="Comedy"/>
-            </div>
+            <EnglishMovieCard imgUrl="https://www.themanual.com/wp-content/uploads/sites/9/2021/12/4ldpbxicygkkr8fghgjklphrfuc.jpg?p=1" filmName="Dumb-Dumber" timeDuration="1hrs 35mins" filmType="Comedy" />
+             </div>
 
             <div class="col-md-3">
-            <EnglishMovieCard imgUrl="https://imgix.ranker.com/node_img/3140/62793346/original/arthur-films-photo-1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&crop=faces&h=125&w=125" filmName="arthur" timeDuration="1hrs 40mins" filmType="comedy-romentic"/>
+            <EnglishMovieCard imgUrl="https://imgix.ranker.com/node_img/3140/62793346/original/arthur-films-photo-1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&crop=faces&h=125&w=125" filmName="arthur" timeDuration="1hrs 40mins" filmType="comedy-romentic" />
             </div>
 
             <div class="col-md-3">
@@ -87,11 +88,45 @@ function English(props) {
             <EnglishMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BZDQyODUwM2MtNzA0YS00ZjdmLTgzMjItZWRjN2YyYWE5ZTNjXkEyXkFqcGdeQXVyMTI2MzY1MjM1._V1_.jpg" filmName="Minions: The Rise of Gru" timeDuration="1 hrs 30min" filmType="comedy"/>
             </div>
 
-      </div>
-      </section>
-    </div>
+       <h2 className="my-3">Most Popular Horror Movies</h2>
+     
+      <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/The_Invitation_%282022_film%29_poster.jpg/220px-The_Invitation_%282022_film%29_poster.jpg" filmName="The Invitation" timeDuration="1 hrs 30min" filmType="Horror"/>
+            </div>
 
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/56/Creep_%282014_film%29_poster.jpg" filmName="Creep" timeDuration="1 hrs 17min" filmType="Horror"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/9/9b/Ouija_two_xxlg.jpeg" filmName="Ouija: Origin of Evil" timeDuration="1 hrs 34min" filmType="Horror"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/1/18/Under_the_Shadow_%28poster%29.jpg" filmName="under the shadow" timeDuration="1 hrs 24min" filmType="Horror"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="Apostle" timeDuration="1 hrs 40min" filmType="Horror"/>
+            </div>
+    
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="The silence" timeDuration="1 hrs 30min" filmType="Horror"/>
+            </div>
+    
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="CARGo" timeDuration="1 hrs 30min" filmType="Horror"/>
+            </div>
+    
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/5c/Apostle_poster.jpg" filmName="The silence" timeDuration="1 hrs 30min" filmType="Horror"/>
+            </div>
+    
+            </div>
+
+            </section>
+
+      </div>
   )
 }
-
 export default English;
