@@ -48,6 +48,16 @@ function English(){
           </Carousel.Item>
         </Carousel>
 
+        <Carousel.Item>
+            <img style={{ height: '350px' }}
+              className='d-block w-100 carousel-container'
+              src={img1}
+              alt='forth slid' />
+            <Carousel.Caption>
+              <h3>Latest Action Movies</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+
       </div>
       <section class="features" >
         <h2 className="my-3">Most Popular Comedy Movies</h2>

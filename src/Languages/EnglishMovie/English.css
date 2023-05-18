@@ -1,19 +1,24 @@
 .img-box {
     margin-left: 20px;
+   
 }
 
 .img {
-    padding-top: 20px;
-    padding-left: 10px;
-    height: 380px;
-    border-radius: 10px 10px 10px 10px;
+    padding-top: 40px;
+    padding-left: 20px;
+    height: 420px;
+    border-radius: 20px 20px 20px 20px;
+    
     
 }
 .my-3{
 color: goldenrod;
 margin-left: 90px;
 margin-bottom: 10px;
+
 }
 .row{
- margin-bottom: 10px;
+ margin-bottom: 40px;
+ 
+
 }
