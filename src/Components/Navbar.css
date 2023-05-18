@@ -153,5 +153,27 @@ color: goldenrod;
     width: max-content;
     height:300;
     width: 300px;
+    margin-right: 220px;
     
 }
+.trailer-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ReviewTitle{
+    color: #282A3A;
+}
+.netflix-name {
+      font-size: 20px;
+      
+}
+
+.trailer-text{
+color:black;
+}
+
+
+
+

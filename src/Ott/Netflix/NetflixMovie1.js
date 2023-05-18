@@ -2,7 +2,6 @@ import React from 'react'
 import "./Netflix.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link} from 'react-router-dom';
-import "./Netflix.css"
 import NavbarComp from '../../Components/NavbarComp'
 import MovieReviewCard from '../../Components/MovieReviewCard';
 import SeasonBtn from '../../Components/SeasonBtn';

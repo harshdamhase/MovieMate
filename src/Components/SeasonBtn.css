@@ -43,3 +43,9 @@
 .StarName{
     color: aliceblue;
 }
+
+.Thrillerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -107,13 +107,12 @@
 .card-title{
     text-align: center;
 }
+
 .see-More{
     text-decoration: none;
     color: goldenrod;
     font-size: 1.2rem;
      margin-left: 650px;
-
-
 }
 
 .CarouselDiv{
@@ -122,5 +121,30 @@
     justify-content: center;
 }
 
+.MagicDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.video-box{
+   margin: 13px; 
+   margin: 130px;
+}
+
+.netflix-logo{
+    height:70px;
+    margin-right: 120px;
+    
+}
+.hotstar-logo{
+    height: 90px;
+
+}
+
+.NetLogoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 

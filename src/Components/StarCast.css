@@ -13,3 +13,25 @@
 .Photos{
     display: flex;
 }
+
+.TamilCarouselDiv{
+    height: auto;
+    border: 5px solid #282A3A;
+}
+
+.Carouselimg{
+    height: max-content;
+}
+
+.Tamilcardpic{
+    border: 2px #282A3A solid;
+    border-radius: 15px;
+}
+
+.Titlehead{
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-style: bold;
+    text-align: center;
+}
