@@ -18,7 +18,7 @@ function NetflixMovie1() {
       <div id='NavBarDiv'>
         <NavbarComp/>
         <div className='Headline'>
-          <font className='PosterTitle' >
+          <font className='NetPosterTitle' >
               Netflix | Squid Game
           </font>
         </div>
