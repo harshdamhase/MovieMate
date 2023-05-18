@@ -85,7 +85,23 @@ function English(props) {
 
 
             <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://timesofindia.indiatimes.com/photo/62017358.cms" filmName="Fighting wih family" timeDuration="1 hrs 30min" filmType="comedy"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/52/1514482013-the-big-sick-movie-1.jpg?resize=480:*" filmName="The bigsic" timeDuration="1 hrs 45min" filmType="Romentic-comedy"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://www.scrolldroll.com/wp-content/uploads/2022/10/the-lost-city-english-comedy-movies-of-2022-scaled.jpg" filmName="the lost-city" timeDuration="1 hrs 35min" filmType="comedy"/>
+            </div>
+
+            <div class="col-md-3">
             <EnglishMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BZDQyODUwM2MtNzA0YS00ZjdmLTgzMjItZWRjN2YyYWE5ZTNjXkEyXkFqcGdeQXVyMTI2MzY1MjM1._V1_.jpg" filmName="Minions: The Rise of Gru" timeDuration="1 hrs 30min" filmType="comedy"/>
+            </div>
+
+            <div class="col-md-3">
+            <EnglishMovieCard imgUrl="https://files.delhievents.com/images/events/2016/july/Bad-Moms-Movie-Poster.jpg" filmName="Bad moms" timeDuration="1 hrs 25min" filmType="comedy"/>
             </div>
 
        <h2 className="my-3">Most Popular Horror Movies</h2>
