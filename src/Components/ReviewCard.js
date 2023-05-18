@@ -1,9 +1,9 @@
 import './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import vid1 from '../video/vid1.mp4';
-import vid2 from '../video/vid2.mp4';
-import React from 'react'
 
+import React from 'react'
+import {Link} from 'react-router-dom';
 function ReviewCard({video,Title,link}) {
   return (
   <>
@@ -14,8 +14,9 @@ function ReviewCard({video,Title,link}) {
     
     </video>
    
-    <p class="card-text">{Title}</p>
-    <a href={link} class="btn btn-primary trailer-btn ">Go somewhere</a>
+    <p class="card-text netflix-name">{Title}</p>
+    {/* <a href={link} class="btn btn-primary trailer-btn ">Go somewhere</a> */}
+    <Link className='btn btn-primary trailer-btn' to = {link}> Explore More </Link> 
   </div>
 </div>
 
