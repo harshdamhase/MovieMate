@@ -4,9 +4,9 @@ import "./StarCast.css"
 function TamilTrailer({Thrillerimg,ThrillerTitle,ThrillerDesc }) {
   return (
     <>
-      <div class="card col-lg-3 col-md-2 col-sm-4 col-xs-4 m-4 Tamilcardpic">
+      <div class="card col-lg-3 col-md-2 col-sm-5 col-xs-5 m-4 Tamilcardpic">
   <div className='Thrillerimg'>
-  <img src={Thrillerimg} class="card-img-top mt-2" alt="..."/>
+  <img src={Thrillerimg} class="card-img-top mt-2 img-fluid" alt="..."/>
   </div>
   <div class="card-body ">
     <h5 class="card-title">{ThrillerTitle}</h5>

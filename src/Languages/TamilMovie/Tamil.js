@@ -7,6 +7,7 @@ import img2 from "../TamilMovie/Images/lidsa.jpg";
 import img3 from "../TamilMovie/Images/patro.webp";
 import TamilCarousel from '../../Components/TamilCarousel';
 import "./Tamil.css";
+import Footer from '../../Components/Footer';
 import TamilTrailer from '../../Components/TamilTrailer';
 
 
@@ -97,10 +98,9 @@ function Tamil() {
           <TamilTrailer Thrillerimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs4CqKzOUHjhp0S1yuM90s1FgEAUub1IdLzc7xneF1miJVdA7o" ThrillerTitle="Kanchana" ThrillerDesc="Raghava is a typical jobless youth who spends his days playing cricket with friends. Raghava and his friends switch to an abandoned ground that is supposedly haunted to play cricket." />
         </div>
       </div>
-
-
-
-
+      <div>
+        <Footer/>
+      </div>
     </>
   )
 }
