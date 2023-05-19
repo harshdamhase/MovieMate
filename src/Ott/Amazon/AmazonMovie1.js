@@ -6,7 +6,7 @@ import NavbarComp from '../../Components/NavbarComp'
 import MovieReviewCard from '../../Components/MovieReviewCard';
 import SeasonBtn from '../../Components/SeasonBtn';
 import StarCast from '../../Components/StarCast';
-import ReactionCard from '../../Components/ReactionCard';
+import EpisodeCard from '../../Components/EpisodeCard';
 import Keybtn from '../../Components/Keybtn';
 import DetailsNetflix from '../../Components/DetailsNetflix';
 import Footer from '../../Components/Footer';
@@ -99,49 +99,49 @@ function AmazonMovie1() {
 
       <hr className='HRow'/>
 
-      <div className='row ReactionCardDiv ms-5'>
+      <div className='row EpisodeCardDiv ms-5'>
       <font className="CastName ms-5 mt-2 ps-5">
           10 EPISODES
         </font>
         <div >
-          <ReactionCard RevieName="Season-1 Episode-1" ReviewKeyword="The Family Man" ReviewContent="Middle-class man working for the National Investigation Agency. While he tries to protect the nation from terrorists, he also has to protect his family from the impact of his secretive, high-pressure, and low paying job." />
+          <EpisodeCard EpisodeName="Season-1 Episode-1" EpisodeKeyword="The Family Man" EpisodeContent="Middle-class man working for the National Investigation Agency. While he tries to protect the nation from terrorists, he also has to protect his family from the impact of his secretive, high-pressure, and low paying job." />
         </div>
 
         <div >
-        <ReactionCard RevieName="Season-1 Episode-2"   ReviewKeyword="Sleeper" ReviewContent="A scooter bomb goes off at Kala Ghoda. Srikant learns about a mission called Zulfiqar. Suspects in the blast case tell him about a drop box near Victoria College. He arranges for round-the-clock surveillance at the drop box location." />
+        <EpisodeCard EpisodeName="Season-1 Episode-2"   EpisodeKeyword="Sleeper" EpisodeContent="A scooter bomb goes off at Kala Ghoda. Srikant learns about a mission called Zulfiqar. Suspects in the blast case tell him about a drop box near Victoria College. He arranges for round-the-clock surveillance at the drop box location." />
         </div>
 
 
         <div>
-        <ReactionCard RevieName="Season-1 Episode-3"   ReviewKeyword="The Anti-National" ReviewContent="When he finds out that one of the hospitalised prisoners is part of Mission Zulfiqar, Srikant interrogates the prisoner's friend, Moosa, about it. Someone called Kareem has used the dropbox. TASC monitors Kareem's hostel room, but Kareem gives them the slip." />
+        <EpisodeCard EpisodeName="Season-1 Episode-3"   EpisodeKeyword="The Anti-National" EpisodeContent="When he finds out that one of the hospitalised prisoners is part of Mission Zulfiqar, Srikant interrogates the prisoner's friend, Moosa, about it. Someone called Kareem has used the dropbox. TASC monitors Kareem's hostel room, but Kareem gives them the slip." />
         </div>
 
         <div>
-        <ReactionCard RevieName="Season-1 Episode-4"   ReviewKeyword="The Patriot" ReviewContent="TASC is in a quandary. They fear Kareem and his men have a devious plan. They get to Kareem's car, only to realise that things are not what they seem." />
+        <EpisodeCard EpisodeName="Season-1 Episode-4"   EpisodeKeyword="The Patriot" EpisodeContent="TASC is in a quandary. They fear Kareem and his men have a devious plan. They get to Kareem's car, only to realise that things are not what they seem." />
         </div>
 
         <div>
-        <ReactionCard RevieName="Season-1 Episode-5"   ReviewKeyword="Pariah" ReviewContent="ISI agent Sameer sends the Kala Ghoda bomber to Kashmir to execute Mission Zulfiqar. Srikant is 'punished' and sent to Kashmir, but when his boss, Kulkarni, tells him it was planned, Srikant starts digging into Zulfiqar." />
+        <EpisodeCard EpisodeName="Season-1 Episode-5"   EpisodeKeyword="Pariah" EpisodeContent="ISI agent Sameer sends the Kala Ghoda bomber to Kashmir to execute Mission Zulfiqar. Srikant is 'punished' and sent to Kashmir, but when his boss, Kulkarni, tells him it was planned, Srikant starts digging into Zulfiqar." />
         </div>
 
         <div>
-        <ReactionCard RevieName="Season-1 Episode-6"   ReviewKeyword="Dance of Death" ReviewContent="Srikant discovers that he's been after the wrong suspect all this time." />
+        <EpisodeCard EpisodeName="Season-1 Episode-6"   EpisodeKeyword="Dance of Death" EpisodeContent="Srikant discovers that he's been after the wrong suspect all this time." />
         </div>
 
         <div>
-        <ReactionCard RevieName="Season-1 Episode-7"   ReviewKeyword="" ReviewContent="Srikant searches for Sajid at a wedding in Baramulla, against Saloni and Vikram's wishes." />
+        <EpisodeCard EpisodeName="Season-1 Episode-7"   EpisodeKeyword="" EpisodeContent="Srikant searches for Sajid at a wedding in Baramulla, against Saloni and Vikram's wishes." />
         </div>
 
         <div>
-        <ReactionCard RevieName="Season-1 Episode-8"   ReviewKeyword="Act of War" ReviewContent="Srikant helps CIA locate Faizan, a wanted man hiding in Balochistan. Srikant slips into Pakistan to interrogate Faizan. Pakistan's Prime Minister finds out about Zulfiqar and tries to stop it." />
+        <EpisodeCard EpisodeName="Season-1 Episode-8"   EpisodeKeyword="Act of War" EpisodeContent="Srikant helps CIA locate Faizan, a wanted man hiding in Balochistan. Srikant slips into Pakistan to interrogate Faizan. Pakistan's Prime Minister finds out about Zulfiqar and tries to stop it." />
         </div>
 
         <div>
-        <ReactionCard RevieName="Season-1 Episode-9"   ReviewKeyword="Fighting Dirty" ReviewContent="Srikant tries to thwart a plan to smuggle nerve gas canisters from Kashmir into Delhi." />
+        <EpisodeCard EpisodeName="Season-1 Episode-9"   EpisodeKeyword="Fighting Dirty" EpisodeContent="Srikant tries to thwart a plan to smuggle nerve gas canisters from Kashmir into Delhi." />
         </div>
 
         <div>
-        <ReactionCard  RevieName="Season-1 Episode-10"  ReviewKeyword="The Bomb" ReviewContent="Srikant learns that a plan B of Zulfiqar is in motion. Zoya and Milind reach Orion Chemicals. The devious plan of Zulfiqar may already be underway. Zoya and Milind are cornered and incapacitated, with no reinforcements around, as Srikant and JK rush to help them." />
+        <EpisodeCard  EpisodeName="Season-1 Episode-10"  EpisodeKeyword="The Bomb" EpisodeContent="Srikant learns that a plan B of Zulfiqar is in motion. Zoya and Milind reach Orion Chemicals. The devious plan of Zulfiqar may already be underway. Zoya and Milind are cornered and incapacitated, with no reinforcements around, as Srikant and JK rush to help them." />
         </div>
 
       </div>
