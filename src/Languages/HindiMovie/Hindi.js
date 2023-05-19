@@ -132,7 +132,7 @@ function Hindi() {
             <HindiMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BODk1NzZiNTktZmIzMi00NzM1LTllMGEtOTg1NWE4NTUwZmIxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY209_CR3,0,140,209_AL_.jpg" filmName=" Ragini MMS" timeDuration="1hrs 55mins" filmType="Horror"/>
             </div>
             <div class="col-md-3">
-            <HindiMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BZWE3Nzc1MWMtMTczZS00M2Q4LTgyYTMtODE2MzY2NTkzZTA3XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY209_CR3,0,140,209_AL_.jpg" filmName="Ragini MMS 2" timeDuration="1hrs 40mins" filmType="Horror"/>
+            <HindiMovieCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcOhxgKsZPlujdeTGExxPzXWgWLj5W8KGq6w&usqp=CAU" filmName="Laxmii" timeDuration="1hrs 40mins" filmType="Horror"/>
             </div>
 
 
@@ -142,7 +142,7 @@ function Hindi() {
         <HindiMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BNjQ2N2QzYzktZGNjYy00ZTUyLWE2ZjYtMTEzZGY4YzIwNTJlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY209_CR3,0,140,209_AL_.jpg" filmName="1920 " timeDuration="1hrs 40mins" filmType="Horror"/>
             </div>
             <div class="col-md-3">
-            <HindiMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BYzg3ZjRlYjgtOGJkNy00MThkLThhY2UtMDdhMDZhMTc2NDFlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY209_CR3,0,140,209_AL_.jpg" filmName="Raaz 3" timeDuration="1hrs 55mins" filmType="Horror"/>
+            <HindiMovieCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNMzXCyGJzq0izVvlEk2FuQX3UdSAKO2cp-w&usqp=CAU" filmName="Bhoot Return" timeDuration="1hrs 55mins" filmType="Horror"/>
             </div>
             <div class="col-md-3">
             <HindiMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BNjEwYTBlZjktYjczZS00ZGQ0LWJlNWItMDE1YjMzNmFhNWIxXkEyXkFqcGdeQXVyNDMxMjY3NDA@._V1_UY209_CR69,0,140,209_AL_.jpg" filmName="1920: Evil Returns" timeDuration="1hrs 40mins" filmType="Horror"/>
