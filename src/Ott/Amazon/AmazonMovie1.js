@@ -83,17 +83,17 @@ function AmazonMovie1() {
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Manoj_Bajpai_at_52nd_IFFI.jpg/344px-Manoj_Bajpai_at_52nd_IFFI.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Lee_Jung-jae' className='StarCastText'>Manoj Bajpayee</a>} StarMovieName="Srikant Tiwari (Sri)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Manoj_Bajpai_at_52nd_IFFI.jpg/344px-Manoj_Bajpai_at_52nd_IFFI.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Manoj_Bajpayee' className='StarCastText'>Manoj Bajpayee</a>} StarMovieName="Srikant Tiwari (Sri)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
           <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sharib_Hashmi.jpg/381px-Sharib_Hashmi.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Park_Hae-soo' className='StarCastText' >Sharib Hashmi</a>} StarMovieName="Jayavant Kashinath JK Talpade" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/2/20/Priyamani_at_Filmfare_Awards_South_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/HoYeon_Jung' className='StarCastText'>Hoyeon</a>} StarMovieName="Kang Sae-byeok"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/2/20/Priyamani_at_Filmfare_Awards_South_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Priyamani' className='StarCastText'>Priyamani</a>} StarMovieName="Suchitra Tiwari (Suchi)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dalip_Tahil_still7_%28cropped%29_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/O_Yeong-su_(actor)' className='StarCastText' >Oh Yeong-su</a>} StarMovieName="Oh Il-nam"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dalip_Tahil_still7_%28cropped%29_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Dalip_Tahil' className='StarCastText' >Dalip Tahil</a>} StarMovieName="Kulkarni"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg/392px-Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Wi_Ha-joon' className='StarCastText'>Wi Ha-joon</a>} StarMovieName="Hwang Jun-ho"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg/392px-Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Sharad_Kelkar' className='StarCastText'>Sharad Kelkar</a>} StarMovieName="Arvind"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Darshan_at_61st_Filmfare_Awards.jpg/318px-Darshan_at_61st_Filmfare_Awards.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Heo_Sung-tae' className='StarCastText'>Heo Sung-tae</a>} StarMovieName="Jang Deok-su"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Darshan_at_61st_Filmfare_Awards.jpg/318px-Darshan_at_61st_Filmfare_Awards.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Darshan_Kumar' className='StarCastText'>Darshan Kumar</a>} StarMovieName="Major Sameer"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
         </div>
       </div>
 
@@ -101,42 +101,59 @@ function AmazonMovie1() {
 
       <div className='row ReactionCardDiv ms-5'>
       <font className="CastName ms-5 mt-2 ps-5">
-          Reviews:
+          10 EPISODES
         </font>
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-          <ReactionCard RevieName="Champaklal" ReviewDate="20 September 2021" ReviewKeyword="Starts off strong then gets pretty weak at the end." ReviewContent="The first couple of episodes a very well done and pack a punch, but by the end it just seems to run out of steam. The marbles episode was the last real swerve, after that it becomes paint by numbers to the point" />
+        <div >
+          <ReactionCard RevieName="Season-1 Episode-1" ReviewKeyword="The Family Man" ReviewContent="Middle-class man working for the National Investigation Agency. While he tries to protect the nation from terrorists, he also has to protect his family from the impact of his secretive, high-pressure, and low paying job." />
         </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard RevieName="Surfisfun"  ReviewDate="2 November 2021" ReviewKeyword="first half decent, then it feel overstay.the games lost it appeals by 5th one" ReviewContent="Decent set deco .Battle royal flavors.A bit long in runtime, especially after first half.Very bloody and gory at times.Addictive if thats your cup of tv tea." />
+        <div >
+        <ReactionCard RevieName="Season-1 Episode-2"   ReviewKeyword="Sleeper" ReviewContent="A scooter bomb goes off at Kala Ghoda. Srikant learns about a mission called Zulfiqar. Suspects in the blast case tell him about a drop box near Victoria College. He arranges for round-the-clock surveillance at the drop box location." />
         </div>
 
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard RevieName="Daniel-65836"  ReviewDate="30 September 2021" ReviewKeyword="Strong start, poor finish" ReviewContent="Very compelling opening episodes, but when the actual plot unravels it makes you go, Oh, that's just it? That's kinda lame. Great acting still, amazing sets, overrides the glaring flaws of the series, an enjoyable watch overall." />
+        <div>
+        <ReactionCard RevieName="Season-1 Episode-3"   ReviewKeyword="The Anti-National" ReviewContent="When he finds out that one of the hospitalised prisoners is part of Mission Zulfiqar, Srikant interrogates the prisoner's friend, Moosa, about it. Someone called Kareem has used the dropbox. TASC monitors Kareem's hostel room, but Kareem gives them the slip." />
         </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard  RevieName="Jiballini64"  ReviewDate="10 October 2021" ReviewKeyword="I don't get all the rave reviews" ReviewContent="I've watched the whole lot and it's just plain silly. The cast bring over-acting to a new level, all the characters are spectacularly annoying (I wanted them all to die by Episode 2) and I don't know why I watched it all. I'm sure there were far better things I could have been doing with my life. Like cleaning my bathroom or cutting my toe nails. It's really woeful." />
+        <div>
+        <ReactionCard RevieName="Season-1 Episode-4"   ReviewKeyword="The Patriot" ReviewContent="TASC is in a quandary. They fear Kareem and his men have a devious plan. They get to Kareem's car, only to realise that things are not what they seem." />
         </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard  RevieName="Matthewjleming"  ReviewDate="12 February 2022" ReviewKeyword="Yes, the VIPs sucked, but that didn't ruin the series" ReviewContent="Seriously. All things considered, they're a pretty small and self-contained part. The main characters were brilliant in their roles. I guess good actors figured that having parts where they're wearing masks the whole time wouldn't get them much exposure. The pacing and character development were superb." />
+        <div>
+        <ReactionCard RevieName="Season-1 Episode-5"   ReviewKeyword="Pariah" ReviewContent="ISI agent Sameer sends the Kala Ghoda bomber to Kashmir to execute Mission Zulfiqar. Srikant is 'punished' and sent to Kashmir, but when his boss, Kulkarni, tells him it was planned, Srikant starts digging into Zulfiqar." />
         </div>
 
-        <div className='col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10'>
-        <ReactionCard className="col-lg-4 col-md-6 col-sm-8 col-xs-8" RevieName="Jack_o_hasanov_imdb"  ReviewDate="30 April 2022" ReviewKeyword="Overrated, But Good" ReviewContent="This series is so overrated. But let's be fair, it's a very good series. I've watched a few movies about it. The script was good. Acting was sometimes exaggerated, maybe it's a cultural thing. I did not like the final part. Overall very well done. In the final episode, my expectation was different. But the final scene was disappointing. Season 2 will come." />
+        <div>
+        <ReactionCard RevieName="Season-1 Episode-6"   ReviewKeyword="Dance of Death" ReviewContent="Srikant discovers that he's been after the wrong suspect all this time." />
         </div>
+
+        <div>
+        <ReactionCard RevieName="Season-1 Episode-7"   ReviewKeyword="" ReviewContent="Srikant searches for Sajid at a wedding in Baramulla, against Saloni and Vikram's wishes." />
+        </div>
+
+        <div>
+        <ReactionCard RevieName="Season-1 Episode-8"   ReviewKeyword="Act of War" ReviewContent="Srikant helps CIA locate Faizan, a wanted man hiding in Balochistan. Srikant slips into Pakistan to interrogate Faizan. Pakistan's Prime Minister finds out about Zulfiqar and tries to stop it." />
+        </div>
+
+        <div>
+        <ReactionCard RevieName="Season-1 Episode-9"   ReviewKeyword="Fighting Dirty" ReviewContent="Srikant tries to thwart a plan to smuggle nerve gas canisters from Kashmir into Delhi." />
+        </div>
+
+        <div>
+        <ReactionCard  RevieName="Season-1 Episode-10"  ReviewKeyword="The Bomb" ReviewContent="Srikant learns that a plan B of Zulfiqar is in motion. Zoya and Milind reach Orion Chemicals. The devious plan of Zulfiqar may already be underway. Zoya and Milind are cornered and incapacitated, with no reinforcements around, as Srikant and JK rush to help them." />
+        </div>
+
       </div>
 
       <hr className='HRow'/>
 
       <div className=''>
         <div className="CastName ms-5 ps-5">
-          StoryLine:
+          Season
         </div>
         <div className=' ms-5 ps-5 col-lg-10 col-md-8 col-sm-8 col-xs-8 Storyline'>
-        A story of people who fail at life for various reasons, but suddenly receive a mysterious invitation to participate in a survival game to win more than 38 million US dollars. The game takes place at an isolated island and the participants are locked up until there is a final winner. The story will incorporate popular children's games from the 1970s and 1980s of Korea, such as squid game, literal translation of its Korean name, which is a type of tag where offense and defense use a squid-shaped board drawn in the dirt.
+        The Family Man follows the story of Srikant Tiwari, who works as a senior officer in the Threat Analysis and Surveillance Cell (TASC), along with his best friend and colleague JK Talpade, which is a part of the National Investigation Agency (NIA) of India. He is a married man with two kids. The first season follows an investigation of a potential terrorist attack, while simultaneously following his slightly unsettled family life. Srikant and JK, along with their subordinates Zoya, Milind and Jayesh, and Force One officer Imran Pasha work on stopping Mission Zulfiqar from succeeding. The show is inspired by real life newspaper articles.
         </div>
         <div className='row ms-5 ps-5 mt-3'>
         <Keybtn Keywords="Blood"/>
