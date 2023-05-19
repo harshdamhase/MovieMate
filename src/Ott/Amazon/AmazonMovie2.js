@@ -11,7 +11,7 @@ import Keybtn from '../../Components/Keybtn';
 import DetailsNetflix from '../../Components/DetailsNetflix';
 import Footer from '../../Components/Footer';
 
-function AmazonMovie1() {
+function AmazonMovie2() {
   return (
     <>
     <div id='NavBarDiv'>
@@ -84,17 +84,17 @@ function AmazonMovie1() {
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Manoj_Bajpai_at_52nd_IFFI.jpg/344px-Manoj_Bajpai_at_52nd_IFFI.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Manoj_Bajpayee' className='StarCastText'>Manoj Bajpayee</a>} StarMovieName="Srikant Tiwari (Sri)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://www.imdb.com/name/nm2355635/?ref_=tt_cl_i_1" StarName={<a href='https://www.imdb.com/name/nm2355635/?ref_=tt_cl_t_1' className='StarCastText'>Ben Schwartz</a>} StarMovieName="Sonic (Voice)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sharib_Hashmi.jpg/381px-Sharib_Hashmi.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Park_Hae-soo' className='StarCastText' >Sharib Hashmi</a>} StarMovieName="Jayavant Kashinath JK Talpade" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://www.imdb.com/name/nm0005188/?ref_=tt_cl_i_2" StarName={<a href='https://www.imdb.com/name/nm0005188/?ref_=tt_cl_t_2' className='StarCastText' >James Marsden</a>} StarMovieName="Tom" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/2/20/Priyamani_at_Filmfare_Awards_South_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Priyamani' className='StarCastText'>Priyamani</a>} StarMovieName="Suchitra Tiwari (Suchi)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://www.imdb.com/name/nm0000120/?ref_=tt_cl_i_3" StarName={<a href='https://www.imdb.com/name/nm0000120/?ref_=tt_cl_t_3' className='StarCastText'>Jim Carrey</a>} StarMovieName="Dr. Robotnik"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dalip_Tahil_still7_%28cropped%29_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Dalip_Tahil' className='StarCastText' >Dalip Tahil</a>} StarMovieName="Kulkarni"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://www.imdb.com/name/nm1754366/?ref_=tt_cl_i_4" StarName={<a href='https://www.imdb.com/name/nm1754366/?ref_=tt_cl_t_4' className='StarCastText' >Tika Sumpter</a>} StarMovieName="Maddie"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg/392px-Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Sharad_Kelkar' className='StarCastText'>Sharad Kelkar</a>} StarMovieName="Arvind"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://www.imdb.com/name/nm5625020/?ref_=tt_cl_i_5" StarName={<a href='https://www.imdb.com/name/nm5625020/?ref_=tt_cl_t_5' className='StarCastText'>Natasha Rothwell</a>} StarMovieName="Rachel"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Darshan_at_61st_Filmfare_Awards.jpg/318px-Darshan_at_61st_Filmfare_Awards.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Darshan_Kumar' className='StarCastText'>Darshan Kumar</a>} StarMovieName="Major Sameer"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://www.imdb.com/name/nm1269723/?ref_=tt_cl_i_6" StarName={<a href='https://www.imdb.com/name/nm1269723/?ref_=tt_cl_t_6' className='StarCastText'>Adam Polly</a>} StarMovieName="Wade"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
         </div>
       </div>
 
@@ -147,10 +147,11 @@ function AmazonMovie1() {
         <div className="CastName ms-5 ps-5">
           Details:
         </div>
-        <DetailsNetflix DetailsInfo="Created by	:" Details="Raj & DK"/>
-        <DetailsNetflix DetailsInfo="Written by :" Details="Raj & DK, Suman Kumar"/>
-        <DetailsNetflix DetailsInfo="Languages :" Details="Hindi"/>
-        <DetailsNetflix DetailsInfo="Original release :" Details="20 September 2019"/>
+        <DetailsNetflix DetailsInfo="Directed by	:" Details="Jeff Fowler"/>
+        <DetailsNetflix DetailsInfo="Written by :" Details="Pat Casey  Josh Miller"/>
+        <DetailsNetflix DetailsInfo="Runtime :" Details="1H 40Min"/>
+        <DetailsNetflix DetailsInfo="Languages :" Details="English Hindi"/>
+        <DetailsNetflix DetailsInfo="Original release :" Details="25 January 2020"/>
       </div>
 
       <div>
@@ -168,4 +169,4 @@ function AmazonMovie1() {
   )
 }
 
-export default AmazonMovie1
+export default AmazonMovie2
