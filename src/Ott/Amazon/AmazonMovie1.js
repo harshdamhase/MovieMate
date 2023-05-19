@@ -64,10 +64,10 @@ function AmazonMovie1() {
 
       <div className='row WatchTrailerDiv'>
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
-        <Link to="https://youtu.be/oqxAJKy0ii4" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️</Link>
+        <Link to="https://youtu.be/XatRGut65VI" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️ Trailer </Link>
         </div>
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
-        <Link to="/BookTicket" className='WatchTrailer mt-3 ms-5'>Book Your Ticket 🎟️</Link>
+        <Link to="/BookTicket" className='WatchTrailer mt-3 ms-5'> Amazon Prime Video</Link>
         </div>
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
         <Link to="/" className='WatchTrailer mt-3 ms-5'>Add To Watchlist 📃</Link>
@@ -156,7 +156,7 @@ function AmazonMovie1() {
         The Family Man follows the story of Srikant Tiwari, who works as a senior officer in the Threat Analysis and Surveillance Cell (TASC), along with his best friend and colleague JK Talpade, which is a part of the National Investigation Agency (NIA) of India. He is a married man with two kids. The first season follows an investigation of a potential terrorist attack, while simultaneously following his slightly unsettled family life. Srikant and JK, along with their subordinates Zoya, Milind and Jayesh, and Force One officer Imran Pasha work on stopping Mission Zulfiqar from succeeding. The show is inspired by real life newspaper articles.
         </div>
         <div className='ms-5 ps-5 mt-3 '>
-          <Link to="https://www.imdb.com/title/tt10919420/plotsummary/" className='PlotSummary'>Inforamation</Link>
+          <Link to="#" className='PlotSummary'>Inforamation</Link>
         </div>
       </div>
 

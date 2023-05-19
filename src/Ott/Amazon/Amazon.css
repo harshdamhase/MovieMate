@@ -31,7 +31,7 @@
 .PosterName{
     text-align: center;
     color: #282A3A;
-    text-decoration: underline double;
+    text-decoration: none;
 }
 
 .Desc{
@@ -46,7 +46,7 @@
 }
 
 .CastName{
-    text-decoration: underline;
+    text-decoration: none;
     color: #282A3A;
     font-weight:400;
     font-size: 30px;
@@ -67,7 +67,7 @@
     display: flex;
 }
 
-.ReactionCardDiv{
+.EpisodeCardDiv{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 .Storyline{
