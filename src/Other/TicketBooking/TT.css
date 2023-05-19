@@ -4,7 +4,7 @@
     /* background-color: aqua; */
     align-items: center;
     justify-content: center;
-    margin-left: 300x;
+    margin-left: 770x;
     display: block;
 }
 .input-box{
@@ -48,4 +48,21 @@
 }
 .margin{
     margin-left: 20px;
+}
+/* .form-bttn{
+    background-color: green;
+    border: 5px solid green;
+} */
+
+.TicketDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    
+}
+.radio{
+    color: green;
 }
