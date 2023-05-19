@@ -155,16 +155,8 @@ function AmazonMovie1() {
         <div className=' ms-5 ps-5 col-lg-10 col-md-8 col-sm-8 col-xs-8 Storyline'>
         The Family Man follows the story of Srikant Tiwari, who works as a senior officer in the Threat Analysis and Surveillance Cell (TASC), along with his best friend and colleague JK Talpade, which is a part of the National Investigation Agency (NIA) of India. He is a married man with two kids. The first season follows an investigation of a potential terrorist attack, while simultaneously following his slightly unsettled family life. Srikant and JK, along with their subordinates Zoya, Milind and Jayesh, and Force One officer Imran Pasha work on stopping Mission Zulfiqar from succeeding. The show is inspired by real life newspaper articles.
         </div>
-        <div className='row ms-5 ps-5 mt-3'>
-        <Keybtn Keywords="Blood"/>
-        <Keybtn Keywords="Game of Death"/>
-        <Keybtn Keywords="Survival"/>
-        <Keybtn Keywords="Death"/>
-        <Keybtn Keywords="Game"/>
-        <Keybtn Keywords="Cruelty"/>
-        </div>
         <div className='ms-5 ps-5 mt-3 '>
-          <Link to="https://www.imdb.com/title/tt10919420/plotsummary/" className='PlotSummary'>Plot Summary</Link>
+          <Link to="https://www.imdb.com/title/tt10919420/plotsummary/" className='PlotSummary'>Inforamation</Link>
         </div>
       </div>
 
@@ -174,12 +166,10 @@ function AmazonMovie1() {
         <div className="CastName ms-5 ps-5">
           Details:
         </div>
-        <DetailsNetflix DetailsInfo="Release Date:" Details="September 17, 2021 (United States)"/>
-        <DetailsNetflix DetailsInfo="Country of Origin:" Details="South Korea"/>
-        <DetailsNetflix DetailsInfo="Languages:" Details="Korean English Urdu"/>
-        <DetailsNetflix DetailsInfo="Also known as:" Details="El juego del calamar"/>
-        <DetailsNetflix DetailsInfo="Filming locations:" Details="Seoul, South Korea(contestants' hometown - many scenes)"/>
-        <DetailsNetflix DetailsInfo="Production company:" Details="Siren Pictures"/>
+        <DetailsNetflix DetailsInfo="Created by	:" Details="Raj & DK"/>
+        <DetailsNetflix DetailsInfo="Written by :" Details="Raj & DK, Suman Kumar"/>
+        <DetailsNetflix DetailsInfo="Languages :" Details="Hindi"/>
+        <DetailsNetflix DetailsInfo="Original release :" Details="20 September 2019"/>
       </div>
 
       <div>
