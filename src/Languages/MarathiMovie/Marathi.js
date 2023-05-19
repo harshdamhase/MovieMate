@@ -19,7 +19,7 @@ function Marathi() {
               src={img1}
               alt='first slid' />
             <Carousel.Caption>
-              <h3>Latest thriller Movies</h3>
+              <h3>Latest Action Movies</h3>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -88,6 +88,26 @@ function Marathi() {
  <MarathiCard imgUrl="https://i.ytimg.com/vi/9VcKEjkf5Jo/maxresdefault.jpg" filmName="Adrushyy" timeDuration="1 hrs 50 min" filmType="Horror" />
  <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMYua5n5uNhUBkaOb3HMrjWr3qKZ9SMe7dmA&usqp=CAU" filmName="Hoori" timeDuration="1 hrs 40 min" filmType="Horror" />
  <MarathiCard imgUrl="https://i.ytimg.com/vi/Muo0XYvlYC0/maxresdefault.jpg" filmName="Kaal" timeDuration="1 hrs 55 min" filmType="Horror" />
+
+ <h2 className="heading"><ul>Most Popular Action Movies :</ul></h2>
+ <MarathiCard imgUrl="https://i.ytimg.com/vi/CPRjISj0_kc/maxresdefault.jpg" filmName="Dandam" timeDuration="1 hrs 15 min" filmType="Action" />
+ <MarathiCard imgUrl="https://static.toiimg.com/thumb/65038807.cms?width=400&height=300&resizemode=4" filmName="Baaji" timeDuration="1 hrs 20 min" filmType="Action" />
+ <MarathiCard imgUrl="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:q-80/et00327818-vzqxqbhjwf-portrait.jpg" filmName="Baloch" timeDuration="1 hrs 25 min" filmType="Action" />
+ <MarathiCard imgUrl="https://img.starbiz.com/resize/480x-/2020/05/19/adham-marathi-movies-2019-92d2.jpg" filmName="Adham" timeDuration="1 hrs 30 min" filmType="Action" />
+ <MarathiCard imgUrl="https://i.ytimg.com/vi/8Og5b2wxW4M/maxresdefault.jpg" filmName="Fight" timeDuration="1 hrs 40 min" filmType="Action" />
+
+ <MarathiCard imgUrl="https://static.toiimg.com/photo/msid-66862661/66862661.jpg" filmName="Mauli" timeDuration="1 hrs 40 min" filmType="Action" />
+ <MarathiCard imgUrl="https://www.cinefry.co.in/wp-content/uploads/2023/01/Surya-Marathi.jpg" filmName="Suryaa" timeDuration="1 hrs 30 min" filmType="Action" />
+ <MarathiCard imgUrl="https://nettv4u.com/fileman/Uploads2/-10-Actresses-who-look-gorgeous-in-Red/Dhanush1/Dagadi_Chawl.jpg" filmName="Dagdi Chaal" timeDuration="1 hrs 60 min" filmType="Action" />
+ <MarathiCard imgUrl="https://m.media-amazon.com/images/M/MV5BZTY0ZTI0Y2EtMjhmNy00ODQ0LThkN2YtMWU4OTQwNTFiYjUzXkEyXkFqcGdeQXVyNjE1OTQ0NjA@._V1_FMjpg_UX1000_.jpg" filmName="Mulshi Pattern" timeDuration="1 hrs 55 min" filmType="Action" />
+ <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmxVR4QBx5zUUq6MugPBx-txefQitdx75LA&usqp=CAU" filmName="Vrundaavan" timeDuration="1 hrs 30 min" filmType="Action" />
+
+ <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsd8f5GjUvtlUYdWfziF94_h5lDokZGJ3ZTQ&usqp=CAU" filmName="Dharmveer" timeDuration="1 hrs 40 min" filmType="Action" />
+ <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1pUfBCMAywSPL5LkZ10wvnc2svEhT83GeRw&usqp=CAU" filmName="Laii Bharri" timeDuration="1 hrs 40 min" filmType="Action" />
+ <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjEiKzh3mAqXe0MeTi7kIwcqAWV5THOEpWZQ&usqp=CAU" filmName="Ghoda" timeDuration="1 hrs 44 min" filmType="Action" />
+ <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqIVs1wfoTLrad54oXyOTXbgi9iPUjM2m-1A&usqp=CAU" filmName="Suryaa" timeDuration="1 hrs 20 min" filmType="Action" />
+ <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nDb65SdpsBcLrVQW0XKkV8dX8OfMr384lg&usqp=CAU" filmName="Har har MAhadev" timeDuration="1 hrs 60 min" filmType="Action" />
+
 
           <Footer />
         </div>
