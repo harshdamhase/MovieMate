@@ -11,13 +11,14 @@ function Ticket(){
     const[name,setName]= useState('')
     const[email,setEmail]= useState('')
     const[city,setcity]= useState('')
+    const [count,people]=useState(1);
 
     return(
         <>
     
     <div className='container row  TicketDiv'>
         <div className='container-form'>
-            <h4 className='heading'>"Book your Tickets | Enjoy your day"</h4>
+            <h4 className='heading'>Book your Tickets | Enjoy your day</h4>
 
             <div className='img-t'>
 
@@ -93,11 +94,33 @@ function Ticket(){
                 <label class="form-check-label" for="inlineCheckbox3">Paytm</label>
                 </span>
                 
+            </div>
 
+            <div className='people'>
+                
+                  <span className='me-5 seat'>How Many Seat You Want TO Book:</span>
+
+                      
+                    <button className="plus " onClick={()=>{
+                        people(count+1)}}>+</button>
+
+                        <span className='Number'> {count}</span>
+                       
+
+
+                       <button className="plus" onClick={()=>{
+                        people(count-1)}}>-</button>
+
+
+                
+
+                </div>
             
 
 
-         </div>
+
+
+            </div>
     
          <div className='mt-5'>
             <span class="col-auto left">
@@ -106,20 +129,17 @@ function Ticket(){
         
 
              <span class="col-auto right">
-                    <button className='btn btn-primary mb-3 ' onClick={()=>{
+                    <button className='btn btn-primary mb-3 form-bttn ' onClick={()=>{
                             setName ('')
                         }} >Cancel Booking</button>
             </span>
         </div>   
+        
 
+  </div>
     
-                    
 
-           
-       
-
-      </div>
-      </div>     
+        
         
 
           
