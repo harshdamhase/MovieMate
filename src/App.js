@@ -30,10 +30,10 @@ function App() {
       <Route path="/Tamil" element={<Tamil/>}/>
       <Route path="/Squid_Game" element={<NetflixMovie1/>}/>
       <Route path="/Wednesday" element={<NetflixMovie2/>}/>
-      <Route path="/HotstarMovie1" element={<HotstartMovie1/>}/>
-      <Route path="/HotstarMovie2" element={<HotstarMovie2/>}/>
-      <Route path="/AmazonMovie1" element={<AmazonMovie1/>}/>
-      <Route path="/AmazonMovie2" element={<AmazonMovie2/>}/>
+      <Route path="/The_Nutcracker" element={<HotstartMovie1/>}/>
+      <Route path="/Haunted_Mansion" element={<HotstarMovie2/>}/>
+      <Route path="/The_Family_Man" element={<AmazonMovie1/>}/>
+      <Route path="/Sonic" element={<AmazonMovie2/>}/>
       <Route path="/Ticket" element ={<Ticket/>}/>
       <Route path="/The_Invitation" element={<Theinvitation/>}/>
       <Route path="/Good_Night" element={<GoodNight/>}/>
