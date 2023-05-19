@@ -61,6 +61,17 @@ function Footer() {
             <li>
               <Link to="" className='text-white textNames'>About Us</Link>
             </li>
+            <br/>
+            <li>
+              <Link to="" className='text-white textNames'><h4>Contact Us</h4></Link>
+            </li>
+            <li>
+              <Link to="" className='text-white textNames'>+91-987456321</Link>
+            </li>
+            <br/>
+            <li>
+              <Link to="" className='text-white textNames'>ticket-booking@moviemate.com</Link>
+            </li>
             
           </ul>
         </div>

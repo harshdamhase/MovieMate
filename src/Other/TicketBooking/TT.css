@@ -1,0 +1,70 @@
+.container-form{
+    height:600px;
+    /* background-color: aqua; */
+}
+
+.input-box{
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-box{
+    margin-bottom: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+ 
+}
+
+
+.location-box{
+    display: block;
+    height: 70px;
+}
+
+.radio-sec{
+    display: block;
+    height: 70px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* .form-bttn{
+    background-color: green;
+    border: 5px solid green;
+} */
+
+.TicketDiv{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: white;
+    height: 700px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.radio{
+    color: green;
+}
+
+.ticket-img{
+    height:130px;
+}
+
+.img-t{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
