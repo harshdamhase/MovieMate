@@ -10,12 +10,11 @@
     background-color: black;
 }
 
-.EngPosterTitle{
+.TamPosterTitle{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    color: white;
-    text-decoration: underline red;
+    color: #0E8388;
 }
 
 .PostDesc{

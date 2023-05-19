@@ -18,41 +18,41 @@ function GoodNight() {
       <div id='NavBarDiv'>
         <NavbarComp/>
         <div className='Headline'>
-          <font className='EngPosterTitle' >
+          <font className='TamPosterTitle' >
               Good Night
           </font>
         </div>
         <div>
-          <MovieReviewCard ImgUrl="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2022/07/Screen-Shot-2022-07-20-at-9.06.00-AM.png?fit=1200%2C663&ssl=1" />
+          <MovieReviewCard ImgUrl="https://i.ytimg.com/vi/96CgTFsdjJQ/maxresdefault.jpg" />
         </div>
       </div>
 
       <div className='row mt-2'>
         <div className='row PostDesc p-3'>
-          <img src='https://m.media-amazon.com/images/M/MV5BMTkzODMwNDkzOF5BMl5BanBnXkFtZTgwNDA4NzA1ODE@._V1_FMjpg_UX1000_.jpg' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
+          <img src='https://m.media-amazon.com/images/M/MV5BMTJjN2NhY2EtYzZkOC00NDQ0LWFhMzEtNWZhYTFhNzNhNjllXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_.jpg' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
           <font className='DescTitle col-lg-8 col-md-8 col-sm-8 col-xs-8 ms-3' >
             <h1 className='ms-2 PosterName'>
-            The Invitation
+            Good Night
             </h1>
             <br/><br/>
             <span className='ms-5'>
               <SeasonBtn SeasonNum="Only 1 Part Available"/>
             </span>
             <h5 className='Desc mt-3 ms-5'>
-              <font className='ReleaseDateFont'>Release Date: August 26, 2022</font>
+              <font className='ReleaseDateFont'>Release Date: May 12, 2023</font>
               <br/><br/>
-              A young woman is courted and swept off her feet, only to realize a gothic conspiracy is a foot.
+              A simple boy-next-door character whose biggest problem in life is his snoring.He falls in love with a girl and how the couple overcome his sleeping problem while living together.
             </h5>
             <div className='Genre col-lg-8 col-md-9 col-sm-9 col-xs-9 mt-5 '>
               <span className='ms-1 mb-3'>
-                <SeasonBtn SeasonNum="Horror"/>
+                <SeasonBtn SeasonNum="Comedy"/>
               </span>
               <span className='ms-1'>
-                <SeasonBtn SeasonNum="Thriller"/>
+                <SeasonBtn SeasonNum="Drama"/>
               </span>
-              {/* <span className='ms-1'>
-                <SeasonBtn SeasonNum="Fantasy"/>
-              </span> */}
+              <span className='ms-1'>
+                <SeasonBtn SeasonNum="Romance"/>
+              </span>
               {/* <span className='ms-1'>
                 <SeasonBtn SeasonNum="Thriller"/>
               </span> */}
@@ -63,7 +63,7 @@ function GoodNight() {
 
       <div className='row WatchTrailerDiv'>
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
-        <Link to="https://youtu.be/5bL1ftuxgOE" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️</Link>
+        <Link to="https://youtu.be/eLPePlnFoho" className='WatchTrailer mt-3 ms-5'>Watch Now ▶️</Link>
         </div>
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-8'>
         <Link to="/BookTicket" className='WatchTrailer mt-3 ms-5'>Book Your Ticket 🎟️</Link>
@@ -82,17 +82,18 @@ function GoodNight() {
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-              <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nathalie_Emmanuel_by_Gage_Skidmore.jpg/330px-Nathalie_Emmanuel_by_Gage_Skidmore.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Nathalie_Emmanuel' className='StarCastText' >Nathalie Emmanuel</a> } StarMovieName="Evie" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+              <StarCast imgURl="https://wikibio.in/wp-content/uploads/2021/11/K.-Manikandan.jpg" StarName={<a href='https://en.wikipedia.org/wiki/K._Manikandan' className='StarCastText' >Manikandan K.</a> } StarMovieName="" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-              <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Thomas_Doherty_2019_by_Glenn_Francis.jpg/330px-Thomas_Doherty_2019_by_Glenn_Francis.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Thomas_Doherty_(actor)' className='StarCastText' >Thomas Doherty</a> } StarMovieName="De Ville" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+              <StarCast imgURl="https://images.moviebuff.com/718af41a-a0e0-4528-b723-5ae64f14f848?w=600" StarName={<a href='https://www.imdb.com/name/nm11054682/' className='StarCastText' >Raichal Rabecca</a> } StarMovieName="" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-              <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Stephanie_Corneliussen_by_Gage_Skidmore.jpg/330px-Stephanie_Corneliussen_by_Gage_Skidmore.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Stephanie_Corneliussen' className='StarCastText' >Stephanie Corneliussen</a> } StarMovieName="Viktoria" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+              <StarCast imgURl="https://www.mixindia.com/wp-content/uploads/2022/01/Meetha-Raghunath-9.jpg" StarName={<a href='https://www.imdb.com/name/nm13565797/' className='StarCastText' >Meetha Raghunath</a> } StarMovieName="" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-              <StarCast imgURl="https://www.olivia-bell.co.uk/wp-content/uploads/2019/02/unnamed.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Alana_Boden' className='StarCastText' >Alana Boden</a> } StarMovieName="Lucy" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+              <StarCast imgURl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJvkmVrJe57xxeI8Ed_cUo9gbNs_3_4d9DEQ&usqp=CAU" StarName={<a href='https://en.wikipedia.org/wiki/Ramesh_Thilak' className='StarCastText' >Ramesh Thilak</a> } StarMovieName="" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-              <StarCast imgURl="https://m.media-amazon.com/images/M/MV5BNDI5OGE3NzQtOTFlNS00MGJiLThiYzktNTQ5ZDk0ZGE3MDRlXkEyXkFqcGdeQXVyMjM3NzI5OTM@._V1_FMjpg_UX1000_.jpg" StarName={<a href='https://the-last-kingdom.fandom.com/wiki/Vir%C3%A1g_B%C3%A1r%C3%A1ny' className='StarCastText' >Virág Bárány</a> } StarMovieName="Emmaline" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+              <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Balaji_Sakthivel_At_The_%E2%80%98Vaanam_Kottatum%E2%80%99_Audio_Launch.jpg/330px-Balaji_Sakthivel_At_The_%E2%80%98Vaanam_Kottatum%E2%80%99_Audio_Launch.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Balaji_Sakthivel' className='StarCastText' >Balaji Sakthivel</a> } StarMovieName="" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-              <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sean_Pertwee_2017.jpg/330px-Sean_Pertwee_2017.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Sean_Pertwee' className='StarCastText' >Sean Pertwee</a> } StarMovieName="Renfield" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+              <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bagavathi_Perumal.jpg/330px-Bagavathi_Perumal.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Bagavathi_Perumal' className='StarCastText' >Bagavathi Perumal</a> } StarMovieName="" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+              
         </div>
       </div>
 
@@ -102,17 +103,12 @@ function GoodNight() {
       <font className="CastName ms-5 mt-2 ps-5">
           Reviews:
         </font>
-        <ReactionCard RevieName="rgkarim" ReviewDate="27 August 2022" ReviewKeyword="You might want to decline this invitation until home release" ReviewContent="It's fast, it doesn't get stuck too much in trivial world building, and it gets to the antics very quickly to start getting into the thrills. The Invitation has a lot of things to decipher in the short run time, but it's always moving and seldom slowing down to get bogged in higher order thinking. For those looking for just a way to turn off the mind, this can be a giant plus alongside the appeal of one component of the story." />
+              <ReactionCard RevieName="vabinandha" ReviewDate="14 May 2023" ReviewKeyword="A Tremendously Wholesome Movie" ReviewContent="Watching this was great fun! It's not often that one can use a down-to-earth plot device to craft a funny and humorous screenplay like this. The simple nature of the plot and the way it manages to jump over hurdles make it a greatly engaging story for people of most backgrounds and classes. especially that of Meetha Raghunath in her role as Anu. She gives the film a whole other dimension with her genuine character and humble nature. Manikandan and Ramesh Thilak were also absolutely incredible in their roles." />
 
-        <ReactionCard RevieName="Benslie" ReviewDate="28 August 2022" ReviewKeyword="Just don't watch the trailer" ReviewContent="One of the biggest faults of this movie, funny enough, isn't anything to do with the movie itself but the promotions for it. If you have seen the trailer for this movie then you've pretty much seen the entire movie, including the big twist reveal, which sucks as the story has so much potential. In the right capable hands, a story of someone trying to find their long-lost family and then ending up in a horror situation can be pretty good but here, it falls flat. The story takes forever to get going and once it does start to pick up the pace the movie was almost over" />
+              <ReactionCard RevieName="saru2020" ReviewDate="14 May 2023" ReviewKeyword="a spin-off of Selvaraghavan's film scenes" ReviewContent="The core plot of the film is just based on these 2 scenes and nothing else and I couldn't help but think only of Selvaraghavan films, both these scenes/concepts are shown as just one of the scenes in his 3 hour long movies. I'm trying to highlight this because I really want people to understand the MAGNIFICENCE of Selvaraghavan's writings and we've missed celebrating the genius and pushing him into the acting field denoting how miserable we are as the audience." />
 
-        <ReactionCard RevieName="kaefab" ReviewDate="17 September 2022" ReviewKeyword="sadly it is that bad" ReviewContent="Well needless to say this movie sadly brings absolutely nothing and i do mean nothing ditto to the gender of vampire movies. In fact its been done a zillion million times before and so so so much better.From the trailer which does not show a lot this movie looked like it had potential, but sadly nothing happens the gore or horror is way too far between and at some point you lose intensest." />
-
-        <ReactionCard RevieName="sbweightman" ReviewDate="3 September 2022" ReviewKeyword="Good build up, but not enough bite with its horror" ReviewContent="It has an enjoyable build up thanks to the likeable leads, but it took far too long and after the big reveal, it was over all too quickly. There wasn't really any horror or mystery, just a few jump scares and glimpses of the monster, although the awkward social engagements might tap into modern horror. The action packed finale was ridiculous and along with the lack of originality, completely spoiled the whole film" />
-
-        <ReactionCard RevieName="Sleepin_Dragon" ReviewDate="3 March 2023" ReviewKeyword="An interesting start, but soon disappoints." ReviewContent="Evie traces back her family tree, and travels to England to meet her relatives, it isn't long before she discovered her family's dark secrets.Wasted potential, that's the first thought I had a jury this movie, it could and should have been a good watch, but ultimately it disappointed.First off, this ridiculous portrayal of The Brits, how come Americans ways get it so wrong, Britain felt like a strange setting for this vampire story, but the first stumbling block, the setting. " />
-
-        <ReactionCard RevieName="nolanroshto" ReviewDate="25 August 2022" ReviewKeyword="I sure did watch this" ReviewContent="That's about the most I can say about this. It was in fact something I watched.It fails at being a horror It fails at being a romance It could've been a passable mystery, but the trailer spoiled it.It wasn't bombastic enough to be fun, but it wasn't well-written enough to justify its dullness.At best it's a way to spend an evening. Although, personally, if it wasn't for the fact that I got to watch it for free (I work at a movie theater), then I would've been dissatisfied with my purchase." />
+              <ReactionCard RevieName="shwetank-54723" ReviewDate="17 May 2023" ReviewKeyword="Light-hearted feel good movie" ReviewContent="Except being a tiny bit stretched in second half, this movie is a delight to watch. The screenplay, cinematography, art, direction, characters are fantastically done. Manikandan is such a natural actor and the movie is shot so beautifully that one can't help comparing it with the fine movies in malayalam cinema that portrays the plight of a common man in a manner that you feel you are there in it, next to them, and see it happening. Very immersive story with a great acting and portrayal of characters by all the actors. " />
+              
 
       </div>
 
@@ -123,18 +119,13 @@ function GoodNight() {
           StoryLine:
         </div>
         <div className=' ms-5 ps-5 col-lg-10 col-md-8 col-sm-8 col-xs-8 Storyline'>
-        After the death of her mother and having no other known relatives, Evie (Nathalie Emmanuel) takes a DNA test...and discovers a long-lost cousin she never knew she had. Invited by her newfound family to a lavish wedding in the English countryside, she's at first seduced by the sexy aristocrat host but is soon thrust into a nightmare of survival as she uncovers twisted secrets in her family's history and the unsettling intentions behind their sinful generosity
+        A simple boy-next-door character whose biggest problem in life is his snoring.He falls in love with a girl and how the couple overcome his sleeping problem while living together.
         </div>
         <div className='row ms-5 ps-5 mt-3'>
-        <Keybtn Keywords="Vampire"/>
-        <Keybtn Keywords="Gothic"/>
-        <Keybtn Keywords="Feminism"/>
-        <Keybtn Keywords="Suicide"/>
-        <Keybtn Keywords="Suicide By Hanging"/>
-        <Keybtn Keywords="Death"/>
+        <Keybtn Keywords="Love"/>
         </div>
         <div className='ms-5 ps-5 mt-3 '>
-          <Link to="https://www.imdb.com/title/tt12873562/plotsummary/" className='PlotSummary'>Plot Summary</Link>
+          <Link to="https://www.imdb.com/title/tt26691319/plotsummary/" className='PlotSummary'>Plot Summary</Link>
         </div>
       </div>
 
@@ -144,12 +135,12 @@ function GoodNight() {
         <div className="CastName ms-5 ps-5">
           Details:
         </div>
-        <DetailsNetflix DetailsInfo="Release Date:" Details="August 26, 2022 (United States)"/>
-        <DetailsNetflix DetailsInfo="Country of Origin:" Details="United States, Hungary"/>
-        <DetailsNetflix DetailsInfo="Languages:" Details="English"/>
-        <DetailsNetflix DetailsInfo="Also known as:" Details="The Bride"/>
-        <DetailsNetflix DetailsInfo="Filming locations:" Details="Nádasdy Mansion in Nádasladány, Hungary(exterior of the castle where Evie meets Walter)"/>
-        <DetailsNetflix DetailsInfo="Production company:" Details="Screen Gems, Mid Atlantic Films"/>
+        <DetailsNetflix DetailsInfo="Release Date:" Details="May 12, 2023 (India)"/>
+        <DetailsNetflix DetailsInfo="Country of Origin:" Details="Tamil Nadu, India"/>
+        <DetailsNetflix DetailsInfo="Languages:" Details="Tamil, Telugu, Kannada, Hindi"/>
+        <DetailsNetflix DetailsInfo="Also known as:" Details="Good Night"/>
+        <DetailsNetflix DetailsInfo="Filming locations:" Details="Hydrabad"/>
+        <DetailsNetflix DetailsInfo="Production company:" Details="MRP Entertainment, Million Dollar Studios"/>
       </div>
 
       <div>
