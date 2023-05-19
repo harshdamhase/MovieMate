@@ -1,0 +1,20 @@
+.cards-img-top{
+    display: block;
+    height: 180px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px #ffb3b3;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 7px white;
+}
+.socialmed-logo
+{
+    height: 40px;
+    margin-top: 7px;
+    margin: 5px;
+}
+.card-body
+{
+    text-align: center;
+}

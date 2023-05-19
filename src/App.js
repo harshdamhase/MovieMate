@@ -14,7 +14,7 @@ import AmazonMovie1 from './Ott/Amazon/AmazonMovie1';
 import AmazonMovie2 from './Ott/Amazon/AmazonMovie2';
 import Theinvitation from './Languages/EnglishMovie/TheInvitation';
 import GoodNight from './Languages/TamilMovie/GoodNight';
-
+import About from './About';
 
 
 function App() {
@@ -35,6 +35,7 @@ function App() {
       <Route path="/AmazonMovie2" element={<AmazonMovie2/>}/>
       <Route path="/The_Invitation" element={<Theinvitation/>}/>
       <Route path="/Good_Night" element={<GoodNight/>}/>
+      <Route path="/About" element={<About/>}/>
     </Routes>
     </BrowserRouter>
     </>
