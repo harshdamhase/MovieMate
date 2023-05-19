@@ -85,7 +85,7 @@ function AmazonMovie1() {
         <div className='row StarCastDiv'>
           <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Manoj_Bajpai_at_52nd_IFFI.jpg/344px-Manoj_Bajpai_at_52nd_IFFI.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Lee_Jung-jae' className='StarCastText'>Manoj Bajpayee</a>} StarMovieName="Srikant Tiwari (Sri)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sharib_Hashmi.jpg/381px-Sharib_Hashmi.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Park_Hae-soo' className='StarCastText' >Park Hae-soo</a>} StarMovieName="Cho Sang-woo" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sharib_Hashmi.jpg/381px-Sharib_Hashmi.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Park_Hae-soo' className='StarCastText' >Sharib Hashmi</a>} StarMovieName="Jayavant Kashinath JK Talpade" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
           <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/2/20/Priyamani_at_Filmfare_Awards_South_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/HoYeon_Jung' className='StarCastText'>Hoyeon</a>} StarMovieName="Kang Sae-byeok"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
