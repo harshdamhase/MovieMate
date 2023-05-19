@@ -7,6 +7,7 @@ import HindiMovieCard from '../../Components/HindiMovieCard';
 import img1 from '../../images/banner.png'
 import img2 from '../../images/banner-2.jpg'
 import img3 from '../../images/banner-3.jpg'
+import AboutComp from '../../Components/AboutComp';
 
 
 function Hindi() {
@@ -259,8 +260,6 @@ function Hindi() {
             </div>
             </div>
             </section>
-
-
 
       </div>
   )
