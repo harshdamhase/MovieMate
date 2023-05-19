@@ -44,7 +44,7 @@ export default class NavbarComp extends Component {
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2"
+              className="me-5"
               aria-label="Search"
             />
             <div variant="outline-success serch-btn "><img className='icon-img' src="https://cdn-icons-png.flaticon.com/128/5636/5636698.png"></img></div>

@@ -299,7 +299,9 @@ function Hompage() {
         
       <div className=' row mt-5 ms-5 ps-5 col-lg-12 '>
         <div className='NetLogoDiv'>
-         <img className='amazonprime-logo center'  src='https://1000logos.net/wp-content/uploads/2022/10/Amazon-Prime-Video-Emblem.png'/> 
+
+         <img className='netflix-logo center'  src= 'https://www.pngplay.com/wp-content/uploads/3/Amazon-Prime-Logo-Free-PNG.png'/> 
+
         </div>
     </div>
 
