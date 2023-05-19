@@ -83,6 +83,12 @@ function Marathi() {
  <MarathiCard imgUrl="https://upload.wikimedia.org/wikipedia/en/7/71/Zapatlela_1.jpg" filmName="Zapatlela" timeDuration="1 hrs 40 min" filmType="Horror" />
  <MarathiCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Rahasya_poster.jpg/220px-Rahasya_poster.jpg" filmName="Rahasyya" timeDuration="1 hrs 25 min" filmType="Horror" />
 
+ <MarathiCard imgUrl="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/gadad-andhar-et00347843-1674035946.jpg" filmName="gadad Aanadhar" timeDuration="1 hrs 15 min" filmType="Horror" />
+ <MarathiCard imgUrl="https://timesofindia.indiatimes.com/photo/96709407.cms" filmName="Victoria" timeDuration="1 hrs 35 min" filmType="Horror" />
+ <MarathiCard imgUrl="https://i.ytimg.com/vi/9VcKEjkf5Jo/maxresdefault.jpg" filmName="Adrushyy" timeDuration="1 hrs 50 min" filmType="Horror" />
+ <MarathiCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMYua5n5uNhUBkaOb3HMrjWr3qKZ9SMe7dmA&usqp=CAU" filmName="Hoori" timeDuration="1 hrs 40 min" filmType="Horror" />
+ <MarathiCard imgUrl="https://i.ytimg.com/vi/Muo0XYvlYC0/maxresdefault.jpg" filmName="Kaal" timeDuration="1 hrs 55 min" filmType="Horror" />
+
           <Footer />
         </div>
       </section>
