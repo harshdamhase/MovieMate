@@ -1,0 +1,22 @@
+
+.cardsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  
+  }
+  .headline{
+    text-align: center;
+    justify-content: center;
+  } 
+  .my-2{
+    text-align: center;
+  }
+  .heading
+  {
+    margin-left: 50px;
+    color: crimson;
+    margin-top: 20px;
+  }
+  

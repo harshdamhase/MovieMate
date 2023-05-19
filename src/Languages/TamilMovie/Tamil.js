@@ -9,10 +9,6 @@ import TamilCarousel from '../../Components/TamilCarousel';
 import "./Tamil.css";
 import TamilTrailer from '../../Components/TamilTrailer';
 
-
-
-
-
 function Tamil() {
   return (
     <>
