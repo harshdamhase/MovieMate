@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 import NavbarComp from '../../Components/NavbarComp'
 import MovieReviewCard from '../../Components/MovieReviewCard';
 import SeasonBtn from '../../Components/SeasonBtn';
-import StarCast from '../../Components/StarCast';
+import AmazonStarCasts from '../../Components/AmazonStarCasts';
 import EpisodeCard from '../../Components/EpisodeCard';
 import Keybtn from '../../Components/Keybtn';
 import DetailsNetflix from '../../Components/DetailsNetflix';
@@ -83,17 +83,17 @@ function AmazonMovie1() {
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Manoj_Bajpai_at_52nd_IFFI.jpg/344px-Manoj_Bajpai_at_52nd_IFFI.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Manoj_Bajpayee' className='StarCastText'>Manoj Bajpayee</a>} StarMovieName="Srikant Tiwari (Sri)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Manoj_Bajpai_at_52nd_IFFI.jpg/344px-Manoj_Bajpai_at_52nd_IFFI.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Manoj_Bajpayee' className='StarCastText'>Manoj Bajpayee</a>} StarMovieName="Srikant Tiwari (Sri)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sharib_Hashmi.jpg/381px-Sharib_Hashmi.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Park_Hae-soo' className='StarCastText' >Sharib Hashmi</a>} StarMovieName="Jayavant Kashinath JK Talpade" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sharib_Hashmi.jpg/381px-Sharib_Hashmi.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Park_Hae-soo' className='StarCastText' >Sharib Hashmi</a>} StarMovieName="Jayavant Kashinath JK Talpade" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/2/20/Priyamani_at_Filmfare_Awards_South_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Priyamani' className='StarCastText'>Priyamani</a>} StarMovieName="Suchitra Tiwari (Suchi)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/2/20/Priyamani_at_Filmfare_Awards_South_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Priyamani' className='StarCastText'>Priyamani</a>} StarMovieName="Suchitra Tiwari (Suchi)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dalip_Tahil_still7_%28cropped%29_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Dalip_Tahil' className='StarCastText' >Dalip Tahil</a>} StarMovieName="Kulkarni"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/d/d9/Dalip_Tahil_still7_%28cropped%29_%28cropped%29.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Dalip_Tahil' className='StarCastText' >Dalip Tahil</a>} StarMovieName="Kulkarni"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg/392px-Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Sharad_Kelkar' className='StarCastText'>Sharad Kelkar</a>} StarMovieName="Arvind"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg/392px-Sharad_Kelkar_at_Zee_Rishtey_Awards_2012.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Sharad_Kelkar' className='StarCastText'>Sharad Kelkar</a>} StarMovieName="Arvind"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <StarCast imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Darshan_at_61st_Filmfare_Awards.jpg/318px-Darshan_at_61st_Filmfare_Awards.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Darshan_Kumar' className='StarCastText'>Darshan Kumar</a>} StarMovieName="Major Sameer"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Darshan_at_61st_Filmfare_Awards.jpg/318px-Darshan_at_61st_Filmfare_Awards.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Darshan_Kumar' className='StarCastText'>Darshan Kumar</a>} StarMovieName="Major Sameer"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
         </div>
       </div>
 
@@ -129,7 +129,7 @@ function AmazonMovie1() {
         </div>
 
         <div>
-        <EpisodeCard EpisodeName="Season-1 Episode-7"   EpisodeKeyword="" EpisodeContent="Srikant searches for Sajid at a wedding in Baramulla, against Saloni and Vikram's wishes." />
+        <EpisodeCard EpisodeName="Season-1 Episode-7"   EpisodeKeyword="Paradise" EpisodeContent="Srikant searches for Sajid at a wedding in Baramulla, against Saloni and Vikram's wishes." />
         </div>
 
         <div>
@@ -150,13 +150,13 @@ function AmazonMovie1() {
 
       <div className=''>
         <div className="CastName ms-5 ps-5">
-          Season
+          Storyline
         </div>
         <div className=' ms-5 ps-5 col-lg-10 col-md-8 col-sm-8 col-xs-8 Storyline'>
         The Family Man follows the story of Srikant Tiwari, who works as a senior officer in the Threat Analysis and Surveillance Cell (TASC), along with his best friend and colleague JK Talpade, which is a part of the National Investigation Agency (NIA) of India. He is a married man with two kids. The first season follows an investigation of a potential terrorist attack, while simultaneously following his slightly unsettled family life. Srikant and JK, along with their subordinates Zoya, Milind and Jayesh, and Force One officer Imran Pasha work on stopping Mission Zulfiqar from succeeding. The show is inspired by real life newspaper articles.
         </div>
         <div className='ms-5 ps-5 mt-3 '>
-          <Link to="#" className='PlotSummary'>Inforamation</Link>
+          <Link to="#" className='PlotSummary'></Link>
         </div>
       </div>
 

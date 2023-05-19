@@ -10,11 +10,11 @@
     background-color: black;
 }
 
-.NetPosterTitle{
+.PosterTitle{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    color: red;
+    color: #00a8e1;
 }
 
 .PostDesc{
@@ -57,10 +57,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .HRow{
-    border: 2px solid #282A3A;
+    border: 2px solid #00a8e1;
 }
 
 .PhotosGal{
@@ -118,6 +119,7 @@
 .StarCastText{
     text-decoration: none;
     color: aliceblue;
+    
 }
 
 .BacktoTop{
