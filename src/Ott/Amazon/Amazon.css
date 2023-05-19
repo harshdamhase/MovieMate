@@ -1,0 +1,135 @@
+.Poster{
+    height: 350px;
+    width: 275px;
+    float: left;
+    border-radius: 25px;
+}
+
+.Headline{
+    text-align: center;
+    background-color: black;
+}
+
+.PosterTitle{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: red;
+}
+
+.PostDesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DescTitle{
+    float: right;
+    color: aliceblue;
+}
+
+.PosterName{
+    text-align: center;
+    color: #282A3A;
+    text-decoration: underline double;
+}
+
+.Desc{
+    font-size: 20px;
+    color: black;
+}
+
+.Genre{
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+}
+
+.CastName{
+    text-decoration: underline;
+    color: #282A3A;
+    font-weight:400;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.StarCastDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HRow{
+    border: 2px solid #282A3A;
+}
+
+.PhotosGal{
+    display: flex;
+}
+
+.ReactionCardDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WatchTrailerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WatchTrailer{
+    display: block;
+    width: max-content;
+    background-color: whitesmoke;
+    color: #282A3A;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid #0E8388;
+    text-decoration: none;
+}
+
+.ReleaseDateFont{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration:underline;
+}
+
+.Storyline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.PlotSummary{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.StarCastText{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.BacktoTop{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    text-decoration: none;
+    /* position: fixed; */
+}
+
+.ReleaseDateinfo{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+}
