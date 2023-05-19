@@ -43,3 +43,15 @@
 .StarName{
     color: aliceblue;
 }
+
+.Thrillerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cardimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
