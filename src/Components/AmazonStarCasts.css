@@ -1,0 +1,21 @@
+.AmazonStarCasts{
+    height: auto;
+    border-radius: 15px;;
+    border: 3px solid #00a8e1;
+    background-color: #000000;
+    filter: drop-shadow(none);
+    color: white;
+    
+}
+
+.card-title{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+.Photos{
+    display: flex;
+    
+}

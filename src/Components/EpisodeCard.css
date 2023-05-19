@@ -1,0 +1,27 @@
+.EpisodeCard{
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px 1px #00a8e1;
+}
+
+.card-header{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    color: #00a8e1;
+}
+
+.card-title{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.EpisodeText{
+    text-align: justify;
+}
