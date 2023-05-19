@@ -33,7 +33,7 @@
 .radio-sec{
     display: block;
     height: 70px;
-    background-color: coral;
+    background-color: white;
     padding: 10px;
 }
 
@@ -46,7 +46,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: orange;
+    border: 2px solid black;
+    background-color: white;
     height: 700px;
 }
 

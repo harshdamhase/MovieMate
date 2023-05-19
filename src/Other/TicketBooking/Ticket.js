@@ -17,7 +17,7 @@ function Ticket(){
     
     <div className='container row  TicketDiv'>
         <div className='container-form'>
-            <h4 className='heading'>Book your Tickets| Enjoy your day</h4>
+            <h4 className='heading'>"Book your Tickets | Enjoy your day"</h4>
 
             <div className='img-t'>
 
@@ -69,7 +69,7 @@ function Ticket(){
 
         <div className='radio-sec'>
 
-                <span className=''>Payment Method:</span>
+                <span className='me-5'>Payment Method:</span>
 
                 <span class="form-check form-check-inline margin">
                 <input class="form-check-input" type="radio"name="Payment" id="inlineCheckbox1" value="option1"></input>
@@ -108,7 +108,7 @@ function Ticket(){
              <span class="col-auto right">
                     <button className='btn btn-primary mb-3 ' onClick={()=>{
                             setName ('')
-                        }} >Discard Booking</button>
+                        }} >Cancel Booking</button>
             </span>
         </div>   
 
