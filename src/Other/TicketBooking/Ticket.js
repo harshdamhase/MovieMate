@@ -52,26 +52,7 @@ function Ticket(){
             </span>
         </div>
 
-        <div className='radio-sec'>
 
-            <span className=''>Pyament Method:</span>
-
-            <span class="form-check form-check-inline margin">
-            <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1"></input>
-             
-            <label class="form-check-label" for="inlineCheckbox1">Paytm</label>
-            </span>
-            <span class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="inlineCheckbox2" 
-            value={name} onChange ={(e) => setName(e.target.value)}/> 
-            <label class="form-check-label" for="inlineCheckbox2">Googlepay</label>
-            </span>
-            <span class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" id="inlineCheckbox3" 
-             value ={name} onChange ={(e) => setName(e.target.value)}/> 
-            <label class="form-check-label" for="inlineCheckbox3">Phonepay</label>
-            </span>
-       </div>
 
 
         

@@ -23,7 +23,7 @@ function Footer() {
 
           <ul class="list-unstyled mb-4">
             <li>
-            <Link to="/NetflixMovie1" className='text-white textNames'>Netflix</Link>
+            <Link to="/squid_game" className='text-white textNames'>Netflix</Link>
             </li>
             <li>
             <Link to="/AmazonMovie1" className='text-white textNames'>Amazon Prime</Link>

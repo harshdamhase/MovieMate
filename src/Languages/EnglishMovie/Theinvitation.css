@@ -10,11 +10,12 @@
     background-color: black;
 }
 
-.NetPosterTitle{
+.EngPosterTitle{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    color: red;
+    color: white;
+    text-decoration: underline red;
 }
 
 .PostDesc{
@@ -69,8 +70,6 @@
 
 .ReactionCardDiv{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .WatchTrailerDiv{
@@ -118,6 +117,11 @@
 .StarCastText{
     text-decoration: none;
     color: aliceblue;
+}
+
+.NewsText{
+    text-decoration: none;
+    color: black;
 }
 
 .BacktoTop{

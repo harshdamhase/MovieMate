@@ -6,12 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function ReactionCard({RevieName,ReviewDate,ReviewKeyword,ReviewContent}) {
   return (
     <>
-    <div class="card mb-3 ReactionCard p-3" >
+    <div class="card col-lg-3 m-4 mb-3 ReactionCard p-3" >
         <div class="card-header">{RevieName}</div>
-        <p class="card-Date">{ReviewDate}</p>
+        <p class="card-Date ">{ReviewDate}</p>
         <div class="card-body">
-            <h5 class="card-title">{ReviewKeyword}</h5>
-            <p class="card-text">{ReviewContent}</p>
+            <h5 class="card-title ReactionText">{ReviewKeyword}</h5>
+            <p class="card-text ReactionText">{ReviewContent}</p>
         </div>
     </div>
       
