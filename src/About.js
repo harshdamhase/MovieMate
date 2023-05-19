@@ -1,6 +1,7 @@
 import React from 'react'
 import NavbarComp from './Components/NavbarComp';
 import AboutComp from './Components/AboutComp';
+import Footer from './Components/Footer';
 
 function About() {
   return (
@@ -21,8 +22,8 @@ function About() {
      <AboutComp urlImg="https://github.com/pawan85074.png" membName="Pawan Raj" instagramUrl="https://instagram.com/pawanraj85074?igshid=ZDdkNTZiNTM=" githubUrl="https://github.com/pawan85074"linkedinUrl="https://www.linkedin.com/in/pawan-raj-7b8a9b217"/>
      </div>
      
-    
      </div>
+     <Footer/>
    </>
     
   )
