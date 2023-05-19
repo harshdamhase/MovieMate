@@ -1,7 +1,6 @@
 import React from 'react'
 import NavbarComp from '../../Components/NavbarComp';
 import './English.css'
-
 import Carousel from 'react-bootstrap/Carousel'
 import EnglishMovieCard from '../../Components/EnglishMovieCard';
 import Footer from '../../Components/Footer';
