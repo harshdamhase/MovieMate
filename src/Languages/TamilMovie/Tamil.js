@@ -11,7 +11,6 @@ import Footer from '../../Components/Footer';
 import TamilTrailer from '../../Components/TamilTrailer';
 
 
-
 function Tamil() {
   return (
     <>
