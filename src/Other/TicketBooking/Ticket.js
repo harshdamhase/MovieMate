@@ -15,12 +15,18 @@ function Ticket(){
     return(
         <>
     
-    <div className='container TicketDiv'>
+    <div className='container row  TicketDiv'>
         <div className='container-form'>
-            <h4 className='heading'>Book your Tickits| Enjoy your day</h4>
-            
+            <h4 className='heading'>Book your Tickets| Enjoy your day</h4>
 
-                <div className='form-floating form-box mt-4 mb-1 me-10'>
+            <div className='img-t'>
+
+            <img className='ticket-img' src="https://marketplace.canva.com/EAFQUTUHv-8/1/0/1600w/canva-black-and-yellow-modern-special-movie-2023-ticket-aSJKZDZW9nA.jpg"/>
+
+         
+            </div>
+
+                <div className='form-floating form-box mt-4 mb-1 col-lg-12'>
                   <input type="text" class="form-control" id="floatingInput" placeholder="FullName"
                    value={name} onChange ={(e) => setName(e.target.value)}/>
                     <label for="floatingInput">Enter Your Name</label>
@@ -86,15 +92,14 @@ function Ticket(){
                 value ={name} onChange ={(e) => setName(e.target.value)}/> 
                 <label class="form-check-label" for="inlineCheckbox3">Paytm</label>
                 </span>
-</div>
-    
-       
+                
 
-    
-                    
+            
 
-           
-        <div className='b-section '>
+
+         </div>
+    
+         <div className='mt-5'>
             <span class="col-auto left">
               <button onClick={submit} type="submit" className='btn btn-primary form-bttn  mb-3' >Book your Ticket</button>
             </span>
@@ -106,6 +111,12 @@ function Ticket(){
                         }} >Discard Booking</button>
             </span>
         </div>   
+
+    
+                    
+
+           
+       
 
       </div>
       </div>     
