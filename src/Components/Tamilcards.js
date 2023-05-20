@@ -4,7 +4,7 @@ import "./SeasonBtn.css"
 function Tamilcards({img,Title,}) {
   return (
     <>
-        <div class="card col-lg-2 col-md-4 col-sm-4 col-xs-4 m-3 Tamilcardpic">
+        <div class="card col-lg-2 col-md-4 Scaleimg col-sm-4 col-xs-4 m-3 Tamilcardpic">
             <div className='Cardimg'>
             <img src={img} class="card-img-top p-3 img-fluid " alt="..."/>
             </div>

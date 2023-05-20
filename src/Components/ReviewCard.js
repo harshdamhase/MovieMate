@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 function ReviewCard({video,Title,link}) {
   return (
   <>
-  <div class="card card-video ms-3">
+  <div class="card effectcard Scaleimg m-3 card-video ">
   <div class="card-body">
      <video className="col-lg-5 col-sm-10 col-md-10 ms-5 mb-2 video" autoPlay loop controls muted>
     <source src={video} type="video/mp4"/>

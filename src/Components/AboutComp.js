@@ -1,12 +1,13 @@
 import React from 'react'
 import "./AboutComp.css"
 
+
 function AboutComp({urlImg,membName,instagramUrl,linkedinUrl,githubUrl}) {
   return (
     <>
-      <div class="card shadow-lg bg-body-secondary">
+      <div class="card col-lg-3 AboutCard Scaleimg m-5 mt-2 shadow-lg bg-body-secondary">
                 <div>
-                    <img src={urlImg} class="cards-img-top mt-5"/>
+                    <img src={urlImg} class="cards-img-top mt-3"/>
                     <div class="card-body">
                         <h4 class="text-center">{membName}</h4>
                       <a href={instagramUrl}>

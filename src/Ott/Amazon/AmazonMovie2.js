@@ -28,7 +28,7 @@ function AmazonMovie2() {
 
       <div className='row mt-2'>
         <div className='row PostDesc p-3'>
-          <img src='https://www.themoviedb.org/t/p/original/a1KFPJtTmT5VlCvANsTQF7IA5y.jpg' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
+          <img src='https://i.pinimg.com/originals/2e/b6/67/2eb667968056c06a60e3872f507a1abd.jpg' alt="img" className='Poster ms-5 col-lg-3 col-md-3 col-sm-3 col-xs-3'/>
           <font className='DescTitle col-lg-8 col-md-8 col-sm-8 col-xs-8 ms-3' >
             <h1 className='ms-2 PosterName'>
             Sonic The Hedgehog

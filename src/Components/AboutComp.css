@@ -1,7 +1,7 @@
 .cards-img-top{
     display: block;
     height: 180px;
-    width: 50%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     border: 1px #ffb3b3;
@@ -17,4 +17,15 @@
 .card-body
 {
     text-align: center;
+}
+
+.AboutCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.AboutCard:hover{
+    background-color: #ffe082bd;
 }

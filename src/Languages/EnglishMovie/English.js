@@ -10,6 +10,7 @@ import img1 from '../../images/poster-2.jpg'
 import img2 from '../../images/poster-3.png'
 import img3 from '../../images/poster-1.jpg'
 import EnglishCarousel from '../../Components/EnglishCarousel';
+import {Link} from 'react-router-dom';
 
 function English() {
   return (
@@ -67,7 +68,7 @@ function English() {
             Horror Movies:
           </p>
           <div className='row TamilcardsDiv'>
-            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/The_Invitation_%282022_film%29_poster.jpg/220px-The_Invitation_%282022_film%29_poster.jpg" filmName="The Invitation" timeDuration="1 hrs 30min" filmType="Horror" />
+            <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/The_Invitation_%282022_film%29_poster.jpg/220px-The_Invitation_%282022_film%29_poster.jpg" filmName={<Link className='invitext' to="/The_invitation" >The Invitation</Link>} timeDuration="1 hrs 30min" filmType="Horror" />
 
             <EnglishMovieCard imgUrl="https://upload.wikimedia.org/wikipedia/en/5/56/Creep_%282014_film%29_poster.jpg" filmName="Creep" timeDuration="1 hrs 17min" filmType="Horror" />
 

@@ -16,7 +16,7 @@ function Hindi() {
     
     <div>
       <NavbarComp/>
-      <section class="catogries-container">
+      {/* <section class="catogries-container">
             <div class="catogries">
                <a href='#thriller'> <img class="catogries-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbegz-CSesxeX5SzVbc79N4Hm6myseoQ_4ig&usqp=CAU" alt=""/></a>
               <h4 class="catogries-name">Thiller 
@@ -43,7 +43,7 @@ function Hindi() {
                 <h4 class="catogries-name">Action
                 </h4>
             </div>
-        </section>   
+        </section>    */}
     <div>
     <Carousel>
       <Carousel.Item>
@@ -121,9 +121,9 @@ function Hindi() {
             <div class="dis-movie">
         <h1>Horror Movie</h1>
     </div>
-        <div className="row  mx-3 px-5" style={{marginBottom:'10px',}}>
+        <div className="row  mx-2 px-5" style={{marginBottom:'10px',}}>
         <div class="col-md-3" >
-            <HindiMovieCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAwuhGfbSqjf8zT2ATutB2CqgwtA7tjAFzGg&usqp=CAU" filmName="Naina" timeDuration="1hrs 35mins" filmType="Horror"/>
+            <HindiMovieCard imgUrl="https://m.media-amazon.com/images/M/MV5BZTZlNmM3MmQtM2U5NS00MTkzLWI5MGYtYTQ3OWM0OGUwYTk3XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg" filmName="Naina" timeDuration="1hrs 35mins" filmType="Horror"/>
             </div>
             <div class="col-md-3">
             <HindiMovieCard imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAn9Tqey7XeNdrk8dzCsGKV8rr3XI-6TAXHg&usqp=CAU" filmName=" Raaz" timeDuration="1hrs 30mins" filmType="Horror"/>
