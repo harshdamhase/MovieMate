@@ -23,6 +23,7 @@ import vid16 from '../src/video/vid16.mp4';
 import vid17 from '../src/video/vid17.mp4';
 import vid18 from '../src/video/vid18.mp4';
 import vid19 from '../src/video/vid19.mp4';
+import Amprime from '../src/Languages/TamilMovie/Images/95315.jpg'
 import ReviewCard from '../src/Components/ReviewCard';
 import TrailerCard from './Components/TrailerCard';
 import {Link} from 'react-router-dom';
@@ -217,9 +218,9 @@ function Hompage() {
       <Carousel.Item>
         <img style={{height:'350px'}}
           className="d-block w-100 carousel-container"
-          src="https://satkurier.pl/uploads/95315.jpg"
+          src={Amprime}
            alt="Third slide"
-        />
+           />
 
 
 
