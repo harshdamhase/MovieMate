@@ -38,13 +38,13 @@
 }
 
 .form-bttn{
-    background-color: green;
-    border: 5px solid green;
+    background-color: blue;
+    border: 5px solid blue;
 }
 
 .form-bttn:hover{
-    background-color: green;
-    border-color: green;
+    background-color: blue;
+    border-color: 5px solid blue;
 
 }
 
@@ -52,19 +52,18 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-   
-    background-color: black;
+    background-color: white;
     height: 700px;
 }
 
 .heading{
     text-align: center;
-    color: white;
+    font-size: 35px;
+    color: black;
+
 }
 
-.radio{
-    color: green;
-}
+
 
 .ticket-img{
     height:130px;
@@ -90,14 +89,14 @@
     padding: 5px;
     font-family: sans-serif;
     float: center;
-    color: white;
+    color: black;
 }
 
 .plus{
-    padding:10px;
-   height:39px;
-   padding: 10px;
+    height:39px;
+    font-size: 25px;
+
 }
 .seat{
-    color: white;
+    color: black;
 }

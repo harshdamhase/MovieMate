@@ -100,17 +100,21 @@ function Ticket(){
                 
                   <span className='me-2 seat'>How Many Seat You Want to Book:</span>
 
+                  <button className="plus plusbtn" onClick={()=>{
+                        people(count-1)}}>-</button>
+
+                    <span className='Number'> {count}</span>
+
+
                       
-                    <button className="plus " onClick={()=>{
+                    <button className="plus" onClick={()=>{
                         people(count+1)}}>+</button>
 
-                        <span className='Number'> {count}</span>
+                    
                        
 
 
-                       <button className="plus" onClick={()=>{
-                        people(count-1)}}>-</button>
-
+                       
 
                 
 
@@ -137,6 +141,8 @@ function Ticket(){
         
 
   </div>
+
+
     
 
         

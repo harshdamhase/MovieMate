@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
+
+
 import Hompage from "./Hompage";
 import English from './Languages/EnglishMovie/English';
 import Hindi from './Languages/HindiMovie/Hindi';
