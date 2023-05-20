@@ -63,16 +63,18 @@ function Hompage() {
                 <span className='geners-style mt-2'>Comedy</span>
                 <span className='geners-style mt-2'>Adventure </span>
                 <span className='geners-style mt-2'>Fantasy</span>
-              <div>
+              {/* <div>
                 <span className='title-style mt-10'>Storyline: </span>
-              </div>
+              </div> */}
             </div>
           </div>
         <div className='storyline-container me-5 row'>
           <div className='col-lg-12 col-sm-8 col-md-12  title-style me-5 ms-5 mt-2 inside textalign '>
+            Storyline: <br/><br/>
            In a city where fire, water, land, and air residents live together, a fiery young woman and a go-with-the-flow guy discover something elemental: how much they actually have in common.<br/>
            The film journeys alongside an unlikely pair, Ember and Wade, in a city where fire-, water-, land- and air-residents live together. The fiery young woman and the go-with-the-flow guy<br/> are about to discover something elemental: how much they actually have in common. 
           </div>
+          <br/>
         </div>
       </div> 
 
