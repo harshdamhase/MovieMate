@@ -10,7 +10,8 @@ function Ticket(){
     
     const[name,setName]= useState('')
     const[email,setEmail]= useState('')
-    const[city,setcity]= useState('')
+    const[date,setDate]=useState('')
+    const[city,setCity]= useState('')
     const [count,people]=useState(1);
 
     return(
@@ -42,15 +43,15 @@ function Ticket(){
 
                 <div className='form-floating mb-1'>
                     <input type="date"  class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" 
-                     value={name} onChange ={(e) =>setcity(e.target.value)}/> 
+                     value={date} onChange ={(e) =>setDate(e.target.value)}/> 
                       <label for="exampleFormControlInput1" class="form-label">Select Time</label> 
 
                 </div>
             
             <div className='location-box'>
             <span class="col-md-6 form-floating left">
-                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" 
-                  value={city} onChange ={(e) => setName(e.target.value)}/> 
+                 <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" 
+                  value={city} onChange ={(e) => setCity(e.target.value)}/> 
                 <label for="exampleFormControlInput1" class="form-label">Choose City</label>
             </span>
 
