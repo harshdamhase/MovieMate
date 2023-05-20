@@ -7,7 +7,7 @@ function ReactionCard({RevieName,ReviewDate,ReviewKeyword,ReviewContent}) {
   return (
     <>
     <div class="card col-lg-3 m-4 mb-3 ReactionCard p-3" >
-        <div class="card-header">{RevieName}</div>
+        <div class=" NameReview">{RevieName}</div>
         <p class="card-Date ">{ReviewDate}</p>
         <div class="card-body">
             <h5 class="card-title ReactionText">{ReviewKeyword}</h5>

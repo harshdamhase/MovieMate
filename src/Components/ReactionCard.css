@@ -4,11 +4,12 @@
     box-shadow: 2px 2px 2px 2px #282A3A;
 }
 
-.card-header{
+.NameReview{
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     text-align: center;
+    color: black;
 }
 
 .card-Date{

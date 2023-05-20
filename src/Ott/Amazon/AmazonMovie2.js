@@ -81,17 +81,17 @@ function AmazonMovie2() {
           Star Cast:
         </font>
         <div className='row StarCastDiv'>
-          <AmazonStarCasts imgURl="#" StarName={<a href='#' className='StarCastText'>Ben Schwartz</a>} StarMovieName="Sonic (Voice)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ben_Schwartz_%2840817487103%29_cropped.jpg/330px-Ben_Schwartz_%2840817487103%29_cropped.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Ben_Schwartz' className='StarCastText'>Ben Schwartz</a>} StarMovieName="Sonic (Voice)"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="#" StarName={<a href='#' className='StarCastText' >James Marsden</a>} StarMovieName="Tom" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/James_Marsden_by_Gage_Skidmore.jpg/330px-James_Marsden_by_Gage_Skidmore.jpg" StarName={<a href='https://en.wikipedia.org/wiki/James_Marsden' className='StarCastText' >James Marsden</a>} StarMovieName="Tom" className="col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="#" StarName={<a href='#' className='StarCastText'>Jim Carrey</a>} StarMovieName="Dr. Robotnik"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jim_Carrey_2008.jpg/330px-Jim_Carrey_2008.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Jim_Carrey' className='StarCastText'>Jim Carrey</a>} StarMovieName="Dr. Robotnik"  className="Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="#" StarName={<a href='#' className='StarCastText' >Tika Sumpter</a>} StarMovieName="Maddie"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/e/e5/Tika_Sumpter_2013.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Tika_Sumpter' className='StarCastText' >Tika Sumpter</a>} StarMovieName="Maddie"  className=" Col-lg-3 col-md-6 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="#" StarName={<a href='#' className='StarCastText'>Natasha Rothwell</a>} StarMovieName="Rachel"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/e/ed/Natasha_Rothwell.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Natasha_Rothwell' className='StarCastText'>Natasha Rothwell</a>} StarMovieName="Rachel"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
 
-          <AmazonStarCasts imgURl="#" StarName={<a href='#' className='StarCastText'>Adam Polly</a>} StarMovieName="Wade"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
+          <AmazonStarCasts imgURl="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Adam_Pally_cropped.jpg/330px-Adam_Pally_cropped.jpg" StarName={<a href='https://en.wikipedia.org/wiki/Adam_Pally' className='StarCastText'>Adam Pally</a>} StarMovieName="Wade"  className=" Col-lg-3 col-md-9 col-sm-9 col-xs-9" />
         </div>
       </div>
 
