@@ -25,7 +25,8 @@ export default class NavbarComp extends Component {
             style={{ maxHeight: '500px' }}
              >
             <Nav.Link as={Link} to={"/"} className='NavTitle'>
-              <text className='p-3 NavTitle'>Home</text>
+              <text className='
+              p-3 NavTitle'>Home</text>
             </Nav.Link>
             <Nav.Link as={Link} to={"/Hindi"} >
               <text className='p-3 NavTitle'>Hindi Movies</text>
@@ -40,11 +41,10 @@ export default class NavbarComp extends Component {
               <text className='p-3 NavTitle'>Tamil Movies</text>
             </Nav.Link>     
           </Nav>
-          <Form className=" d-flex serch-box">
+          <Form className="ms-5 d-flex serch-box">
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2"
               aria-label="Search"
             />
             <div variant="outline-success serch-btn "><img className='icon-img' src="https://cdn-icons-png.flaticon.com/128/5636/5636698.png"></img></div>

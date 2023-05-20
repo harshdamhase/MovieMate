@@ -9,6 +9,7 @@ import TamilCarousel from '../../Components/TamilCarousel';
 import "./Tamil.css";
 import Footer from '../../Components/Footer';
 import TamilTrailer from '../../Components/TamilTrailer';
+import { Link } from 'react-router-dom';
 
 
 function Tamil() {
@@ -67,7 +68,7 @@ function Tamil() {
           Comedy Movies:
         </p>
         <div className='row TamilcardsDiv'>
-          <TamilTrailer Thrillerimg="https://assets.gadgets360cdn.com/pricee/assets/product/202305/Good-Night_1683788530.jpg" ThrillerTitle="Good Night" ThrillerDesc="Good Night is an example of how feel-good films can be made with simpler-yet-effective conflict. It's definitely worth watching." />
+          <TamilTrailer Thrillerimg="https://assets.gadgets360cdn.com/pricee/assets/product/202305/Good-Night_1683788530.jpg" ThrillerTitle={<Link to="/Good_Night" class="Goodnighttext">Good Night</Link>  } ThrillerDesc="Good Night is an example of how feel-good films can be made with simpler-yet-effective conflict. It's definitely worth watching." />
           <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMWM5M2Q0MzktMjBiZC00MmMxLWE5NjktNzRlZGE4ZDk5OGJjXkEyXkFqcGdeQXVyMTUyNjIwMDEw._V1_FMjpg_UX1000_.jpg" ThrillerTitle="Deiva Machan" ThrillerDesc="A youngster from a small town believes that his only responsibility in life is to find a suitable groom for his sister. However, when things fall into place." />
           <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMGMwM2ZjNDEtNDE3Mi00ODg5LTk3ZjMtMTlmYzA3NjAwZTY4XkEyXkFqcGdeQXVyMTY0MDk0NjE3._V1_FMjpg_UX1000_.jpg" ThrillerTitle="Soppana Sundari" ThrillerDesc="A young woman from a lower-middle class family wins a car in a lucky draw unaware of the trouble it's going to bring her." />
           <TamilTrailer Thrillerimg="https://m.media-amazon.com/images/M/MV5BMzY0ZThiNTctZmE4My00Y2EwLTg2YWUtMzNiY2U3Y2NjY2E0XkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg" ThrillerTitle="Ripupbury" ThrillerDesc="Three young men set out to capture a ghost believed to be a casteist. Will they succeed in trapping it or fall victim to its wrath like so many others in the village?" />

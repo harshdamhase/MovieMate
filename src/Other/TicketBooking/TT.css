@@ -1,12 +1,8 @@
 .container-form{
     height:600px;
-    width: 950px;
     /* background-color: aqua; */
-    align-items: center;
-    justify-content: center;
-    margin-left: 300x;
-    display: block;
 }
+
 .input-box{
     margin-left: 15px;
     text-align: center;
@@ -14,38 +10,61 @@
     justify-content: center;
 }
 
-.center{
-    margin-left: 250px;
-}
 
 .form-box{
     margin-bottom: 20px;
 }
+
 .left{
     float: left;
 }
+
 .right{
     float: right;
-    margin-right: 37px;
+ 
 }
-.form-floating {
-    margin-left: 10px;
-}
-.b-section{
-    margin-top: 120px;
-}
+
+
 .location-box{
     display: block;
-  
     height: 70px;
 }
 
 .radio-sec{
     display: block;
     height: 70px;
-    background-color: coral;
+    background-color: white;
     padding: 10px;
 }
-.margin{
-    margin-left: 20px;
+
+/* .form-bttn{
+    background-color: green;
+    border: 5px solid green;
+} */
+
+.TicketDiv{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: white;
+    height: 700px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.radio{
+    color: green;
+}
+
+.ticket-img{
+    height:130px;
+}
+
+.img-t{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

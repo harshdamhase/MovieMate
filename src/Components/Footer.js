@@ -26,10 +26,10 @@ function Footer() {
             <Link to="/squid_game" className='text-white textNames'>Netflix</Link>
             </li>
             <li>
-            <Link to="/AmazonMovie1" className='text-white textNames'>Amazon Prime</Link>
+            <Link to="/The_Family_Man" className='text-white textNames'>Amazon Prime</Link>
             </li>
             <li>
-            <Link to="/HotstarMovie1" className='text-white textNames'>Disney & Hotstar</Link>
+            <Link to="/The_Nutcracker" className='text-white textNames'>Disney & Hotstar</Link>
             </li>
           </ul>
         </div>
@@ -60,6 +60,17 @@ function Footer() {
             </li>
             <li>
               <Link to="" className='text-white textNames'>About Us</Link>
+            </li>
+            <br/>
+            <li>
+              <Link to="" className='text-white textNames'><h4>Contact Us</h4></Link>
+            </li>
+            <li>
+              <Link to="" className='text-white textNames'>+91-987456321</Link>
+            </li>
+            <br/>
+            <li>
+              <Link to="" className='text-white textNames'>ticket-booking@moviemate.com</Link>
             </li>
             
           </ul>
