@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
+
+
 import Hompage from "./Hompage";
 import English from './Languages/EnglishMovie/English';
 import Hindi from './Languages/HindiMovie/Hindi';
@@ -34,7 +36,7 @@ function App() {
       <Route path="/Haunted_Mansion" element={<HotstarMovie2/>}/>
       <Route path="/The_Family_Man" element={<AmazonMovie1/>}/>
       <Route path="/Sonic" element={<AmazonMovie2/>}/>
-      <Route path="/Ticket" element ={<Ticket/>}/>
+      <Route path="/BookTicket" element ={<Ticket/>}/>
       <Route path="/The_Invitation" element={<Theinvitation/>}/>
       <Route path="/Good_Night" element={<GoodNight/>}/>
       <Route path="/About" element={<About/>}/>

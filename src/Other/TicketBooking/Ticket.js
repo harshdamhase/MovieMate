@@ -10,14 +10,16 @@ function Ticket(){
     
     const[name,setName]= useState('')
     const[email,setEmail]= useState('')
-    const[city,setcity]= useState('')
+    const[date,setDate]=useState('')
+    const[city,setCity]= useState('')
+    const [count,people]=useState(1);
 
     return(
         <>
     
     <div className='container row  TicketDiv'>
         <div className='container-form'>
-            <h4 className='heading'>"Book your Tickets | Enjoy your day"</h4>
+            <h4 className='heading'>Book your Tickets | Enjoy your day</h4>
 
             <div className='img-t'>
 
@@ -41,15 +43,15 @@ function Ticket(){
 
                 <div className='form-floating mb-1'>
                     <input type="date"  class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" 
-                     value={name} onChange ={(e) =>setcity(e.target.value)}/> 
+                     value={date} onChange ={(e) =>setDate(e.target.value)}/> 
                       <label for="exampleFormControlInput1" class="form-label">Select Time</label> 
 
                 </div>
             
             <div className='location-box'>
             <span class="col-md-6 form-floating left">
-                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" 
-                  value={city} onChange ={(e) => setName(e.target.value)}/> 
+                 <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com" 
+                  value={city} onChange ={(e) => setCity(e.target.value)}/> 
                 <label for="exampleFormControlInput1" class="form-label">Choose City</label>
             </span>
 
@@ -93,11 +95,37 @@ function Ticket(){
                 <label class="form-check-label" for="inlineCheckbox3">Paytm</label>
                 </span>
                 
+            </div>
 
+            <div className='people'>
+                
+                  <span className='me-2 seat'>How Many Seat You Want to Book:</span>
+
+                  <button className="plus plusbtn" onClick={()=>{
+                        people(count-1)}}>-</button>
+
+                    <span className='Number'> {count}</span>
+
+
+                      
+                    <button className="plus" onClick={()=>{
+                        people(count+1)}}>+</button>
+
+                    
+                       
+
+
+                       
+
+                
+
+                </div>
             
 
 
-         </div>
+
+
+            </div>
     
          <div className='mt-5'>
             <span class="col-auto left">
@@ -106,20 +134,19 @@ function Ticket(){
         
 
              <span class="col-auto right">
-                    <button className='btn btn-primary mb-3 ' onClick={()=>{
+                    <button className='btn btn-primary mb-3 form-bttn ' onClick={()=>{
                             setName ('')
                         }} >Cancel Booking</button>
             </span>
         </div>   
+        
+
+  </div>
+
 
     
-                    
 
-           
-       
-
-      </div>
-      </div>     
+        
         
 
           

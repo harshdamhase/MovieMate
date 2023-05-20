@@ -70,7 +70,7 @@ function Footer() {
             </li>
             <br/>
             <li>
-              <Link to="" className='text-white textNames'>ticket-booking@moviemate.com</Link>
+              <Link to="/Ticket" className='text-white textNames'>ticket-booking@moviemate.com</Link>
             </li>
             
           </ul>

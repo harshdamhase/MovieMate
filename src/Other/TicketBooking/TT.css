@@ -37,27 +37,33 @@
     padding: 10px;
 }
 
-/* .form-bttn{
-    background-color: green;
-    border: 5px solid green;
-} */
+.form-bttn{
+    background-color: blue;
+    border: 5px solid blue;
+}
+
+.form-bttn:hover{
+    background-color: blue;
+    border-color: 5px solid blue;
+
+}
 
 .TicketDiv{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
     background-color: white;
     height: 700px;
 }
 
 .heading{
     text-align: center;
+    font-size: 35px;
+    color: black;
+
 }
 
-.radio{
-    color: green;
-}
+
 
 .ticket-img{
     height:130px;
@@ -67,4 +73,30 @@
     justify-content: center;
     align-items: center;
     display: flex;
+}
+.div-coun{
+    display:block;
+}
+
+
+.people{
+    display: block;
+    height: 50px;
+    /* background-color: coral; */
+    margin: 15px;
+}
+.Number{
+    padding: 5px;
+    font-family: sans-serif;
+    float: center;
+    color: black;
+}
+
+.plus{
+    height:39px;
+    font-size: 25px;
+
+}
+.seat{
+    color: black;
 }
