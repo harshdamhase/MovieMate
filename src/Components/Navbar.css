@@ -2,6 +2,14 @@
     background-color: #282A3A;
 }
 
+.effectcard{
+    background-color: white;
+}
+
+.effectcard:hover{
+    background-color: #ffe082bd;
+}
+
 .serch-box {
    margin-right:210px ;
     height: 35px;

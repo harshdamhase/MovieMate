@@ -59,7 +59,7 @@ function Footer() {
               <Link to="/" className='text-white textNames'>Back To Home</Link>
             </li>
             <li>
-              <Link to="" className='text-white textNames'>About Us</Link>
+              <Link to="/About" className='text-white textNames'>About Us</Link>
             </li>
             <br/>
             <li>
@@ -70,7 +70,7 @@ function Footer() {
             </li>
             <br/>
             <li>
-              <Link to="/Ticket" className='text-white textNames'>ticket-booking@moviemate.com</Link>
+              <Link to="/BookTicket" className='text-white textNames'>ticket-booking@moviemate.com</Link>
             </li>
             
           </ul>
@@ -90,7 +90,7 @@ function Footer() {
     </div>
     <div class="text-center Headline1 p-3 border-top border-white">
       © 2023 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MovieMate.netlify.com</a>
+      <a class="text-white" href="https://moviemate-rtc.netlify.app/">MovieMate-rtc.netlify.com</a>
     </div>
   </footer>
   
