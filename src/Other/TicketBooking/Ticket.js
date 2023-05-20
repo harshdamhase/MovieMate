@@ -98,7 +98,7 @@ function Ticket(){
 
             <div className='people'>
                 
-                  <span className='me-5 seat'>How Many Seat You Want TO Book:</span>
+                  <span className='me-2 seat'>How Many Seat You Want to Book:</span>
 
                       
                     <button className="plus " onClick={()=>{

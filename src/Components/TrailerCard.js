@@ -10,7 +10,7 @@ function TrailerCard({ImgUrl,Rating, Starimg, title,link, WatchTriler }) {
             <div class="card-body">
             <p class="card-text">{Rating} <img src={Starimg} class="Starimg" alt="..."/></p>
             <h5 class="card-title">{title}</h5>
-            <a href={link} class= "btn btn-primary">{WatchTriler}</a>
+            <a href={link} class= "btn btn-primary border-custom">{WatchTriler}</a>
             </div>
         </div>
     </>

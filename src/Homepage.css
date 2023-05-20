@@ -52,8 +52,8 @@
 .geners-style{
     border-radius: 20px 20px 20px 20px ;
     background-color: white;
-    padding: 4px;
-    margin: 2px;
+    padding: 5px;
+    margin: 4px;
     color: black;
 
 
@@ -114,6 +114,12 @@
     font-size: 1.2rem;
      margin-left: 650px;
 }
+.see-More:hover{
+    color:goldenrod;
+
+}
+
+
 
 .CarouselDiv{
     display: flex;

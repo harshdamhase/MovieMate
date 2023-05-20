@@ -16,7 +16,7 @@ function ReviewCard({video,Title,link}) {
    
     <p class="card-text netflix-name trailer-text">{Title}</p>
     {/* <a href={link} class="btn btn-primary trailer-btn ">Go somewhere</a> */}
-    <Link className='btn btn-primary trailer-btn' to = {link}> Explore More </Link> 
+    <Link className='btn btn-primary  custom trailer-btn' to = {link}> Explore More </Link> 
   </div>
 </div>
 
